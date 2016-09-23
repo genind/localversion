@@ -1,7 +1,7 @@
 <?
 if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001474554494';
-$dateexpire = '001474558094';
+$datecreate = '001474634552';
+$dateexpire = '001474638152';
 $ser_content = 'a:2:{s:7:"CONTENT";s:2817:"<div id="slider_wrap" style="	width: 1011px;
 								height: 210px;
 								position: relative;
