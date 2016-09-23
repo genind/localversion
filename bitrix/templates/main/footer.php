@@ -1,59 +1,53 @@
  	
-      <div id="clear"></div>
-    	 </div>
-  
-<!-- #wrapper -->
- 
-    <div id="footer" style="margin-top:0px">
-<div style="font-size: 16px; float:left; margin-top:5px; color: #93a4c9;
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-    margin-left: 0;
-    margin-right: 30px;">
-<?$APPLICATION->IncludeComponent("bitrix:main.map", "sitemap", array(
-	"CACHE_TYPE" => "N",
-	"CACHE_TIME" => "3600",
-	"SET_TITLE" => "Y",
-	"LEVEL" => "5",
-	"COL_NUM" => "3",
-	"SHOW_DESCRIPTION" => "N"
-	),
-	false
-);?>
-</div> 
-<div style="font-size: 16px; float:right; margin-top:5px; color: #93a4c9;
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-    margin-left: 0;
-    margin-right: 30px;">
-		<div>
-		Институт повышения квалификации
-		<br>
-		и переподготовки кадров
+    </div>
+   
+	<div id="footer">
+		<div id="bot_map">
+			<?$APPLICATION->IncludeComponent(	"bitrix:main.map", 
+												"sitemap", 
+												array(
+													"CACHE_TYPE" => "N",
+													"CACHE_TIME" => "3600",
+													"SET_TITLE" => "Y",
+													"LEVEL" => "5",
+													"COL_NUM" => "3",
+													"SHOW_DESCRIPTION" => "N"
+												),
+												false
+											);
+			?>
 		</div>
-		<div style="margin-top:10px">
-		Тел. <div style="font-size:18px; display:inline;">+7 (499) 936-85-94</div>
-        <br>
-		Факс:  <div style="font-size:18px; display:inline;">+7 (495) 434-02-20</div>
-		</div>
+		
+		<div id="bot_contacts">
+				<div>
+				Институт повышения квалификации
+				<br>
+				и переподготовки кадров
+				</div>
+				
+				<div style="margin-top:10px">
+					Тел.: <div style="font-size:18px; display:inline;">+7 (499) 936-85-94</div>
+					<br>
+					Факс: <div style="font-size:18px; display:inline;">+7 (495) 434-02-20</div>
+				</div>
 
-		<div style="margin-top:10px">
-		<a href="mailto:ippk_sales@pfur.ru" style="font-size:18px;">ippk_sales@pfur.ru</a>
-		</div>
-		<div style="margin-top:10px">
- <a href="http://vk.com/ippk_rudn"><img src="/images/icons/VK.png" alt="VK-icon"></a> <a href="http://www.facebook.com/ippkrudn"><img src="/images/icons/FB.png" alt="FB-icon"></a>
-	<a href="https://twitter.com/ippk_rudn"><img src="/images/icons/TW.png" alt="TW-icon"></a>   <a href="http://ok.ru/kursy.rudn "><img src="/images/icons/OK.png" alt="OK-icon"></a>
-</div> 
+				<div style="margin-top:10px">
+					<a href="mailto:ippk_sales@pfur.ru" style="font-size:18px;">ippk_sales@pfur.ru</a>
+				</div>
+				<div style="margin-top:10px">
+					<a href="http://vk.com/ippk_rudn"><img src="/images/icons/VK.png" alt="VK-icon"></a>
+					<a href="http://www.facebook.com/ippkrudn"><img src="/images/icons/FB.png" alt="FB-icon"></a>
+					<a href="https://twitter.com/ippk_rudn"><img src="/images/icons/TW.png" alt="TW-icon"></a>
+					<a href="http://ok.ru/kursy.rudn "><img src="/images/icons/OK.png" alt="OK-icon"></a>
+				</div> 
 
-</div>
-<script type="text/javascript">
-Cufon.now();
-</script>
- </div>
-  
-<!-- #footer -->
- </div>
-</div>
+		</div>
+		<script type="text/javascript">
+		Cufon.now();
+		</script>
+	</div> <!-- #footer-->
+</div> <!-- #wrapper -->
+
 
 <!-- Cleversite chat button -->
 	<script type='text/javascript'>

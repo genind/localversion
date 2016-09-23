@@ -57,7 +57,7 @@ if (!isset ($_GET["arrFilter_DATE_ACTIVE_FROM_1"], $_GET["arrFilter_DATE_ACTIVE_
 		"FIELD_CODE" => $arParams["DETAIL_FIELD_CODE"],
 		"PROPERTY_CODE" => $arParams["DETAIL_PROPERTY_CODE"],
 		"DETAIL_URL"	=>	$arResult["FOLDER"].$arResult["URL_TEMPLATES"]["detail"],
-		"" => $arParams[""],
+		"META_KEYWORDS" => $arParams["META_KEYWORDS"],
 		"META_DESCRIPTION" => $arParams["META_DESCRIPTION"],
 		"BROWSER_TITLE" => $arParams["BROWSER_TITLE"],
 		"DISPLAY_PANEL" => $arParams["DISPLAY_PANEL"],

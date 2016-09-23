@@ -15,8 +15,12 @@ $allNum = count($arRootNode);
 $colNum = 6;//ceil($allNum / $arParams["COL_NUM"]);
 
 ?>
-
-<table>
+<style>
+	ul.map-level-0 li {
+		list-style:none;
+		}
+</style>
+<table class="map-columns">
 <tr>
 	<td>
 		<ul class="map-level-0">

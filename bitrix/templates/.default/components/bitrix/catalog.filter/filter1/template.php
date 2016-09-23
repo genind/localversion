@@ -6,15 +6,18 @@
 	$current_year = date('Y');
 	$selected_year = date('Y', strtotime($_REQUEST["arrFilter_DATE_ACTIVE_FROM_1"]));
 	$z= count($arResult["ITEMS"]);
-	foreach ($arResult["ITEMS"] as $arYear):?>
+	foreach ($arResult["ITEMS"] as $arYear): 
+		$y++;
+		if ($arYear["SELECTED"]):?>
 	 		<li>
-				<?$link = $arYear . "?arrFilter_DATE_ACTIVE_FROM_1=01.01." . $arYear ."&arrFilter_DATE_ACTIVE_FROM_2=31.12." . $arYear?>
-	 			<a href="/news/<?= $link?>" class="year <?
-	 				if (($selected_year && ($selected_year==$arYear)) || (!$selected_year && ($current_year == $arYear))) :?>current<?endif?>">
+	 			<a href="/news/<?= $arYear ?>" class="year <?
+	 				if (($selected_year && $selected_year==$arYear) || (!$selected_year && $current_year == $arYear)) :?>current<?endif?>">
 
 	 						<?= $arYear ?>
 	 			</a>
 	 		</li>
-	<?endforeach; ?>
+		<?else :?>
+			<li><a href="/news/<?= $arYear ?>" class="year"><?= $arYear ?></a></li>
+		<?endif?>
+	<? endforeach; ?>
 </ul>
-

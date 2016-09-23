@@ -32,11 +32,10 @@
 		<a href="<?=$arItem["DISPLAY_PROPERTIES"]["LINK"]["~VALUE"]?>">
 		<?endif?>
 
-			<div style="width:240px; height:200px; border-radius:10px; 
+			<div style="width:240px; height:200px; border-radius:10px;
 					<?if(($index == 1) or ($index == 2)){?>margin-right:70px;<?}?>
 					background: url(<?=$arItem["DETAIL_PICTURE"]["SRC"]?>) center no-repeat;
-					background-color: rgba(32, 62, 128, 1);
-					background-size:cover;"></div>
+					background-color: rgba(32, 62, 128, 1);"></div>
 
 		<?if (!empty($arItem["DISPLAY_PROPERTIES"]["LINK"]["~VALUE"])):?>
 			</a>
@@ -49,15 +48,11 @@
 	<?}?>	
 <?//var_dump($arItem);?>		
 <?endforeach;?>
-	<?if (($index != 3)&&($index != 0)){ $index = 0?>
+	<?if ($index != 3){ $index = 0?>
 		</tr>
 		</table>
 		</div>
 	<?}?>
 </div>
-	<div class="sliderArrows">
-		<a href="#" class="prev">Previous</a>
-		<a href="#" class="next">Next</a>
-	</div>
 </div>
 <div style="clear:both;">&nbsp;</div>

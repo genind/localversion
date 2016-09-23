@@ -70,5 +70,8 @@ $(document).ready(function(){
 						
 <?endif;?>
 
+<div style="clear:both;">&nbsp;</div>
+<a href="#" data-reveal-id="feedback-form" id="feedback" style="width:195px; margin-top:15px; background-image:url(/images/master_class_subscr.png)"></a>
+	<br />
 	
 <div class="clearfix" style="height:10px;"></div>

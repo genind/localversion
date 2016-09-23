@@ -6,7 +6,7 @@
 		"IBLOCK_TYPE" => $arParams["IBLOCK_TYPE"],
 		"IBLOCK_ID" => $arParams["IBLOCK_ID"],
 		"PROPERTY_CODE" => $arParams["DETAIL_PROPERTY_CODE"],
-		"" => $arParams["DETAIL_"],
+		"META_KEYWORDS" => $arParams["DETAIL_META_KEYWORDS"],
 		"META_DESCRIPTION" => $arParams["DETAIL_META_DESCRIPTION"],
 		"BROWSER_TITLE" => $arParams["DETAIL_BROWSER_TITLE"],
 		"BASKET_URL" => $arParams["BASKET_URL"],

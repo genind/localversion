@@ -1,84 +1,5 @@
 <script type="text/javascript" src="/js/jcarousellite_1.0.1.js"></script>
 
-<style>
-#event-calendar-main table {
-  width: 225px;
-  line-height: 24px;
-  font-size: 15px;
-  text-align: center;
-  font-family:Arial, sans-serif;
-  color:#fff;
-	margin:auto;
-}
-#event-calendar-main thead tr:last-child {
-
-}
-
-#event-calendar-main thead tr:nth-child(1) td:nth-child(2) {
-  margin-top:-2px; padding-bottom:5px;
-}
-
-#event-calendar-main .calendar-name-day-wrap	{
-	background-color:#eeeeee;
-	height:12px;
-	line-height:12px;
-	font-size: 12px;
-	padding:1px 7px 0 8px;
-	margin:0 -5px 3px -7px;
-	color: #a9a9a9;
-}
-
-#event-calendar-main tbody td.nextM,
-#event-calendar-main tbody td.prevM {
-  color: #a9a9a9;
-}
-
-#event-calendar-main tbody td{
-	border-bottom: 1px solid #f3f2ed;
-    position: relative;
-}
-
-#event-calendar-main td a {
-    display: block;
-    color: black;
-}
-
-#event-calendar-main tbody td:nth-child(n+6),
-#event-calendar-main .holiday {
-  color: rgb(231, 140, 92);
-}
-
-#event-calendar-main tbody td:nth-child(n+6).nextM,
-#event-calendar-main tbody td:nth-child(n+6).prevM {
-  color: rgb(181, 136, 112);
-}
-
-#event-calendar-main tbody td.today {
-    background: #eeeeee;
-    color: black;
-}
-
-#event-calendar-main .arrLeft,
-#event-calendar-main .arrRight {
-	cursor:pointer;
-}
-
-#event-calendar-main .event {
-	background: #eeeeee;
-    color: black;
-	cursor:pointer;
-}
-
-#event-calendar-main .event-box {
-	color: white;
-	text-align: justify;
-}
-
-#event-calendar-main .name {
-	font-weight:bold;
-	padding-bottom: 3px;
-}
-</style>
 <div id="event-calendar-main" >
 <table>
   <thead>
@@ -111,7 +32,7 @@ var calendar_events = [
 <?foreach($arResult["ITEMS"] as $arItem):?>
 		<?$descr = str_replace(  array("\r","\n"),"",htmlspecialcharsEx($arItem["PREVIEW_TEXT"]) );?>
 		<?$date = ParseDateTime( $arItem["PROPERTIES"]["DATE"]["VALUE"] , "DD.MM.YYYY HH:MI:SS" );?>
-		<?echo("{year:'".$date["YYYY"]."',month:'".intval($date["MM"])."',day:'".intval($date["DD"])."',name:'".$arItem["NAME"]."',link:'".$arItem["PROPERTIES"]["LINK"]["VALUE"]."',description:'".$descr."'},\n")?>
+		<?echo("{year:'".$date["YYYY"]."',month:'".$date["MM"]."',day:'".$date["DD"]."',name:'".$arItem["NAME"]."',link:'".$arItem["PROPERTIES"]["LINK"]["VALUE"]."',description:'".$descr."'},\n")?>
 <?endforeach;?>
 	];
 function event_calendar_main(id, year, month) {
@@ -152,11 +73,11 @@ if( year==new Date().getFullYear() && month==new Date().getMonth()){
 // метки для дат с событиями
 for ( i=0 ; i<calendar_events.length ; i++)
 	{
-		if( year == calendar_events[i].year && ( month == calendar_events[i].month - 1 ) ){
+		if( year == calendar_events[i].year && month == calendar_events[i].month ){
 			document.querySelector('#'+id+' td.day'+ calendar_events[i].day + '.curM').className += " event i"+i;
 			document.querySelector('#'+id+' td.day'+ calendar_events[i].day + '.curM').title = calendar_events[i].name;
 			var date = document.querySelector('#'+id+' td.day'+ calendar_events[i].day + '.curM').innerHTML;
-			date = "<a href='" + calendar_events[i].link + "' target='_blank' title='" + calendar_events[i].name + "'>" + date + "</a>";
+			date = "<a href='" + calendar_events[i].link + "' target='_blank'>" + date + "</a>";
 			document.querySelector('#'+id+' td.day'+ calendar_events[i].day + '.curM').innerHTML = date;
 		}
 	}

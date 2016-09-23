@@ -1,0 +1,79 @@
+.accordion
+	{
+		background-color: rgba(249,249,249,1);
+		margin-right: 40px;
+		font-size: 12px;
+		color: #464646;
+		font-family: Century Gothic , sans-serif;
+	}
+
+.accordion-section
+{
+		margin-bottom:3px;
+		padding:10px;
+}	
+
+.accordion-section:hover
+{
+-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+}
+
+.accordion-section-title {
+    border-bottom: solid 2px #cccccc;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+	padding-bottom: 5px;
+}
+
+.accordion-section-title .news-title {
+	float:left;
+	margin-left: 15px;
+}
+
+.accordion-section-title .news-date {
+	text-align:right;
+	margin-right:30px;
+}
+
+.accordion-section-content {
+	overflow:hidden;
+	height:100px;
+	cursor:pointer;
+	position:relative;
+	padding-left: 15px;
+}
+
+.accordion-section-content .open {
+		display:block;
+}
+
+.accordion-section-content .text-fading {
+    background: -moz-linear-gradient(top, rgba(249, 249, 249, 0) 0%, rgba(249, 249, 249, 0.51) 5%, rgba(249, 249, 249) 100%);
+    background: -webkit-linear-gradient(top, rgba(249, 249, 249, 0) 0%,rgba(249, 249, 249, 0.51) 5%,rgba(249, 249, 249) 100%);
+    background: linear-gradient(to bottom, rgba(249, 249, 249, 0) 0%,rgba(249, 249, 249, 0.51) 5%,rgb(249, 249, 249) 100%);
+    background-size: 100% auto;
+    top: 42%;
+    display: block;
+    height: 60%;
+    position: absolute;
+    width: 100%;
+}
+
+
+
+.description {
+
+	}
+
+#hide_description	{
+						float:right;
+						font-weight: bold;
+						color: #8a8a8a;
+						margin-top: 10px;
+						cursor: pointer;
+					} 
+
+#hide_description:hover { color:#000000; text-decoration:underline;}					

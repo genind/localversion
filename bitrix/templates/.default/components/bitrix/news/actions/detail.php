@@ -13,7 +13,7 @@
 		"PROPERTY_CODE" => $arParams["DETAIL_PROPERTY_CODE"],
 		"DETAIL_URL"	=>	$arResult["FOLDER"].$arResult["URL_TEMPLATES"]["detail"],
 		"SECTION_URL"	=>	$arResult["FOLDER"].$arResult["URL_TEMPLATES"]["section"],
-		"" => $arParams[""],
+		"META_KEYWORDS" => $arParams["META_KEYWORDS"],
 		"META_DESCRIPTION" => $arParams["META_DESCRIPTION"],
 		"BROWSER_TITLE" => $arParams["BROWSER_TITLE"],
 		"DISPLAY_PANEL" => $arParams["DISPLAY_PANEL"],
