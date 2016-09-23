@@ -7,16 +7,16 @@ $arUrlRewrite = array(
 		"PATH"	=>	"/actions/index.php",
 	),
 	array(
-		"CONDITION"	=>	"#^/about/administration/#",
-		"RULE"	=>	"ELEMENT_ID=$1",
-		"ID"	=>	"",
-		"PATH"	=>	"/about/administration/index.php",
-	),
-	array(
 		"CONDITION"	=>	"#^/actions/photos/(.+?)/#",
 		"RULE"	=>	"BCODE=photos&id=$1",
 		"ID"	=>	"",
 		"PATH"	=>	"/actions/photogallery.php",
+	),
+	array(
+		"CONDITION"	=>	"#^/about/administration/#",
+		"RULE"	=>	"ELEMENT_ID=$1",
+		"ID"	=>	"",
+		"PATH"	=>	"/about/administration/index.php",
 	),
 	array(
 		"CONDITION"	=>	"#^/actions/(.+?)/(.+?)/#",

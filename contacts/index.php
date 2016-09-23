@@ -5,7 +5,7 @@ $APPLICATION->SetPageProperty("keywords", "дообучение , повышение квалификации ,
 $APPLICATION->SetPageProperty("description", "контакты института повышения квалификации и переподготовки кадров");
 $APPLICATION->SetPageProperty('title', 'Контакты Института повышения квалификации и переподготовки кадров РУДН');
 $APPLICATION->SetTitle("Контакты");
-?><div class="left_contacts"> 
+?><div class="left_contacts" style="    float: right; width: 40%; margin: 5% 5% 5% 5%;"> 
   <h2 class="address" style="margin-top:0px;"><b>Почта и телефоны:</b></h2>
 	
 	<table>
@@ -74,7 +74,7 @@ $APPLICATION->SetTitle("Контакты");
 
  </div>
 
-<div class="right_contacts"> 
+<div class="right_contacts" style="    float: right; width: 40%; margin: 5% 5% 5% 5%;"> 
   <h2><b>Наши адреса:</b></h2>
 
   <p><b><text style="color:#DA1C1C;">м</text> Беляево</b>,<b>м.Юго-Западная</b> ул. Миклухо-Маклая, д.10, корп. 2, 9 этаж  <a href="/images/scheme-proezd.jpg" rel="prettyPhoto"><b>карта проезда</b></a>
@@ -95,25 +95,11 @@ $APPLICATION->SetTitle("Контакты");
    <strong>От станции метро &quot;Беляево&quot;:</strong> <style="text-align:justify;"> последний вагон из центра, выход направо к автобусной остановке, далее авт. № 261, 752 до ост. &quot;Медицинский факультет&quot;. Переходите дорогу через подземный переход и далее, как было описано выше, следуете к зданию гуманитарно-социального факультета. </p>
 </div>
 
-<div id="map"> <?$APPLICATION->IncludeComponent("bitrix:map.yandex.view", ".default", array(
-	"INIT_MAP_TYPE" => "MAP",
-	"MAP_DATA" => "a:4:{s:10:\"yandex_lat\";d:55.64870209081102;s:10:\"yandex_lon\";d:37.50539074737016;s:12:\"yandex_scale\";i:15;s:10:\"PLACEMARKS\";a:1:{i:0;a:3:{s:3:\"LON\";d:37.505300915841744;s:3:\"LAT\";d:55.648849403562785;s:4:\"TEXT\";s:4:\"РУДН\";}}}",
-	"MAP_WIDTH" => "1010",
-	"MAP_HEIGHT" => "435",
-	"CONTROLS" => array(
-		0 => "ZOOM",
-		1 => "TYPECONTROL",
-		2 => "SCALELINE",
-	),
-	"OPTIONS" => array(
-		0 => "ENABLE_SCROLL_ZOOM",
-		1 => "ENABLE_DBLCLICK_ZOOM",
-		2 => "ENABLE_DRAGGING",
-	),
-	"MAP_ID" => ""
-	),
-	false
-);?> </div>
- 
+
+<div id="map"  style="height: 550px; width: 100%; clear: both;">
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=G29zhfqMjcZmd_cS4MM87_ibooJDHNPl&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+</div>
+
+
 <div style="clear: both;"></div>
  <!--<a href="http://info.flagcounter.com/8ItL" ><img src="http://s10.flagcounter.com/count/8ItL/bg_FFFFFF/txt_000000/border_CCCCCC/columns_3/maxflags_12/viewers_0/labels_1/pageviews_1/flags_1/" alt="Flag Counter" border="0"  /></a>--> <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
