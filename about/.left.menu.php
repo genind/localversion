@@ -1,0 +1,25 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Администрация", 
+		"/about/administration/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Преподаватели", 
+		"/about/teachers/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Отзывы", 
+		"/about/reviews/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

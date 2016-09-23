@@ -1,0 +1,8 @@
+div.search-page{clear:both;}
+a.search-page-params {
+	border-bottom: 1px dashed blue;
+	text-decoration: none;
+}
+div.search-page-params {
+	margin-top: 6px;
+}

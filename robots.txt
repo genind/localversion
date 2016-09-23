@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /*utm
+Disallow: /*openstat
+Disallow: /*adwords
+Disallow: /test.php
+Disallow: /search
+Disallow: /onlinerequest
+Disallow: /*?sphrase*
+Disallow: /?*
+
+Host: ippkrudn.ru
+Sitemap: http://ippkrudn.ru/sitemap.xml

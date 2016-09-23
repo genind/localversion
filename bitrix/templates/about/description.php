@@ -1,0 +1,1 @@
+<?$arTemplate = array("NAME"=>"Шаблон для раздела Об институте", "DESCRIPTION"=>"");?>

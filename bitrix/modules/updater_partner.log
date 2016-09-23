@@ -1,0 +1,678 @@
+2012-05-04 10:29:22 -  - exec CUpdateClientPartner::SearchModulesEx
+2012-05-04 10:29:22 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-05-04 10:29:22 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ipk.radia.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.10&dbv=5.1.58&instm=main%2C11.0.3%2CY%3Bseo%2C11.0.0%2CN%3Bsubscribe%2C11.0.1%2CN%3Bsecurity%2C11.0.2%2CN%3Bsocialservices%2C11.0.0%2CN%3Bblog%2C11.0.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C11.0.2%2CN%3Bsearch%2C11.0.2%2CN%3Bclouds%2C11.0.1%2CN%3Bfileman%2C11.0.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C11.0.2%2CN%3Bforum%2C11.0.2%2CN%3Bperfmon%2C11.0.1%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C11.0.0%2CN%3Bform%2C11.0.1%2CN&search_module_id=&search_module=&search_category=7&search_type=&search_order=ASC&search_order_by=NAME&search_page=1
+2012-05-04 10:29:22 -  - exec CUpdateClientPartner::GetHTTPPage
+2012-05-04 10:29:23 -  - TIME SearchModulesEx(request) 0.251 sec
+2012-05-04 10:29:23 -  - exec CUpdateClientPartner::ParseServerData
+2012-05-04 10:29:23 - GUL02 - [LICENSE_NOT_FOUND] Лицензия не найдена
+2012-05-04 10:37:22 -  - exec CUpdateClientPartner::SearchModulesEx
+2012-05-04 10:37:22 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-05-04 10:37:22 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ipk.radia.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.10&dbv=5.1.58&instm=main%2C11.0.3%2CY%3Bseo%2C11.0.0%2CN%3Bsubscribe%2C11.0.1%2CN%3Bsecurity%2C11.0.2%2CN%3Bsocialservices%2C11.0.0%2CN%3Bblog%2C11.0.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C11.0.2%2CN%3Bsearch%2C11.0.2%2CN%3Bclouds%2C11.0.1%2CN%3Bfileman%2C11.0.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C11.0.2%2CN%3Bforum%2C11.0.2%2CN%3Bperfmon%2C11.0.1%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C11.0.0%2CN%3Bform%2C11.0.1%2CN&search_module_id=&search_module=&search_category=7&search_type=&search_order=ASC&search_order_by=NAME&search_page=1
+2012-05-04 10:37:22 -  - exec CUpdateClientPartner::GetHTTPPage
+2012-05-04 10:37:23 -  - TIME SearchModulesEx(request) 0.268 sec
+2012-05-04 10:37:23 -  - exec CUpdateClientPartner::ParseServerData
+2012-05-04 10:37:23 - GUL02 - [LICENSE_NOT_FOUND] Лицензия не найдена
+2012-05-04 10:38:03 -  - exec CUpdateClientPartner::GetUpdatesList
+2012-05-04 10:38:03 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-05-04 10:38:03 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ipk.radia.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.10&dbv=5.1.58&instm=main%2C11.0.3%2CY%3Bseo%2C11.0.0%2CN%3Bsubscribe%2C11.0.1%2CN%3Bsecurity%2C11.0.2%2CN%3Bsocialservices%2C11.0.0%2CN%3Bblog%2C11.0.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C11.0.2%2CN%3Bsearch%2C11.0.2%2CN%3Bclouds%2C11.0.1%2CN%3Bfileman%2C11.0.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C11.0.2%2CN%3Bforum%2C11.0.2%2CN%3Bperfmon%2C11.0.1%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C11.0.0%2CN%3Bform%2C11.0.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Csmedia.suz
+2012-05-04 10:38:03 -  - exec CUpdateClientPartner::GetHTTPPage
+2012-05-04 10:38:03 -  - TIME GetUpdatesList(request) 0.247 sec
+2012-05-04 10:38:03 -  - exec CUpdateClientPartner::ParseServerData
+2012-05-04 10:38:41 -  - exec CUpdateClientPartner::GetUpdatesList
+2012-05-04 10:38:41 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-05-04 10:38:41 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ipk.radia.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.10&dbv=5.1.58&instm=main%2C11.0.3%2CY%3Bseo%2C11.0.0%2CN%3Bsubscribe%2C11.0.1%2CN%3Bsecurity%2C11.0.2%2CN%3Bsocialservices%2C11.0.0%2CN%3Bblog%2C11.0.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C11.0.2%2CN%3Bsearch%2C11.0.2%2CN%3Bclouds%2C11.0.1%2CN%3Bfileman%2C11.0.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C11.0.2%2CN%3Bforum%2C11.0.2%2CN%3Bperfmon%2C11.0.1%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C11.0.0%2CN%3Bform%2C11.0.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Conline.college
+2012-05-04 10:38:41 -  - exec CUpdateClientPartner::GetHTTPPage
+2012-05-04 10:38:41 -  - TIME GetUpdatesList(request) 0.25 sec
+2012-05-04 10:38:41 -  - exec CUpdateClientPartner::ParseServerData
+2012-05-04 10:39:43 -  - exec CUpdateClientPartner::GetUpdatesList
+2012-05-04 10:39:43 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-05-04 10:39:43 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ipk.radia.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.10&dbv=5.1.58&instm=main%2C11.0.3%2CY%3Bseo%2C11.0.0%2CN%3Bsubscribe%2C11.0.1%2CN%3Bsecurity%2C11.0.2%2CN%3Bsocialservices%2C11.0.0%2CN%3Bblog%2C11.0.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C11.0.2%2CN%3Bsearch%2C11.0.2%2CN%3Bclouds%2C11.0.1%2CN%3Bfileman%2C11.0.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C11.0.2%2CN%3Bforum%2C11.0.2%2CN%3Bperfmon%2C11.0.1%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C11.0.0%2CN%3Bform%2C11.0.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Conline.college
+2012-05-04 10:39:43 -  - exec CUpdateClientPartner::GetHTTPPage
+2012-05-04 10:39:43 -  - TIME GetUpdatesList(request) 0.276 sec
+2012-05-04 10:39:43 -  - exec CUpdateClientPartner::ParseServerData
+2012-06-01 12:30:06 -  - exec CUpdateClientPartner::GetUpdatesList
+2012-06-01 12:30:06 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-06-01 12:30:06 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ipk.radia.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.3.10&dbv=5.1.58&instm=main%2C11.5.3%2CY%3Bseo%2C11.0.0%2CN%3Bsubscribe%2C11.0.4%2CN%3Bsecurity%2C11.5.1%2CN%3Bsocialservices%2C11.0.1%2CN%3Bblog%2C11.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C11.5.0%2CN%3Bsearch%2C11.5.0%2CN%3Bclouds%2C11.5.1%2CN%3Bfileman%2C11.5.4%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C11.5.0%2CN%3Bforum%2C11.5.0%2CN%3Bperfmon%2C11.0.4%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C11.0.1%2CN%3Bform%2C11.5.0%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal
+2012-06-01 12:30:06 -  - exec CUpdateClientPartner::GetHTTPPage
+2012-06-01 12:30:07 -  - TIME GetUpdatesList(request) 0.69 sec
+2012-06-01 12:30:07 -  - exec CUpdateClientPartner::ParseServerData
+2012-06-01 12:30:14 -  - exec CUpdateClientPartner::GetUpdatesList
+2012-06-01 12:30:14 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-06-01 12:30:14 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ipk.radia.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.3.10&dbv=5.1.58&instm=main%2C11.5.3%2CY%3Bseo%2C11.0.0%2CN%3Bsubscribe%2C11.0.4%2CN%3Bsecurity%2C11.5.1%2CN%3Bsocialservices%2C11.0.1%2CN%3Bblog%2C11.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C11.5.0%2CN%3Bsearch%2C11.5.0%2CN%3Bclouds%2C11.5.1%2CN%3Bfileman%2C11.5.4%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C11.5.0%2CN%3Bforum%2C11.5.0%2CN%3Bperfmon%2C11.0.4%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C11.0.1%2CN%3Bform%2C11.5.0%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal
+2012-06-01 12:30:14 -  - exec CUpdateClientPartner::GetHTTPPage
+2012-06-01 12:30:14 -  - TIME GetUpdatesList(request) 0.732 sec
+2012-06-01 12:30:14 -  - exec CUpdateClientPartner::ParseServerData
+2012-06-05 09:07:03 -  - exec CUpdateClientPartner::GetUpdatesList
+2012-06-05 09:07:03 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-06-05 09:07:03 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=www.ipk.radia.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=5.3.10&dbv=5.1.58&instm=main%2C11.5.3%2CN%3Bseo%2C11.0.0%2CN%3Bsubscribe%2C11.0.4%2CN%3Bsecurity%2C11.5.1%2CN%3Bsocialservices%2C11.0.1%2CN%3Bblog%2C11.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C11.5.0%2CN%3Bsearch%2C11.5.0%2CN%3Bclouds%2C11.5.1%2CN%3Bfileman%2C11.5.4%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C11.5.0%2CN%3Bforum%2C11.5.0%2CN%3Bperfmon%2C11.0.4%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C11.0.1%2CN%3Bform%2C11.5.0%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements
+2012-06-05 09:07:03 -  - exec CUpdateClientPartner::GetHTTPPage
+2012-06-05 09:07:03 -  - TIME GetUpdatesList(request) 0.557 sec
+2012-06-05 09:07:03 -  - exec CUpdateClientPartner::ParseServerData
+2012-06-05 09:07:38 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2012-06-05 09:07:38 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-06-05 09:07:38 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=www.ipk.radia.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=5.3.10&dbv=5.1.58&instm=main%2C11.5.3%2CN%3Bseo%2C11.0.0%2CN%3Bsubscribe%2C11.0.4%2CN%3Bsecurity%2C11.5.1%2CN%3Bsocialservices%2C11.0.1%2CN%3Bblog%2C11.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C11.5.0%2CN%3Bsearch%2C11.5.0%2CN%3Bclouds%2C11.5.1%2CN%3Bfileman%2C11.5.4%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C11.5.0%2CN%3Bforum%2C11.5.0%2CN%3Bperfmon%2C11.0.4%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C11.0.1%2CN%3Bform%2C11.5.0%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements
+2012-06-05 09:07:38 -  - exec CUpdateClientPartner::GetHTTPPage
+2012-06-05 09:07:39 -  - TIME LoadModulesUpdates(request) 0.775 sec
+2012-06-05 09:07:39 -  - exec CUpdateClientPartner::ParseServerData
+2012-06-05 09:07:39 - LMU01 - LoadModulesUpdates-Step
+2012-06-05 09:07:39 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2012-06-05 09:07:39 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-06-05 09:07:39 -  - exec CUpdateClientPartner::ParseServerData
+2012-06-05 09:07:39 - DOWNLOAD - Time - 0.28291702270508 sec
+2012-06-05 09:07:39 -  - exec CUpdateClientPartner::UnGzipArchive
+2012-06-05 09:07:39 -  - TIME UnGzipArchive 0.003 sec
+2012-06-05 09:07:39 -  - TIME UpdateStepModules 0.004 sec
+2012-06-05 09:07:39 - UPD_SUCCESS - Updated: tsoft.menuelements
+2012-06-05 09:07:39 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2012-06-05 09:07:39 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-06-05 09:07:39 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=www.ipk.radia.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=5.3.10&dbv=5.1.58&instm=main%2C11.5.3%2CN%3Bseo%2C11.0.0%2CN%3Bsubscribe%2C11.0.4%2CN%3Bsecurity%2C11.5.1%2CN%3Bsocialservices%2C11.0.1%2CN%3Bblog%2C11.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C11.5.0%2CN%3Bsearch%2C11.5.0%2CN%3Bclouds%2C11.5.1%2CN%3Bfileman%2C11.5.4%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C11.5.0%2CN%3Bforum%2C11.5.0%2CN%3Bperfmon%2C11.0.4%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C11.0.1%2CN%3Bform%2C11.5.0%2CN%3Btsoft.menuelements%2C0.0.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Ctsoft.menuelements
+2012-06-05 09:07:39 -  - exec CUpdateClientPartner::GetHTTPPage
+2012-06-05 09:07:39 -  - TIME LoadModulesUpdates(request) 0.225 sec
+2012-06-05 09:07:39 -  - exec CUpdateClientPartner::ParseServerData
+2012-06-05 09:07:39 - STEP - Finish - NOUPDATES
+2012-06-05 09:07:39 - STEP - Finish - NOUPDATES
+2012-06-05 09:07:44 -  - exec CUpdateClientPartner::GetUpdatesList
+2012-06-05 09:07:44 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-06-05 09:07:44 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=www.ipk.radia.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=5.3.10&dbv=5.1.58&instm=main%2C11.5.3%2CN%3Bseo%2C11.0.0%2CN%3Bsubscribe%2C11.0.4%2CN%3Bsecurity%2C11.5.1%2CN%3Bsocialservices%2C11.0.1%2CN%3Bblog%2C11.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C11.5.0%2CN%3Bsearch%2C11.5.0%2CN%3Bclouds%2C11.5.1%2CN%3Bfileman%2C11.5.4%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C11.5.0%2CN%3Bforum%2C11.5.0%2CN%3Bperfmon%2C11.0.4%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C11.0.1%2CN%3Bform%2C11.5.0%2CN%3Btsoft.menuelements%2C0.0.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements
+2012-06-05 09:07:44 -  - exec CUpdateClientPartner::GetHTTPPage
+2012-06-05 09:07:45 -  - TIME GetUpdatesList(request) 0.212 sec
+2012-06-05 09:07:45 -  - exec CUpdateClientPartner::ParseServerData
+2012-06-05 09:07:45 -  - exec CUpdateClientPartner::GetUpdatesList
+2012-06-05 09:07:45 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-06-05 09:07:45 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=www.ipk.radia.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=5.3.10&dbv=5.1.58&instm=main%2C11.5.3%2CN%3Bseo%2C11.0.0%2CN%3Bsubscribe%2C11.0.4%2CN%3Bsecurity%2C11.5.1%2CN%3Bsocialservices%2C11.0.1%2CN%3Bblog%2C11.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C11.5.0%2CN%3Bsearch%2C11.5.0%2CN%3Bclouds%2C11.5.1%2CN%3Bfileman%2C11.5.4%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C11.5.0%2CN%3Bforum%2C11.5.0%2CN%3Bperfmon%2C11.0.4%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C11.0.1%2CN%3Bform%2C11.5.0%2CN%3Btsoft.menuelements%2C0.0.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements
+2012-06-05 09:07:45 -  - exec CUpdateClientPartner::GetHTTPPage
+2012-06-05 09:07:45 -  - TIME GetUpdatesList(request) 0.212 sec
+2012-06-05 09:07:45 -  - exec CUpdateClientPartner::ParseServerData
+2012-06-05 11:17:46 -  - exec CUpdateClientPartner::GetUpdatesList
+2012-06-05 11:17:46 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-06-05 11:17:46 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ipk.radia.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=5.3.10&dbv=5.1.58&instm=main%2C11.5.3%2CN%3Bseo%2C11.0.0%2CN%3Bsubscribe%2C11.0.4%2CN%3Bsecurity%2C11.5.1%2CN%3Bsocialservices%2C11.0.1%2CN%3Bblog%2C11.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C11.5.0%2CN%3Bsearch%2C11.5.0%2CN%3Bclouds%2C11.5.1%2CN%3Bfileman%2C11.5.4%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C11.5.0%2CN%3Bforum%2C11.5.0%2CN%3Bperfmon%2C11.0.4%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C11.0.1%2CN%3Bform%2C11.5.0%2CN%3Btsoft.menuelements%2C0.0.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements
+2012-06-05 11:17:46 -  - exec CUpdateClientPartner::GetHTTPPage
+2012-06-05 11:17:47 -  - TIME GetUpdatesList(request) 0.975 sec
+2012-06-05 11:17:47 -  - exec CUpdateClientPartner::ParseServerData
+2012-06-05 11:17:56 -  - exec CUpdateClientPartner::GetUpdatesList
+2012-06-05 11:17:56 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-06-05 11:17:56 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ipk.radia.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=5.3.10&dbv=5.1.58&instm=main%2C11.5.3%2CN%3Bseo%2C11.0.0%2CN%3Bsubscribe%2C11.0.4%2CN%3Bsecurity%2C11.5.1%2CN%3Bsocialservices%2C11.0.1%2CN%3Bblog%2C11.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C11.5.0%2CN%3Bsearch%2C11.5.0%2CN%3Bclouds%2C11.5.1%2CN%3Bfileman%2C11.5.4%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C11.5.0%2CN%3Bforum%2C11.5.0%2CN%3Bperfmon%2C11.0.4%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C11.0.1%2CN%3Bform%2C11.5.0%2CN%3Btsoft.menuelements%2C0.0.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements
+2012-06-05 11:17:56 -  - exec CUpdateClientPartner::GetHTTPPage
+2012-06-05 11:17:57 -  - TIME GetUpdatesList(request) 0.61 sec
+2012-06-05 11:17:57 -  - exec CUpdateClientPartner::ParseServerData
+2012-06-05 11:17:57 -  - exec CUpdateClientPartner::GetUpdatesList
+2012-06-05 11:17:57 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-06-05 11:17:57 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ipk.radia.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=5.3.10&dbv=5.1.58&instm=main%2C11.5.3%2CN%3Bseo%2C11.0.0%2CN%3Bsubscribe%2C11.0.4%2CN%3Bsecurity%2C11.5.1%2CN%3Bsocialservices%2C11.0.1%2CN%3Bblog%2C11.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C11.5.0%2CN%3Bsearch%2C11.5.0%2CN%3Bclouds%2C11.5.1%2CN%3Bfileman%2C11.5.4%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C11.5.0%2CN%3Bforum%2C11.5.0%2CN%3Bperfmon%2C11.0.4%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C11.0.1%2CN%3Bform%2C11.5.0%2CN%3Btsoft.menuelements%2C0.0.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements
+2012-06-05 11:17:57 -  - exec CUpdateClientPartner::GetHTTPPage
+2012-06-05 11:17:57 -  - TIME GetUpdatesList(request) 0.214 sec
+2012-06-05 11:17:57 -  - exec CUpdateClientPartner::ParseServerData
+2012-06-28 16:28:43 -  - exec CUpdateClientPartner::GetUpdatesList
+2012-06-28 16:28:43 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-06-28 16:28:43 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ipk.radia.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=5.3.10&dbv=5.1.58&instm=main%2C11.5.4%2CN%3Bseo%2C11.0.0%2CN%3Bsubscribe%2C11.5.0%2CN%3Bsecurity%2C11.5.1%2CN%3Bsocialservices%2C11.0.1%2CN%3Bblog%2C11.5.3%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C11.5.0%2CN%3Bsearch%2C11.5.0%2CN%3Bclouds%2C11.5.1%2CN%3Bfileman%2C11.5.5%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C11.5.0%2CN%3Bforum%2C11.5.0%2CN%3Bperfmon%2C11.0.4%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C11.0.1%2CN%3Bform%2C11.5.0%2CN%3Btsoft.menuelements%2C0.0.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements
+2012-06-28 16:28:43 -  - exec CUpdateClientPartner::GetHTTPPage
+2012-06-28 16:28:44 -  - TIME GetUpdatesList(request) 0.649 sec
+2012-06-28 16:28:44 -  - exec CUpdateClientPartner::ParseServerData
+2012-07-10 12:24:57 -  - exec CUpdateClientPartner::GetUpdatesList
+2012-07-10 12:24:57 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-07-10 12:24:57 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ipk.radia.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=4&TYPENC=E&CLIENT_PHPVER=5.3.10&dbv=5.1.58&instm=main%2C11.5.4%2CN%3Bseo%2C11.0.0%2CN%3Bsubscribe%2C11.5.0%2CN%3Bsecurity%2C11.5.1%2CN%3Bsocialservices%2C11.0.1%2CN%3Bblog%2C11.5.3%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C11.5.0%2CN%3Bsearch%2C11.5.0%2CN%3Bclouds%2C11.5.1%2CN%3Bfileman%2C11.5.5%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C11.5.0%2CN%3Bforum%2C11.5.0%2CN%3Bperfmon%2C11.0.4%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C11.0.1%2CN%3Bform%2C11.5.0%2CN%3Btsoft.menuelements%2C0.0.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements
+2012-07-10 12:24:57 -  - exec CUpdateClientPartner::GetHTTPPage
+2012-07-10 12:24:58 -  - TIME GetUpdatesList(request) 0.617 sec
+2012-07-10 12:24:58 -  - exec CUpdateClientPartner::ParseServerData
+2012-10-24 10:01:38 -  - exec CUpdateClientPartner::GetUpdatesList
+2012-10-24 10:01:38 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-10-24 10:01:38 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.2.10&dbv=5.1.41&instm=main%2C11.5.4%2CN%3Bseo%2C11.0.0%2CN%3Bsubscribe%2C11.5.0%2CN%3Bsecurity%2C11.5.1%2CN%3Bsocialservices%2C11.0.1%2CN%3Bblog%2C11.5.3%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C11.5.0%2CN%3Bsearch%2C11.5.0%2CN%3Bclouds%2C11.5.1%2CN%3Bfileman%2C11.5.5%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C11.5.0%2CN%3Bforum%2C11.5.0%2CN%3Bperfmon%2C11.0.4%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C11.0.1%2CN%3Bform%2C11.5.0%2CN%3Btsoft.menuelements%2C0.0.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Cdenisoft.shareyandex
+2012-10-24 10:01:38 -  - exec CUpdateClientPartner::GetHTTPPage
+2012-10-24 10:01:39 -  - TIME GetUpdatesList(request) 0.627 sec
+2012-10-24 10:01:39 -  - exec CUpdateClientPartner::ParseServerData
+2012-10-24 10:02:00 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2012-10-24 10:02:00 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-10-24 10:02:00 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.2.10&dbv=5.1.41&instm=main%2C11.5.4%2CN%3Bseo%2C11.0.0%2CN%3Bsubscribe%2C11.5.0%2CN%3Bsecurity%2C11.5.1%2CN%3Bsocialservices%2C11.0.1%2CN%3Bblog%2C11.5.3%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C11.5.0%2CN%3Bsearch%2C11.5.0%2CN%3Bclouds%2C11.5.1%2CN%3Bfileman%2C11.5.5%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C11.5.0%2CN%3Bforum%2C11.5.0%2CN%3Bperfmon%2C11.0.4%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C11.0.1%2CN%3Bform%2C11.5.0%2CN%3Btsoft.menuelements%2C0.0.1%2CN&reqm=denisoft.shareyandex&lim=Y
+2012-10-24 10:02:00 -  - exec CUpdateClientPartner::GetHTTPPage
+2012-10-24 10:02:00 -  - TIME LoadModulesUpdates(request) 0.514 sec
+2012-10-24 10:02:00 -  - exec CUpdateClientPartner::ParseServerData
+2012-10-24 10:02:00 - LMU01 - LoadModulesUpdates-Step
+2012-10-24 10:02:01 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2012-10-24 10:02:01 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-10-24 10:02:01 -  - exec CUpdateClientPartner::ParseServerData
+2012-10-24 10:02:01 - DOWNLOAD - Time - 0.28035497665405 sec
+2012-10-24 10:02:01 -  - exec CUpdateClientPartner::UnGzipArchive
+2012-10-24 10:02:01 -  - TIME UnGzipArchive 0.006 sec
+2012-10-24 10:02:01 -  - TIME UpdateStepModules 0.014 sec
+2012-10-24 10:02:01 - UPD_SUCCESS - Updated: denisoft.shareyandex
+2012-10-24 10:02:01 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2012-10-24 10:02:01 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-10-24 10:02:01 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.2.10&dbv=5.1.41&instm=main%2C11.5.4%2CN%3Bseo%2C11.0.0%2CN%3Bsubscribe%2C11.5.0%2CN%3Bsecurity%2C11.5.1%2CN%3Bsocialservices%2C11.0.1%2CN%3Bblog%2C11.5.3%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C11.5.0%2CN%3Bsearch%2C11.5.0%2CN%3Bclouds%2C11.5.1%2CN%3Bfileman%2C11.5.5%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C11.5.0%2CN%3Bforum%2C11.5.0%2CN%3Bperfmon%2C11.0.4%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C11.0.1%2CN%3Bform%2C11.5.0%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Bdenisoft.shareyandex%2C1.0.0%2CN&reqm=denisoft.shareyandex&lim=Y
+2012-10-24 10:02:01 -  - exec CUpdateClientPartner::GetHTTPPage
+2012-10-24 10:02:02 -  - TIME LoadModulesUpdates(request) 0.536 sec
+2012-10-24 10:02:02 -  - exec CUpdateClientPartner::ParseServerData
+2012-10-24 10:02:02 - STEP - Finish - NOUPDATES
+2012-10-24 10:02:02 - STEP - Finish - NOUPDATES
+2012-10-24 10:02:06 -  - exec CUpdateClientPartner::GetUpdatesList
+2012-10-24 10:02:06 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-10-24 10:02:06 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.2.10&dbv=5.1.41&instm=main%2C11.5.4%2CN%3Bseo%2C11.0.0%2CN%3Bsubscribe%2C11.5.0%2CN%3Bsecurity%2C11.5.1%2CN%3Bsocialservices%2C11.0.1%2CN%3Bblog%2C11.5.3%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C11.5.0%2CN%3Bsearch%2C11.5.0%2CN%3Bclouds%2C11.5.1%2CN%3Bfileman%2C11.5.5%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C11.5.0%2CN%3Bforum%2C11.5.0%2CN%3Bperfmon%2C11.0.4%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C11.0.1%2CN%3Bform%2C11.5.0%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Bdenisoft.shareyandex%2C1.0.0%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Cdenisoft.shareyandex
+2012-10-24 10:02:06 -  - exec CUpdateClientPartner::GetHTTPPage
+2012-10-24 10:02:06 -  - TIME GetUpdatesList(request) 0.513 sec
+2012-10-24 10:02:06 -  - exec CUpdateClientPartner::ParseServerData
+2012-10-24 10:02:07 -  - exec CUpdateClientPartner::GetUpdatesList
+2012-10-24 10:02:07 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-10-24 10:02:07 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.2.10&dbv=5.1.41&instm=main%2C11.5.4%2CN%3Bseo%2C11.0.0%2CN%3Bsubscribe%2C11.5.0%2CN%3Bsecurity%2C11.5.1%2CN%3Bsocialservices%2C11.0.1%2CN%3Bblog%2C11.5.3%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C11.5.0%2CN%3Bsearch%2C11.5.0%2CN%3Bclouds%2C11.5.1%2CN%3Bfileman%2C11.5.5%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C11.5.0%2CN%3Bforum%2C11.5.0%2CN%3Bperfmon%2C11.0.4%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C11.0.1%2CN%3Bform%2C11.5.0%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Bdenisoft.shareyandex%2C1.0.0%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Cdenisoft.shareyandex
+2012-10-24 10:02:07 -  - exec CUpdateClientPartner::GetHTTPPage
+2012-10-24 10:02:07 -  - TIME GetUpdatesList(request) 0.543 sec
+2012-10-24 10:02:07 -  - exec CUpdateClientPartner::ParseServerData
+2012-10-24 10:29:37 -  - exec CUpdateClientPartner::GetUpdatesList
+2012-10-24 10:29:37 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-10-24 10:29:37 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.2.10&dbv=5.1.41&instm=main%2C11.5.4%2CN%3Bseo%2C11.0.0%2CN%3Bsubscribe%2C11.5.0%2CN%3Bsecurity%2C11.5.1%2CN%3Bsocialservices%2C11.0.1%2CN%3Bblog%2C11.5.3%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C11.5.0%2CN%3Bsearch%2C11.5.0%2CN%3Bclouds%2C11.5.1%2CN%3Bfileman%2C11.5.5%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C11.5.0%2CN%3Bforum%2C11.5.0%2CN%3Bperfmon%2C11.0.4%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C11.0.1%2CN%3Bform%2C11.5.0%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Bdenisoft.shareyandex%2C1.0.0%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Cdenisoft.shareyandex
+2012-10-24 10:29:37 -  - exec CUpdateClientPartner::GetHTTPPage
+2012-10-24 10:29:38 -  - TIME GetUpdatesList(request) 1.029 sec
+2012-10-24 10:29:38 -  - exec CUpdateClientPartner::ParseServerData
+2012-10-24 10:29:42 -  - exec CUpdateClientPartner::GetUpdatesList
+2012-10-24 10:29:42 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-10-24 10:29:42 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.2.10&dbv=5.1.41&instm=main%2C11.5.4%2CN%3Bseo%2C11.0.0%2CN%3Bsubscribe%2C11.5.0%2CN%3Bsecurity%2C11.5.1%2CN%3Bsocialservices%2C11.0.1%2CN%3Bblog%2C11.5.3%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C11.5.0%2CN%3Bsearch%2C11.5.0%2CN%3Bclouds%2C11.5.1%2CN%3Bfileman%2C11.5.5%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C11.5.0%2CN%3Bforum%2C11.5.0%2CN%3Bperfmon%2C11.0.4%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C11.0.1%2CN%3Bform%2C11.5.0%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Bdenisoft.shareyandex%2C1.0.0%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Cdenisoft.shareyandex
+2012-10-24 10:29:42 -  - exec CUpdateClientPartner::GetHTTPPage
+2012-10-24 10:29:43 -  - TIME GetUpdatesList(request) 0.534 sec
+2012-10-24 10:29:43 -  - exec CUpdateClientPartner::ParseServerData
+2012-10-24 10:29:43 -  - exec CUpdateClientPartner::GetUpdatesList
+2012-10-24 10:29:43 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-10-24 10:29:43 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.2.10&dbv=5.1.41&instm=main%2C11.5.4%2CN%3Bseo%2C11.0.0%2CN%3Bsubscribe%2C11.5.0%2CN%3Bsecurity%2C11.5.1%2CN%3Bsocialservices%2C11.0.1%2CN%3Bblog%2C11.5.3%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C11.5.0%2CN%3Bsearch%2C11.5.0%2CN%3Bclouds%2C11.5.1%2CN%3Bfileman%2C11.5.5%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C11.5.0%2CN%3Bforum%2C11.5.0%2CN%3Bperfmon%2C11.0.4%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C11.0.1%2CN%3Bform%2C11.5.0%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Bdenisoft.shareyandex%2C1.0.0%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Cdenisoft.shareyandex
+2012-10-24 10:29:43 -  - exec CUpdateClientPartner::GetHTTPPage
+2012-10-24 10:29:43 -  - TIME GetUpdatesList(request) 0.234 sec
+2012-10-24 10:29:43 -  - exec CUpdateClientPartner::ParseServerData
+2012-10-24 10:29:48 -  - exec CUpdateClientPartner::GetUpdatesList
+2012-10-24 10:29:48 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-10-24 10:29:48 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.2.10&dbv=5.1.41&instm=main%2C11.5.4%2CN%3Bseo%2C11.0.0%2CN%3Bsubscribe%2C11.5.0%2CN%3Bsecurity%2C11.5.1%2CN%3Bsocialservices%2C11.0.1%2CN%3Bblog%2C11.5.3%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C11.5.0%2CN%3Bsearch%2C11.5.0%2CN%3Bclouds%2C11.5.1%2CN%3Bfileman%2C11.5.5%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C11.5.0%2CN%3Bforum%2C11.5.0%2CN%3Bperfmon%2C11.0.4%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C11.0.1%2CN%3Bform%2C11.5.0%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Bdenisoft.shareyandex%2C1.0.0%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Cdenisoft.shareyandex
+2012-10-24 10:29:48 -  - exec CUpdateClientPartner::GetHTTPPage
+2012-10-24 10:29:49 -  - TIME GetUpdatesList(request) 0.531 sec
+2012-10-24 10:29:49 -  - exec CUpdateClientPartner::ParseServerData
+2012-10-24 10:29:49 -  - exec CUpdateClientPartner::GetUpdatesList
+2012-10-24 10:29:49 -  - exec CUpdateClientPartner::__CollectRequestData
+2012-10-24 10:29:49 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.2.10&dbv=5.1.41&instm=main%2C11.5.4%2CN%3Bseo%2C11.0.0%2CN%3Bsubscribe%2C11.5.0%2CN%3Bsecurity%2C11.5.1%2CN%3Bsocialservices%2C11.0.1%2CN%3Bblog%2C11.5.3%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C11.5.0%2CN%3Bsearch%2C11.5.0%2CN%3Bclouds%2C11.5.1%2CN%3Bfileman%2C11.5.5%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C11.5.0%2CN%3Bforum%2C11.5.0%2CN%3Bperfmon%2C11.0.4%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C11.0.1%2CN%3Bform%2C11.5.0%2CN%3Btsoft.menuelements%2C0.0.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements
+2012-10-24 10:29:49 -  - exec CUpdateClientPartner::GetHTTPPage
+2012-10-24 10:29:49 -  - TIME GetUpdatesList(request) 0.617 sec
+2012-10-24 10:29:49 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:24:17 -  - exec CUpdateClientPartner::GetUpdatesList
+2013-05-30 17:24:17 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:24:17 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Casd.iblock
+2013-05-30 17:24:17 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:24:17 -  - TIME GetUpdatesList(request) 0.509 sec
+2013-05-30 17:24:17 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:24:54 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:24:54 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:24:54 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN&reqm=asd.iblock&lim=Y
+2013-05-30 17:24:54 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:24:55 -  - TIME LoadModulesUpdates(request) 0.595 sec
+2013-05-30 17:24:55 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:24:55 - LMU01 - LoadModulesUpdates-Step
+2013-05-30 17:24:55 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:24:55 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:24:55 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:24:56 - DOWNLOAD - Time - 0.61312699317932 sec
+2013-05-30 17:24:56 -  - exec CUpdateClientPartner::UnGzipArchive
+2013-05-30 17:24:56 -  - TIME UnGzipArchive 0.003 sec
+2013-05-30 17:24:56 -  - TIME UpdateStepModules 0.006 sec
+2013-05-30 17:24:56 - UPD_SUCCESS - Updated: asd.iblock
+2013-05-30 17:24:56 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:24:56 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:24:56 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C1.3.1%2CN&reqm=asd.iblock&lim=Y
+2013-05-30 17:24:56 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:24:56 -  - TIME LoadModulesUpdates(request) 0.244 sec
+2013-05-30 17:24:56 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:24:56 - LMU01 - LoadModulesUpdates-Step
+2013-05-30 17:24:57 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:24:57 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:24:57 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:24:57 - DOWNLOAD - Time - 0.21644616127014 sec
+2013-05-30 17:24:57 -  - exec CUpdateClientPartner::UnGzipArchive
+2013-05-30 17:24:57 -  - TIME UnGzipArchive 0.001 sec
+2013-05-30 17:24:57 -  - TIME UpdateStepModules 0.001 sec
+2013-05-30 17:24:57 - UPD_SUCCESS - Updated: asd.iblock (1.3.2)<br>- Корректировка для обновления 11.0.5 главного модуля.
+2013-05-30 17:24:57 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:24:57 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:24:57 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C1.3.2%2CN&reqm=asd.iblock&lim=Y
+2013-05-30 17:24:57 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:24:57 -  - TIME LoadModulesUpdates(request) 0.229 sec
+2013-05-30 17:24:57 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:24:57 - LMU01 - LoadModulesUpdates-Step
+2013-05-30 17:24:58 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:24:58 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:24:58 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:24:58 - DOWNLOAD - Time - 0.232253074646 sec
+2013-05-30 17:24:58 -  - exec CUpdateClientPartner::UnGzipArchive
+2013-05-30 17:24:58 -  - TIME UnGzipArchive 0.001 sec
+2013-05-30 17:24:58 -  - TIME UpdateStepModules 0.001 sec
+2013-05-30 17:24:58 - UPD_SUCCESS - Updated: asd.iblock (1.3.3)<br>- Исправлено копирование свойства типа HTML.
+2013-05-30 17:24:58 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:24:58 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:24:58 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C1.3.3%2CN&reqm=asd.iblock&lim=Y
+2013-05-30 17:24:58 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:24:59 -  - TIME LoadModulesUpdates(request) 0.297 sec
+2013-05-30 17:24:59 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:24:59 - LMU01 - LoadModulesUpdates-Step
+2013-05-30 17:24:59 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:24:59 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:24:59 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:24:59 - DOWNLOAD - Time - 0.40461087226868 sec
+2013-05-30 17:24:59 -  - exec CUpdateClientPartner::UnGzipArchive
+2013-05-30 17:24:59 -  - TIME UnGzipArchive 0.001 sec
+2013-05-30 17:24:59 - CSURUS1 - Run updater '/bitrix/updates/update_m1369920299/asd.iblock/updater1.3.5.php'
+2013-05-30 17:24:59 -  - TIME UpdateStepModules 0.001 sec
+2013-05-30 17:24:59 - UPD_SUCCESS - Updated: asd.iblock (1.3.5)<br>- Добавлен вывод ошибок при копировании/перемещении.
+2013-05-30 17:25:00 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:25:00 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:25:00 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C1.3.5%2CN&reqm=asd.iblock&lim=Y
+2013-05-30 17:25:00 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:25:00 -  - TIME LoadModulesUpdates(request) 0.782 sec
+2013-05-30 17:25:00 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:25:00 - LMU01 - LoadModulesUpdates-Step
+2013-05-30 17:25:01 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:25:01 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:25:01 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:25:02 - DOWNLOAD - Time - 1.1379680633545 sec
+2013-05-30 17:25:02 -  - exec CUpdateClientPartner::UnGzipArchive
+2013-05-30 17:25:02 -  - TIME UnGzipArchive 0.032 sec
+2013-05-30 17:25:02 - CSURUS1 - Run updater '/bitrix/updates/update_m1369920302/asd.iblock/updater2.0.0.php'
+2013-05-30 17:25:02 -  - TIME UpdateStepModules 0.007 sec
+2013-05-30 17:25:02 - UPD_SUCCESS - Updated: asd.iblock (2.0.0)<br>- Добавлена возможность импорта/экспорта свойств инфоблока (кнопка находится на панели инструментов на странице редактирования инфоблока). - Изменена структура классов модуля.
+2013-05-30 17:25:02 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:25:02 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:25:02 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C2.0.0%2CN&reqm=asd.iblock&lim=Y
+2013-05-30 17:25:02 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:25:03 -  - TIME LoadModulesUpdates(request) 0.972 sec
+2013-05-30 17:25:03 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:25:03 - LMU01 - LoadModulesUpdates-Step
+2013-05-30 17:25:04 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:25:04 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:25:04 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:25:04 - DOWNLOAD - Time - 0.45691013336182 sec
+2013-05-30 17:25:04 -  - exec CUpdateClientPartner::UnGzipArchive
+2013-05-30 17:25:04 -  - TIME UnGzipArchive 0.001 sec
+2013-05-30 17:25:04 -  - TIME UpdateStepModules 0.002 sec
+2013-05-30 17:25:04 - UPD_SUCCESS - Updated: asd.iblock (2.0.1)<br>- Обратная интерфейсная совместимость.
+2013-05-30 17:25:04 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:25:04 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:25:05 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C2.0.1%2CN&reqm=asd.iblock&lim=Y
+2013-05-30 17:25:05 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:25:05 -  - TIME LoadModulesUpdates(request) 0.271 sec
+2013-05-30 17:25:05 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:25:05 - LMU01 - LoadModulesUpdates-Step
+2013-05-30 17:25:05 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:25:05 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:25:05 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:25:06 - DOWNLOAD - Time - 0.4112811088562 sec
+2013-05-30 17:25:06 -  - exec CUpdateClientPartner::UnGzipArchive
+2013-05-30 17:25:06 -  - TIME UnGzipArchive 0.002 sec
+2013-05-30 17:25:06 -  - TIME UpdateStepModules 0.003 sec
+2013-05-30 17:25:06 - UPD_SUCCESS - Updated: asd.iblock (2.0.2)<br>- Исправления для импорта в инфоблок без свойств.
+2013-05-30 17:25:06 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:25:06 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:25:06 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C2.0.2%2CN&reqm=asd.iblock&lim=Y
+2013-05-30 17:25:06 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:25:06 -  - TIME LoadModulesUpdates(request) 0.258 sec
+2013-05-30 17:25:06 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:25:07 - LMU01 - LoadModulesUpdates-Step
+2013-05-30 17:25:08 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:25:08 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:25:08 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:25:08 - DOWNLOAD - Time - 0.26877808570862 sec
+2013-05-30 17:25:08 -  - exec CUpdateClientPartner::UnGzipArchive
+2013-05-30 17:25:08 -  - TIME UnGzipArchive 0.001 sec
+2013-05-30 17:25:08 -  - TIME UpdateStepModules 0.002 sec
+2013-05-30 17:25:08 - UPD_SUCCESS - Updated: asd.iblock (2.0.4)<br>- Незначительные изменения.
+2013-05-30 17:25:08 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:25:08 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:25:08 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C2.0.4%2CN&reqm=asd.iblock&lim=Y
+2013-05-30 17:25:08 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:25:09 -  - TIME LoadModulesUpdates(request) 0.2 sec
+2013-05-30 17:25:09 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:25:09 - LMU01 - LoadModulesUpdates-Step
+2013-05-30 17:25:09 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:25:09 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:25:09 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:25:09 - DOWNLOAD - Time - 0.23777389526367 sec
+2013-05-30 17:25:09 -  - exec CUpdateClientPartner::UnGzipArchive
+2013-05-30 17:25:09 -  - TIME UnGzipArchive 0.002 sec
+2013-05-30 17:25:09 -  - TIME UpdateStepModules 0.003 sec
+2013-05-30 17:25:09 - UPD_SUCCESS - Updated: asd.iblock (2.0.5)<br>- Исправление для неуникальных кодов вариантов списка в пределах одного инфоблока.
+2013-05-30 17:25:09 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:25:09 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:25:10 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C2.0.5%2CN&reqm=asd.iblock&lim=Y
+2013-05-30 17:25:10 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:25:10 -  - TIME LoadModulesUpdates(request) 0.27 sec
+2013-05-30 17:25:10 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:25:10 - LMU01 - LoadModulesUpdates-Step
+2013-05-30 17:25:10 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:25:10 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:25:10 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:25:11 - DOWNLOAD - Time - 0.80037117004395 sec
+2013-05-30 17:25:11 -  - exec CUpdateClientPartner::UnGzipArchive
+2013-05-30 17:25:11 -  - TIME UnGzipArchive 0.002 sec
+2013-05-30 17:25:11 - CSURUS1 - Run updater '/bitrix/updates/update_m1369920311/asd.iblock/updater2.0.7.php'
+2013-05-30 17:25:11 -  - TIME UpdateStepModules 0.004 sec
+2013-05-30 17:25:11 - UPD_SUCCESS - Updated: asd.iblock (2.0.7)<br>- Jquery теперь подключается системно. 
+2013-05-30 17:25:11 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:25:11 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:25:11 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C2.0.7%2CN&reqm=asd.iblock&lim=Y
+2013-05-30 17:25:11 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:25:12 -  - TIME LoadModulesUpdates(request) 0.666 sec
+2013-05-30 17:25:12 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:25:12 - LMU01 - LoadModulesUpdates-Step
+2013-05-30 17:25:12 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:25:12 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:25:12 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:25:13 - DOWNLOAD - Time - 0.70829486846924 sec
+2013-05-30 17:25:13 -  - exec CUpdateClientPartner::UnGzipArchive
+2013-05-30 17:25:13 -  - TIME UnGzipArchive 0.035 sec
+2013-05-30 17:25:13 - CSURUS1 - Run updater '/bitrix/updates/update_m1369920313/asd.iblock/updater3.0.0.php'
+2013-05-30 17:25:13 -  - TIME UpdateStepModules 0.01 sec
+2013-05-30 17:25:13 - UPD_SUCCESS - Updated: asd.iblock (3.0.0)<br><ul> <li>Реализована полная поддержка каталога (цены, остатки). За посильную помощь спасибо Василию Бернгардту. </li> <li>Добавлена опция \"Отвязать от текущего раздела\". </li> <li>Добавлена возможность копировать/перемещать в конкретный раздел инфоблока.</li> <li>Добавлен новый тип свойств \"Простой чекбокс\".</li> <li>В карточке товара добавлена кнопка \"посмотреть в публичной части\".</li> <li>Реализован выбор свойств для экспорта, прибран формат XML, файл экспорта теперь сохраняется на диске, перед отдачей.</li> <li>Теперь символьный код проверяется на уникальность, и если таковой нет, создает ее, дополняя случайными числами. Необходимо для инфоблоков, где символьный код является частью URL. </li> <li>Более корректное подключение скриптов и библиотек.</li> <li>Исправлена ошибка с копированием/перемещением элементов (не копировалось свойство типа \"список\").</li> <li>Косметические изменения в коде инсталятора.</li> <li>Подробнее: http://dev.1c-bitrix.ru/community/webdev/user/11948/blog/7272/</li> </ul>
+2013-05-30 17:25:13 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:25:13 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:25:13 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.0.0%2CN&reqm=asd.iblock&lim=Y
+2013-05-30 17:25:13 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:25:14 -  - TIME LoadModulesUpdates(request) 0.274 sec
+2013-05-30 17:25:14 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:25:14 - LMU01 - LoadModulesUpdates-Step
+2013-05-30 17:25:14 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:25:14 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:25:14 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:25:14 - DOWNLOAD - Time - 0.33900594711304 sec
+2013-05-30 17:25:14 -  - exec CUpdateClientPartner::UnGzipArchive
+2013-05-30 17:25:14 -  - TIME UnGzipArchive 0.002 sec
+2013-05-30 17:25:14 - CSURUS1 - Run updater '/bitrix/updates/update_m1369920314/asd.iblock/updater3.0.1.php'
+2013-05-30 17:25:14 -  - TIME UpdateStepModules 0.003 sec
+2013-05-30 17:25:14 - UPD_SUCCESS - Updated: asd.iblock (3.0.1)<br>- Незначительные исправления.
+2013-05-30 17:25:15 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:25:15 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:25:15 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.0.1%2CN&reqm=asd.iblock&lim=Y
+2013-05-30 17:25:15 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:25:15 -  - TIME LoadModulesUpdates(request) 0.245 sec
+2013-05-30 17:25:15 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:25:15 - LMU01 - LoadModulesUpdates-Step
+2013-05-30 17:25:15 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:25:15 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:25:15 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:25:16 - DOWNLOAD - Time - 0.23644089698792 sec
+2013-05-30 17:25:16 -  - exec CUpdateClientPartner::UnGzipArchive
+2013-05-30 17:25:16 -  - TIME UnGzipArchive 0.001 sec
+2013-05-30 17:25:16 - CSURUS1 - Run updater '/bitrix/updates/update_m1369920316/asd.iblock/updater3.0.2.php'
+2013-05-30 17:25:16 -  - TIME UpdateStepModules 0.002 sec
+2013-05-30 17:25:16 - UPD_SUCCESS - Updated: asd.iblock (3.0.2)<br>- Автоматическое создание обработчика типа свойства при установленном модуле.
+2013-05-30 17:25:16 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:25:16 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:25:16 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.0.2%2CN&reqm=asd.iblock&lim=Y
+2013-05-30 17:25:16 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:25:16 -  - TIME LoadModulesUpdates(request) 0.22 sec
+2013-05-30 17:25:16 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:25:16 - LMU01 - LoadModulesUpdates-Step
+2013-05-30 17:25:16 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:25:16 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:25:16 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:25:17 - DOWNLOAD - Time - 0.30749297142029 sec
+2013-05-30 17:25:17 -  - exec CUpdateClientPartner::UnGzipArchive
+2013-05-30 17:25:17 -  - TIME UnGzipArchive 0.007 sec
+2013-05-30 17:25:17 - CSURUS1 - Run updater '/bitrix/updates/update_m1369920317/asd.iblock/updater3.1.0.php'
+2013-05-30 17:25:17 -  - TIME UpdateStepModules 0.005 sec
+2013-05-30 17:25:17 - UPD_SUCCESS - Updated: asd.iblock (3.1.0)<br>- Тип свойства \"Простой чекбокс\" разделен на числовой и строковый типы. - Добавлена возможность настройки принимаемых значений простого чекбокса.
+2013-05-30 17:25:17 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:25:17 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:25:17 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.1.0%2CN&reqm=asd.iblock&lim=Y
+2013-05-30 17:25:17 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:25:18 -  - TIME LoadModulesUpdates(request) 0.453 sec
+2013-05-30 17:25:18 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:25:18 - LMU01 - LoadModulesUpdates-Step
+2013-05-30 17:25:18 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:25:18 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:25:18 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:25:18 - DOWNLOAD - Time - 0.69448184967041 sec
+2013-05-30 17:25:18 -  - exec CUpdateClientPartner::UnGzipArchive
+2013-05-30 17:25:18 -  - TIME UnGzipArchive 0.003 sec
+2013-05-30 17:25:18 - CSURUS1 - Run updater '/bitrix/updates/update_m1369920318/asd.iblock/updater3.5.0.php'
+2013-05-30 17:25:18 -  - TIME UpdateStepModules 0.004 sec
+2013-05-30 17:25:19 - UPD_SUCCESS - Updated: asd.iblock (3.5.0)<br>- Добавлены пользовательские свойства инфоблоков: http://dev.1c-bitrix.ru/community/webdev/user/11948/blog/7307/
+2013-05-30 17:25:19 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:25:19 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:25:19 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.0%2CN&reqm=asd.iblock&lim=Y
+2013-05-30 17:25:19 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:25:19 -  - TIME LoadModulesUpdates(request) 0.544 sec
+2013-05-30 17:25:19 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:25:19 - LMU01 - LoadModulesUpdates-Step
+2013-05-30 17:25:20 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:25:20 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:25:20 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:25:20 - DOWNLOAD - Time - 0.22518801689148 sec
+2013-05-30 17:25:20 -  - exec CUpdateClientPartner::UnGzipArchive
+2013-05-30 17:25:20 -  - TIME UnGzipArchive 0.001 sec
+2013-05-30 17:25:20 - CSURUS1 - Run updater '/bitrix/updates/update_m1369920320/asd.iblock/updater3.5.1.php'
+2013-05-30 17:25:20 -  - TIME UpdateStepModules 0.003 sec
+2013-05-30 17:25:20 - UPD_SUCCESS - Updated: asd.iblock (3.5.1)<br>- Мелкие изменения.
+2013-05-30 17:25:20 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:25:20 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:25:20 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.1%2CN&reqm=asd.iblock&lim=Y
+2013-05-30 17:25:20 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:25:21 -  - TIME LoadModulesUpdates(request) 0.238 sec
+2013-05-30 17:25:21 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:25:21 - LMU01 - LoadModulesUpdates-Step
+2013-05-30 17:25:21 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:25:21 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:25:21 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:25:22 - DOWNLOAD - Time - 0.75677490234375 sec
+2013-05-30 17:25:22 -  - exec CUpdateClientPartner::UnGzipArchive
+2013-05-30 17:25:22 -  - TIME UnGzipArchive 0.002 sec
+2013-05-30 17:25:22 - CSURUS1 - Run updater '/bitrix/updates/update_m1369920322/asd.iblock/updater3.5.2.php'
+2013-05-30 17:25:22 -  - TIME UpdateStepModules 0.004 sec
+2013-05-30 17:25:22 - UPD_SUCCESS - Updated: asd.iblock (3.5.2)<br>- Исправление ошибки копирования в списке при уникальности символьного кода. 
+2013-05-30 17:25:22 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:25:22 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:25:22 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.2%2CN&reqm=asd.iblock&lim=Y
+2013-05-30 17:25:22 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:25:22 -  - TIME LoadModulesUpdates(request) 0.248 sec
+2013-05-30 17:25:22 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:25:22 - STEP - Finish - NOUPDATES
+2013-05-30 17:25:22 - STEP - Finish - NOUPDATES
+2013-05-30 17:26:11 -  - exec CUpdateClientPartner::GetUpdatesList
+2013-05-30 17:26:11 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:26:11 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.2%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Casd.iblock&fullmoduleinfo=Y
+2013-05-30 17:26:11 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:26:11 -  - TIME GetUpdatesList(request) 0.58 sec
+2013-05-30 17:26:11 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:26:15 -  - exec CUpdateClientPartner::GetUpdatesList
+2013-05-30 17:26:15 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:26:15 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.2%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Casd.iblock&fullmoduleinfo=Y
+2013-05-30 17:26:15 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:26:15 -  - TIME GetUpdatesList(request) 0.64 sec
+2013-05-30 17:26:15 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:26:40 -  - exec CUpdateClientPartner::GetUpdatesList
+2013-05-30 17:26:40 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:26:40 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.2%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Casd.iblock%2Cimyie.littleadmin
+2013-05-30 17:26:40 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:26:41 -  - TIME GetUpdatesList(request) 0.575 sec
+2013-05-30 17:26:41 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:26:46 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:26:46 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:26:46 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.2%2CN&reqm=imyie.littleadmin&lim=Y
+2013-05-30 17:26:46 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:26:47 -  - TIME LoadModulesUpdates(request) 0.475 sec
+2013-05-30 17:26:47 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:26:47 - LMU01 - LoadModulesUpdates-Step
+2013-05-30 17:26:47 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:26:47 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:26:47 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:26:48 - DOWNLOAD - Time - 0.54650712013245 sec
+2013-05-30 17:26:48 -  - exec CUpdateClientPartner::UnGzipArchive
+2013-05-30 17:26:48 -  - TIME UnGzipArchive 0.009 sec
+2013-05-30 17:26:48 -  - TIME UpdateStepModules 0.006 sec
+2013-05-30 17:26:48 - UPD_SUCCESS - Updated: imyie.littleadmin
+2013-05-30 17:26:48 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:26:48 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:26:48 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.2%2CN%3Bimyie.littleadmin%2C1.0.0%2CN&reqm=imyie.littleadmin&lim=Y
+2013-05-30 17:26:48 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:26:48 -  - TIME LoadModulesUpdates(request) 0.204 sec
+2013-05-30 17:26:48 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:26:48 - LMU01 - LoadModulesUpdates-Step
+2013-05-30 17:26:49 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:26:49 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:26:49 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:26:49 - DOWNLOAD - Time - 0.32243800163269 sec
+2013-05-30 17:26:49 -  - exec CUpdateClientPartner::UnGzipArchive
+2013-05-30 17:26:49 -  - TIME UnGzipArchive 0.001 sec
+2013-05-30 17:26:49 - CSURUS1 - Run updater '/bitrix/updates/update_m1369920409/imyie.littleadmin/updater1.0.1.php'
+2013-05-30 17:26:49 -  - TIME UpdateStepModules 0.002 sec
+2013-05-30 17:26:49 - UPD_SUCCESS - Updated: imyie.littleadmin (1.0.1)<br>* Исправлен некорретный отступ в админке, под горизонтальной панельзю
+2013-05-30 17:26:49 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:26:49 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:26:49 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.2%2CN%3Bimyie.littleadmin%2C1.0.1%2CN&reqm=imyie.littleadmin&lim=Y
+2013-05-30 17:26:49 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:26:50 -  - TIME LoadModulesUpdates(request) 0.561 sec
+2013-05-30 17:26:50 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:26:50 - LMU01 - LoadModulesUpdates-Step
+2013-05-30 17:26:50 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:26:50 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:26:50 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:26:50 - DOWNLOAD - Time - 0.2598659992218 sec
+2013-05-30 17:26:50 -  - exec CUpdateClientPartner::UnGzipArchive
+2013-05-30 17:26:50 -  - TIME UnGzipArchive 0.003 sec
+2013-05-30 17:26:50 - CSURUS1 - Run updater '/bitrix/updates/update_m1369920410/imyie.littleadmin/updater1.1.0.php'
+2013-05-30 17:26:50 -  - TIME UpdateStepModules 0.005 sec
+2013-05-30 17:26:50 - UPD_SUCCESS - Updated: imyie.littleadmin (1.1.0)<br>* Упрощаем жизнь контент-менеджеру: на страницу отображения элементова инфоблока добавлены 2 кнопки: \"Добавить элемент\" и \"Добавить раздел\" (не в всплывающем окошке)
+2013-05-30 17:26:51 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:26:51 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:26:51 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.2%2CN%3Bimyie.littleadmin%2C1.1.0%2CN&reqm=imyie.littleadmin&lim=Y
+2013-05-30 17:26:51 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:26:51 -  - TIME LoadModulesUpdates(request) 0.256 sec
+2013-05-30 17:26:51 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:26:51 - LMU01 - LoadModulesUpdates-Step
+2013-05-30 17:26:51 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:26:51 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:26:51 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:26:52 - DOWNLOAD - Time - 0.30707788467407 sec
+2013-05-30 17:26:52 -  - exec CUpdateClientPartner::UnGzipArchive
+2013-05-30 17:26:52 -  - TIME UnGzipArchive 0.004 sec
+2013-05-30 17:26:52 - CSURUS1 - Run updater '/bitrix/updates/update_m1369920412/imyie.littleadmin/updater1.2.0.php'
+2013-05-30 17:26:52 -  - TIME UpdateStepModules 0.006 sec
+2013-05-30 17:26:52 - UPD_SUCCESS - Updated: imyie.littleadmin (1.2.0)<br>* Появились настройки: Настройка отступов в списках Настройка отступов на странице редактирования Размеры полей для ввода текста Возможность отключить добавление кнопок И другие
+2013-05-30 17:26:52 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:26:52 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:26:52 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.2%2CN%3Bimyie.littleadmin%2C1.2.0%2CN&reqm=imyie.littleadmin&lim=Y
+2013-05-30 17:26:52 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:26:52 -  - TIME LoadModulesUpdates(request) 0.197 sec
+2013-05-30 17:26:52 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:26:53 - LMU01 - LoadModulesUpdates-Step
+2013-05-30 17:26:53 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:26:53 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:26:53 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:26:54 - DOWNLOAD - Time - 0.57823300361633 sec
+2013-05-30 17:26:54 -  - exec CUpdateClientPartner::UnGzipArchive
+2013-05-30 17:26:54 -  - TIME UnGzipArchive 0.001 sec
+2013-05-30 17:26:54 - CSURUS1 - Run updater '/bitrix/updates/update_m1369920414/imyie.littleadmin/updater1.2.1.php'
+2013-05-30 17:26:54 -  - TIME UpdateStepModules 0.002 sec
+2013-05-30 17:26:54 - UPD_SUCCESS - Updated: imyie.littleadmin (1.2.1)<br>* Исправлена ошибка, при которой выпадающие списки с множественным выбором сужались до слишком малого размера
+2013-05-30 17:26:54 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2013-05-30 17:26:54 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:26:54 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.2%2CN%3Bimyie.littleadmin%2C1.2.1%2CN&reqm=imyie.littleadmin&lim=Y
+2013-05-30 17:26:54 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:26:58 -  - TIME LoadModulesUpdates(request) 4.017 sec
+2013-05-30 17:26:58 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:26:58 - STEP - Finish - NOUPDATES
+2013-05-30 17:26:58 - STEP - Finish - NOUPDATES
+2013-05-30 17:27:00 -  - exec CUpdateClientPartner::GetUpdatesList
+2013-05-30 17:27:00 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:27:00 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.2%2CN%3Bimyie.littleadmin%2C1.2.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Casd.iblock%2Cimyie.littleadmin&fullmoduleinfo=Y
+2013-05-30 17:27:00 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:27:01 -  - TIME GetUpdatesList(request) 0.798 sec
+2013-05-30 17:27:01 -  - exec CUpdateClientPartner::ParseServerData
+2013-05-30 17:27:04 -  - exec CUpdateClientPartner::GetUpdatesList
+2013-05-30 17:27:04 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-05-30 17:27:04 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.2%2CN%3Bimyie.littleadmin%2C1.2.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Casd.iblock%2Cimyie.littleadmin&fullmoduleinfo=Y
+2013-05-30 17:27:04 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-05-30 17:27:05 -  - TIME GetUpdatesList(request) 0.851 sec
+2013-05-30 17:27:05 -  - exec CUpdateClientPartner::ParseServerData
+2013-12-18 16:28:35 -  - exec CUpdateClientPartner::GetUpdatesList
+2013-12-18 16:28:35 -  - exec CUpdateClientPartner::__CollectRequestData
+2013-12-18 16:28:35 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.2%2CN%3Bimyie.littleadmin%2C1.2.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Casd.iblock%2Cimyie.littleadmin%2Czingaya.zingayacall
+2013-12-18 16:28:35 -  - exec CUpdateClientPartner::GetHTTPPage
+2013-12-18 16:28:35 -  - TIME GetUpdatesList(request) 0.548 sec
+2013-12-18 16:28:35 -  - exec CUpdateClientPartner::ParseServerData
+2014-09-25 16:25:52 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-09-25 16:25:52 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-09-25 16:25:52 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.2%2CN%3Bimyie.littleadmin%2C1.2.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Casd.iblock%2Cimyie.littleadmin&fullmoduleinfo=Y
+2014-09-25 16:25:52 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-09-25 16:25:53 -  - TIME GetUpdatesList(request) 0.403 sec
+2014-09-25 16:25:53 -  - exec CUpdateClientPartner::ParseServerData
+2014-09-25 16:25:55 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-09-25 16:25:55 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-09-25 16:25:55 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.2%2CN%3Bimyie.littleadmin%2C1.2.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Casd.iblock%2Cimyie.littleadmin&fullmoduleinfo=Y
+2014-09-25 16:25:55 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-09-25 16:25:55 -  - TIME GetUpdatesList(request) 0.261 sec
+2014-09-25 16:25:55 -  - exec CUpdateClientPartner::ParseServerData
+2014-09-25 16:26:00 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-09-25 16:26:00 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-09-25 16:26:00 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.2%2CN%3Bimyie.littleadmin%2C1.2.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Casd.iblock%2Cimyie.littleadmin&fullmoduleinfo=Y
+2014-09-25 16:26:00 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-09-25 16:26:00 -  - TIME GetUpdatesList(request) 0.251 sec
+2014-09-25 16:26:00 -  - exec CUpdateClientPartner::ParseServerData
+2014-09-25 16:26:02 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-09-25 16:26:02 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-09-25 16:26:02 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.2%2CN%3Bimyie.littleadmin%2C1.2.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Casd.iblock%2Cimyie.littleadmin&fullmoduleinfo=Y
+2014-09-25 16:26:02 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-09-25 16:26:02 -  - TIME GetUpdatesList(request) 0.368 sec
+2014-09-25 16:26:02 -  - exec CUpdateClientPartner::ParseServerData
+2014-09-25 16:26:04 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-09-25 16:26:04 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-09-25 16:26:04 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.2%2CN%3Bimyie.littleadmin%2C1.2.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Casd.iblock%2Cimyie.littleadmin&fullmoduleinfo=Y
+2014-09-25 16:26:04 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-09-25 16:26:04 -  - TIME GetUpdatesList(request) 0.266 sec
+2014-09-25 16:26:04 -  - exec CUpdateClientPartner::ParseServerData
+2014-09-25 16:31:49 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-09-25 16:31:49 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-09-25 16:31:49 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.2%2CN%3Bimyie.littleadmin%2C1.2.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Casd.iblock%2Cimyie.littleadmin&fullmoduleinfo=Y
+2014-09-25 16:31:49 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-09-25 16:31:49 -  - TIME GetUpdatesList(request) 0.24 sec
+2014-09-25 16:31:49 -  - exec CUpdateClientPartner::ParseServerData
+2014-09-25 16:32:26 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-09-25 16:32:26 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-09-25 16:32:26 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.2%2CN%3Bimyie.littleadmin%2C1.2.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Casd.iblock%2Cimyie.littleadmin%2Clol.metrika
+2014-09-25 16:32:26 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-09-25 16:32:26 -  - TIME GetUpdatesList(request) 0.334 sec
+2014-09-25 16:32:26 -  - exec CUpdateClientPartner::ParseServerData
+2014-09-25 16:33:00 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-09-25 16:33:00 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-09-25 16:33:00 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.2%2CN%3Bimyie.littleadmin%2C1.2.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Casd.iblock%2Cimyie.littleadmin&fullmoduleinfo=Y
+2014-09-25 16:33:00 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-09-25 16:33:00 -  - TIME GetUpdatesList(request) 0.233 sec
+2014-09-25 16:33:00 -  - exec CUpdateClientPartner::ParseServerData
+2014-09-25 16:34:10 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-09-25 16:34:10 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-09-25 16:34:10 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.2%2CN%3Bimyie.littleadmin%2C1.2.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Casd.iblock%2Cimyie.littleadmin%2Clol.metrika
+2014-09-25 16:34:10 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-09-25 16:34:10 -  - TIME GetUpdatesList(request) 0.246 sec
+2014-09-25 16:34:10 -  - exec CUpdateClientPartner::ParseServerData
+2014-09-25 16:34:59 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-09-25 16:34:59 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-09-25 16:34:59 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.1.41&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.2%2CN%3Bimyie.littleadmin%2C1.2.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Casd.iblock%2Cimyie.littleadmin%2Clol.metrika
+2014-09-25 16:34:59 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-09-25 16:34:59 -  - TIME GetUpdatesList(request) 0.26 sec
+2014-09-25 16:34:59 -  - exec CUpdateClientPartner::ParseServerData
+2016-05-06 12:07:44 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-05-06 12:07:44 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-05-06 12:07:44 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.6.25&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.2%2CN%3Bimyie.littleadmin%2C1.2.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Casd.iblock%2Cimyie.littleadmin%2Cscrollup.bxd
+2016-05-06 12:07:44 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-05-06 12:07:44 -  - TIME GetUpdatesList(request) 0.352 sec
+2016-05-06 12:07:44 -  - exec CUpdateClientPartner::ParseServerData
+2016-05-06 13:37:40 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-05-06 13:37:40 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-05-06 13:37:40 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.6.25&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.2%2CN%3Bimyie.littleadmin%2C1.2.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Casd.iblock%2Cimyie.littleadmin
+2016-05-06 13:37:40 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-05-06 13:37:44 -  - TIME GetUpdatesList(request) 3.563 sec
+2016-05-06 13:37:44 -  - exec CUpdateClientPartner::ParseServerData
+2016-05-06 14:37:50 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-05-06 14:37:50 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-05-06 14:37:50 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.6.25&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.2%2CN%3Bimyie.littleadmin%2C1.2.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Casd.iblock%2Cimyie.littleadmin%2Conelabkz.telephone
+2016-05-06 14:37:50 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-05-06 14:37:50 -  - TIME GetUpdatesList(request) 0.252 sec
+2016-05-06 14:37:50 -  - exec CUpdateClientPartner::ParseServerData
+2016-05-23 13:57:17 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-05-23 13:57:17 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-05-23 13:57:17 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.6.25&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.2%2CN%3Bimyie.littleadmin%2C1.2.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Casd.iblock%2Cimyie.littleadmin%2Cbkvsoft.analiticsite
+2016-05-23 13:57:17 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-05-23 13:57:17 -  - TIME GetUpdatesList(request) 0.375 sec
+2016-05-23 13:57:17 -  - exec CUpdateClientPartner::ParseServerData
+2016-05-23 13:57:29 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-05-23 13:57:29 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-05-23 13:57:29 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ippkrudn.ru&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=5.3.13&dbv=5.6.25&instm=main%2C12.5.6%2CN%3Bseo%2C11.5.0%2CN%3Bsubscribe%2C12.5.1%2CN%3Bsecurity%2C12.5.2%2CN%3Bsocialservices%2C12.5.0%2CN%3Bblog%2C12.5.2%2CN%3Bbitrix.sitecorporate%2C11.0.0%2CN%3Biblock%2C12.5.3%2CN%3Bsearch%2C12.5.1%2CN%3Bclouds%2C12.5.0%2CN%3Bfileman%2C12.5.1%2CN%3Bcompression%2C11.0.0%2CN%3Bbitrix.sitepersonal%2C11.0.0%2CN%3Bphotogallery%2C12.5.1%2CN%3Bforum%2C12.0.4%2CN%3Bperfmon%2C12.5.0%2CN%3Bbitrix.siteinfoportal%2C11.0.0%2CN%3Bvote%2C12.5.1%2CN%3Bform%2C12.0.1%2CN%3Btsoft.menuelements%2C0.0.1%2CN%3Btranslate%2C12.0.1%2CN%3Bbitrixcloud%2C12.5.1%2CN%3Bmobileapp%2C12.5.2%2CN%3Basd.iblock%2C3.5.2%2CN%3Bimyie.littleadmin%2C1.2.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.sitepersonal%2Cbitrix.siteinfoportal%2Ctsoft.menuelements%2Casd.iblock%2Cimyie.littleadmin&fullmoduleinfo=Y
+2016-05-23 13:57:29 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-05-23 13:57:29 -  - TIME GetUpdatesList(request) 0.288 sec
+2016-05-23 13:57:29 -  - exec CUpdateClientPartner::ParseServerData

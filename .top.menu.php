@@ -1,0 +1,53 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Об институте", 
+		"/about/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Профессиональная переподготовка", 
+		"/learning/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Повышение квалификации", 
+		"/short/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Мастер-классы", 
+		"/actions/master-class/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Документы", 
+		"/entrance/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новости", 
+		"/news/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"/contacts/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

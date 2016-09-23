@@ -1,0 +1,120 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("feedback");
+?>a.reload
+	{
+		display: inline-block;
+		background: url(/images/refresh.png) left top no-repeat;
+		width: 20px;
+		height: 29px;
+		position: relative;
+		top: 5px;
+		cursor: pointer;
+	}
+
+#phone-form {
+    width: 140px;
+    height: 80px;
+    float: right;
+    position: relative;
+    margin-right: 20px;
+    margin-top: 45px;
+	color: #304D8A;
+    font-size: 16px;
+    font-family: Arial,Verdana,Geneva,sans-serif;
+}
+
+#phone-form div.errors 
+{
+	margin-top:5px;
+		width: 300px;
+    margin-left: -160px;
+    text-align: right;
+    font-size: 14px;
+    color: #fb5404;
+}
+
+#phone-form input.number
+{
+	width: 130px;
+	background-color:#E6F1F8;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+		border:none;
+}
+
+#subscribetop_reveal{
+position : fixed;
+top: 50%!important;
+margin-top: -230px !important;
+height:auto;		
+}
+
+#subscribetop_reveal input{
+	width:100%;
+	height: 25px;
+    padding-left: 10px;
+    border: none;
+    border-top: 1px solid #c1c1c1;
+    margin-bottom: 10px;
+	font-size: 15px;
+    line-height: 20px;
+    font-family: arial;
+}
+
+#subscribetop_reveal text-area
+	{
+		width:100%;
+		font-size: 15px;
+		line-height: 20px;
+		font-family: arial;
+	}
+
+#subscribetop_reveal select
+{
+	font-size: 15px;
+    line-height: 20px;
+    font-family: arial;
+	width: 28%;
+    float: right;
+    height: 28px;
+    border: none;
+    border-top: 1px solid #c1c1c1;
+	margin-right: -10px;
+}
+
+
+#subscribetop_reveal label
+{
+	clear: none;
+	width: 100%; 
+	font-size: 15px;
+    line-height: 20px;
+    font-family: arial;
+	margin-top:10px;
+}
+
+input.submit{
+    background: linear-gradient(to top, rgba(82, 127, 200, 1), rgba(30, 95, 203, 1), rgba(22, 87, 195, 1), rgba(36, 99, 203, 1),rgba(55, 119, 224, 1));
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    width: 180px!important;
+    height: 25px;
+    cursor: pointer;
+    font-family: Arial,Verdana,Geneva,sans-serif;
+	margin-top: 10px;
+    margin-left: 0px;
+	border:none;
+}
+
+#phone-form input.submit{
+	width: 140px!important;
+}
+
+
+
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

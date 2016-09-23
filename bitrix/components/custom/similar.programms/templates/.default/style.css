@@ -1,0 +1,17 @@
+.LRelevance 	{
+					color:#0675db;
+					font-size: 22px;
+				}
+				
+.LRelevance_Ref	{
+					color: #4C5461;
+					text-decoration: none;
+					font-size: 17px;
+				}
+				
+.LRelevance_Ref:hover {text-decoration:underline;}
+				
+.LRelevance_Item{
+					margin-top: 10px;
+					margin-left: 5px;
+				}

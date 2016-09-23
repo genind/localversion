@@ -1,0 +1,298 @@
+#wrapper{
+	max-width: 1200px;
+	font-family: serif;
+	color: black;
+	margin:auto;
+}
+
+#wrapper a {
+	color:black;
+	text-decoration:none;
+	cursor:poiner;
+}
+#wrapper a:hover {
+	text-decoration:underline;
+}
+
+#header{
+	border-bottom: 1px solid black;
+	padding-bottom:25px;
+	margin-top: 30px;
+	overflow:auto;
+}
+
+#logo{
+	float:left;
+}
+
+#recall{
+	width: 140px;
+    height: 80px;
+    float: right;
+	margin-right:40px;
+}
+
+#top_contacts{
+	float:right;
+	max-width:250px;
+	text-align:left;
+	margin-right:30px;
+}
+
+#search{
+    max-width: 400px;
+    height: 25px;
+    margin-top: 0px;
+    margin-left: 30px;
+    float: left;
+}
+
+#searchbutton{
+    height: 23px;
+    border: none;
+    width: 23px;
+    display: block;
+    background: no-repeat url("/images/search-transparent.png");
+    cursor: pointer;
+    background-size: cover;
+	position:absolute;
+}
+
+#searchform{
+	display: none;
+	width:23px;
+	position:absolute;
+}
+
+#searchform input{
+	border: none;
+    background: #e8e8e8;
+	padding:5px;
+}
+
+/*###########################################*/
+/* MENU */
+
+#menu {
+	margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+#menu ul {
+    display: table;
+    margin-top: 10px;
+    font-size: 14px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+	padding:0px;
+}
+
+#menu li {
+    list-style-type: disc;
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    max-width: 200px;
+    text-align: center;
+}
+
+#menu a:hover {
+	text-decoration:none;
+}
+
+#menu a:before {
+	position: absolute;
+    bottom: -2px;
+    left: 50%;
+    width: 0;
+    height: 1px;
+    margin-left: 0;
+    background-color: #272B2F;
+    content: "";
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+}
+
+#menu a:hover:before {
+	width: 100%;
+	margin-left: -50%;
+}
+
+#menu ul ul{
+	z-index: 999;
+	position: absolute;
+	display:none;
+	width: 180px;
+	padding: 15px 20px;
+	background-color: rgba(0, 0, 0, 0.81);
+	font-size: 9px;
+	margin-top:10px;
+}
+
+#menu ul ul li {
+	float: none;
+	color:white;
+	padding: 10px 0px 5px 0px;
+	text-align:left;
+}
+
+#menu ul ul a {
+	color: white;
+	position:relative;
+}
+
+#menu ul ul a:before {
+    background-color: white;
+}
+
+#menu ul ul:hover {
+	display:block;
+}
+
+#menu ul li:hover > ul {
+	display: block;
+}
+
+#menu ul ul:before{
+	position: absolute;
+	display: block;
+	top: -10px;
+    left: 0px;
+	width: 100%;
+	height: 10px;
+	content: "";
+}
+
+#main-slider{
+	
+}
+
+#content{
+	
+}
+
+/* ################################################# */
+/* FOOTER */
+
+#footer{
+	border-top: 1px solid black;
+	padding-top: 25px;
+	font-size: 18px;
+}
+
+ul.map-level-0 a {
+	font-weight: bold;
+}
+
+ul.map-level-1 a, ul.map-level-2 a, ul.map-level-3 a {
+	font-weight: normal;
+}
+
+.map-columns td {
+	vertical-align: top;
+}
+
+#bot_contacts{
+	float:right;
+	margin-right: 30px;
+}
+
+#bot_map {
+	float:left;
+}
+
+/* ##################################################### */
+/* CONENT */
+.block {
+	margin-bottom:20px;
+	border-top: 1px solid black;
+}
+
+.block-title {
+	font-size:20px;
+	text-align:left;
+	margin-top:15px;
+	margin-bottom:10px;
+}
+
+.info {
+	width:100%;
+}
+
+.info-left {
+	width:70%;
+	float:left;
+}
+
+.info-right {
+	width:30%;
+	float:right;
+}
+
+.main-gallery {
+	width:100%;
+}
+
+.partners {
+	width:100%;
+}
+
+.pop-curses ul {
+	padding-left: 20px;
+    margin-left: 10%;
+	line-height: 25px;
+}
+
+#carousel_gallery {
+	height:150px;
+}
+
+#carousel_partners {
+	height:150px;
+}
+
+.left_partners_gallery,
+.left_arr_carousel_gallery {
+    background-color: rgba(0, 0, 0, 0.81);
+	z-index: 2;
+    width: 24px;
+    height: 100%;
+    margin: 0px 0px 0 0px;
+    cursor: pointer;
+    position: absolute;
+    padding: 0px;
+    font-weight: bold;
+    top: 0px;
+    left: 0%;
+}
+
+.right_partners_gallery,
+.right_arr_carousel_gallery {
+	background-color: rgba(0, 0, 0, 0.81);
+	z-index: 2;
+    width: 24px;
+    height: 100%;
+    margin: 0px 0px 0 0px;
+    cursor: pointer;
+    position: absolute;
+    padding: 0px;
+    font-weight: bold;
+    top: 0px;
+    right: 0%;
+}
+
+.right_arr, .left_arr {
+	background-color: rgba(0, 0, 0, 0.0);
+    padding-top: 4px;
+    margin-top: -20px;
+    color: rgb(255, 255, 255);
+    font-size: 29px;
+    height: 36px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    top: 50%;
+}

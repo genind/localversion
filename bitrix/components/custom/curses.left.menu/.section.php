@@ -1,0 +1,3 @@
+<?
+$sSectionName="curses.left.memu";
+?>

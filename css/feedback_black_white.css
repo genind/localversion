@@ -1,0 +1,117 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("feedback");
+?>a.reload
+	{
+		display: inline-block;
+		background: url(/images/refresh.png) left top no-repeat;
+		width: 20px;
+		height: 29px;
+		position: relative;
+		top: 5px;
+		cursor: pointer;
+	}
+
+#phone-form {
+
+}
+
+#phone-form div.errors 
+{
+	margin-top:5px;
+}
+
+#phone-form input.number
+{
+    width: 130px;
+    background-color: #e8e8e8;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    border: none;
+    border-radius: 10px;
+    height: 20px;
+}
+
+#phone-form input.submit{
+	    background-color: black;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: none;
+}
+
+#subscribetop_reveal{
+position : fixed;
+top: 50%!important;
+margin-top: -230px !important;
+height:auto;		
+}
+
+#subscribetop_reveal input{
+	width:100%;
+	height: 25px;
+    padding-left: 10px;
+    border: none;
+    border-top: 1px solid #c1c1c1;
+    margin-bottom: 10px;
+	font-size: 15px;
+    line-height: 20px;
+    font-family: arial;
+}
+
+#subscribetop_reveal text-area
+	{
+		width:100%;
+		font-size: 15px;
+		line-height: 20px;
+		font-family: arial;
+	}
+
+#subscribetop_reveal select
+{
+	font-size: 15px;
+    line-height: 20px;
+    font-family: arial;
+	width: 28%;
+    float: right;
+    height: 28px;
+    border: none;
+    border-top: 1px solid #c1c1c1;
+	margin-right: -10px;
+}
+
+
+#subscribetop_reveal label
+{
+	clear: none;
+	width: 100%; 
+	font-size: 15px;
+    line-height: 20px;
+    font-family: arial;
+	margin-top:10px;
+}
+
+input.submit{
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: none;
+}
+
+
+
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

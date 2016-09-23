@@ -1,0 +1,4 @@
+mail() on [/home/f/freshmate/ipk.radia.ru/public_html/bitrix/modules/main/tools.php:4864]: To: hosting_test@bitrix.ru -- Headers: 
+mail() on [/home/f/freshmate/ipk.radia.ru/public_html/bitrix/modules/main/tools.php:4864]: To: hosting_test@bitrix.ru -- Headers: 
+mail() on [/home/f/freshmate/ipk.radia.ru/public_html/bitrix/modules/main/admin/site_checker.php:1148]: To: hosting_test@bitrixsoft.com -- Headers: 
+mail() on [/home/f/freshmate/ipk.radia.ru/public_html/bitrix/modules/main/admin/site_checker.php:1148]: To: hosting_test@bitrixsoft.com -- Headers: BCC: noreply@bitrixsoft.com
