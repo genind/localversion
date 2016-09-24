@@ -1443,3 +1443,10 @@ eds-httpd.exe: Syntax error on line 62 of C:/Program Files (x86)/EasyPHP-DevServ
 [Fri Sep 23 15:42:18.144779 2016] [core:notice] [pid 7960:tid 396] AH00094: Command line: 'C:\\LOCALV~1\\EASYPH~1.1VC\\binaries\\apache\\bin\\eds-httpd.exe -d C:/localversion/EasyPHP-DevServer-14.1VC11/binaries/apache'
 [Fri Sep 23 15:42:18.144779 2016] [mpm_winnt:notice] [pid 7960:tid 396] AH00418: Parent: Created child process 4216
 [Fri Sep 23 15:42:18.441658 2016] [mpm_winnt:notice] [pid 4216:tid 404] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 24 19:18:18.458383 2016] [mpm_winnt:notice] [pid 7960:tid 396] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sat Sep 24 19:18:18.533398 2016] [mpm_winnt:notice] [pid 7960:tid 396] AH00455: Apache/2.4.7 (Win32) PHP/5.5.8 configured -- resuming normal operations
+[Sat Sep 24 19:18:18.533398 2016] [mpm_winnt:notice] [pid 7960:tid 396] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Sat Sep 24 19:18:18.533398 2016] [core:notice] [pid 7960:tid 396] AH00094: Command line: 'C:\\LOCALV~1\\EASYPH~1.1VC\\binaries\\apache\\bin\\eds-httpd.exe -d C:/localversion/EasyPHP-DevServer-14.1VC11/binaries/apache'
+[Sat Sep 24 19:18:18.533398 2016] [mpm_winnt:notice] [pid 7960:tid 396] AH00418: Parent: Created child process 7088
+[Sat Sep 24 19:18:19.460485 2016] [mpm_winnt:notice] [pid 7088:tid 400] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 24 19:18:20.462769 2016] [mpm_winnt:notice] [pid 4216:tid 404] AH00364: Child: All worker threads have exited.
