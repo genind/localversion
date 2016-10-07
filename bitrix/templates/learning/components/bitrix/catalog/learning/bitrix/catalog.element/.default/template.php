@@ -84,7 +84,7 @@
 ?>
         	<h1><? echo $arResult["NAME"];
           ?></h1>
-	<p style="margin-top:-20px; margin-right:-30px; text-align:right"><a href="/onlinerequest/" data-reveal-id="subscribetop_reveal" id="subscribetop" style="width:150px;">ОСТАВИТЬ ЗАЯВКУ</a><hr style="height:1px; color:#c4ced7;" /></p>
+	<p style="margin-top:-20px; margin-right:-30px; text-align:right"><a href="/onlinerequest/" data-reveal-id="subscribetop_reveal" id="subscribetop" style="width:150px;">РћРЎРўРђР’РРўР¬ Р—РђРЇР’РљРЈ</a><hr style="height:1px; color:#c4ced7;" /></p>
 			<?if (!empty($arResult["DETAIL_TEXT"])):?>
                         <p>
 			 <p>
@@ -99,13 +99,13 @@
 </pre>
 
 <?if (!empty($arResult["PROPERTIES"]["PRICE_STR"]["VALUE"])):?>
-			<div class="text_in_line_wrapper"><div class="text_in_line_content">СТОИМОСТЬ ПРОГРАММЫ</div></div>
+			<div class="text_in_line_wrapper"><div class="text_in_line_content">РЎРўРћРРњРћРЎРўР¬ РџР РћР“Р РђРњРњР«</div></div>
 			<?if(!empty($arResult["PROPERTIES"]["DISCOUNTS"]["VALUE"])){?>
 				<?foreach($arResult["PROPERTIES"]["PRICE_STR"]["VALUE"] as $PRC){?>
 					<div style="font-size:20px;text-align:center;">
 					<div style="text-decoration:line-through;display:inline;"><?=$PRC?></div>
 					<div style="display:inline; background: url(/images/ruble.gif) no-repeat;background-size: contain;background-position: 50% 45%;color: rgba(255, 255, 255, 0);">p</div>
-					цена со скидкой: <?=current($arResult["PROPERTIES"]["DISCOUNTS"]["VALUE"])?>
+					С†РµРЅР° СЃРѕ СЃРєРёРґРєРѕР№: <?=current($arResult["PROPERTIES"]["DISCOUNTS"]["VALUE"])?>
 					<?next($arResult["PROPERTIES"]["DISCOUNTS"]["VALUE"])?>
 					<div style="display:inline; background: url(/images/ruble.gif) no-repeat;background-size: contain;background-position: 50% 45%;color: rgba(255, 255, 255, 0);">p</div>
 					</div>
@@ -132,9 +132,9 @@
 	if ($VOLUME>9) {$L2D = substr($VOLUME,-2);}
 	if(!empty($VOLUME))
 	{ 
-		if ($LD==1) {$VOL=' академический час)';} 
-		if ( ($LD<5) and ($LD>1)) {$VOL=' академических часа)';} 
-		if ((($L2D>10) and ($L2D<15)) or (($LD>4)and($LD<10)) or  ($LD==0)) {$VOL=' академических часов)';}
+		if ($LD==1) {$VOL=' Р°РєР°РґРµРјРёС‡РµСЃРєРёР№ С‡Р°СЃ)';} 
+		if ( ($LD<5) and ($LD>1)) {$VOL=' Р°РєР°РґРµРјРёС‡РµСЃРєРёС… С‡Р°СЃР°)';} 
+		if ((($L2D>10) and ($L2D<15)) or (($LD>4)and($LD<10)) or  ($LD==0)) {$VOL=' Р°РєР°РґРµРјРёС‡РµСЃРєРёС… С‡Р°СЃРѕРІ)';}
 	}
 $VOL = '( <b>'. $VOLUME.'</b>' . $VOL;
 	?>
@@ -142,42 +142,42 @@ $VOL = '( <b>'. $VOLUME.'</b>' . $VOL;
 
 <?$DUR=$arResult["PROPERTIES"]["DURATION"]["VALUE"]?>
 <?if (!empty($DUR)):?>
-	<div class="text_in_line_wrapper"><div class="text_in_line_content">ДЛИТЕЛЬНОСТЬ ПРОГРАММЫ</div></div>
+	<div class="text_in_line_wrapper"><div class="text_in_line_content">Р”Р›РРўР•Р›Р¬РќРћРЎРўР¬ РџР РћР“Р РђРњРњР«</div></div>
 	<?
 	$DURM=explode('-',$DUR);
 	$MD = max($DURM[0],$DURM[1]);
 	$MD = str_replace(',','.',$MD);
 	$LD =  substr( $MD, -1);
-	$MTH='мес.';
-	if ( $LD==1 ) {$MTH= 'месяц';}
-	if ( ($LD<5) and ($LD>1) ) {$MTH='месяца';} 
-	if ( ($LD>4) and ($LD<=9) ) {$MTH='месяцев';}
-	if ( ($MD<2) and ($MD>1) ) {$MTH='месяца';} 
-	if ($DUR==0.5){$MTH="недели"; $DUR="2";} 
-	if ($DUR==0.75){$MTH="недели"; $DUR="3";}
-	if ($DUR==0.25){$MTH="неделя"; $DUR="1";}
+	$MTH='РјРµСЃ.';
+	if ( $LD==1 ) {$MTH= 'РјРµСЃСЏС†';}
+	if ( ($LD<5) and ($LD>1) ) {$MTH='РјРµСЃСЏС†Р°';} 
+	if ( ($LD>4) and ($LD<=9) ) {$MTH='РјРµСЃСЏС†РµРІ';}
+	if ( ($MD<2) and ($MD>1) ) {$MTH='РјРµСЃСЏС†Р°';} 
+	if ($DUR==0.5){$MTH="РЅРµРґРµР»Рё"; $DUR="2";} 
+	if ($DUR==0.75){$MTH="РЅРµРґРµР»Рё"; $DUR="3";}
+	if ($DUR==0.25){$MTH="РЅРµРґРµР»СЏ"; $DUR="1";}
 	?> 
 
 <?if(!empty($arResult["PROPERTIES"]["DUR_DAY"]["VALUE"])){
-		$MTH="дней"; 
+		$MTH="РґРЅРµР№"; 
 		$DUR=$arResult["PROPERTIES"]["DUR_DAY"]["VALUE"] ;  
-		if( $DUR%10==1 ){$MTH="день";} 
-		if( ($DUR%10<5) and ($DUR%10>1)){$MTH="дня";}
+		if( $DUR%10==1 ){$MTH="РґРµРЅСЊ";} 
+		if( ($DUR%10<5) and ($DUR%10>1)){$MTH="РґРЅСЏ";}
 	}?>
 <p style="font-size:20px;text-align:center;">
 	<b><?=$DUR?></b> <?=$MTH .' '.$VOL?>
 <p>
 <?endif?>
 
-<div class="text_in_line_wrapper"><div class="text_in_line_content">ВЫДАВАЕМЫЙ ДОКУМЕНТ</div></div>
+<div class="text_in_line_wrapper"><div class="text_in_line_content">Р’Р«Р”РђР’РђР•РњР«Р™ Р”РћРљРЈРњР•РќРў</div></div>
 <?if (!empty($arResult["DISPLAY_PROPERTIES"]["DOCUMENT"]["~VALUE"]["TEXT"])){?>
 			<p style="font-size:20px;text-align:center;"><?=$arResult["DISPLAY_PROPERTIES"]["DOCUMENT"]["~VALUE"]["TEXT"]?></p>
 <?}else{?>
 	<?if($arResult["PROPERTIES"]["VOLUME"]["VALUE"]>=256){?>
-		<p style="font-size:20px;text-align:center;">Диплом РУДН / Сертификат РУДН (для лиц со средним общим образованием)</p>
+		<p style="font-size:20px;text-align:center;">Р”РёРїР»РѕРј Р РЈР”Рќ / РЎРµСЂС‚РёС„РёРєР°С‚ Р РЈР”Рќ (РґР»СЏ Р»РёС† СЃРѕ СЃСЂРµРґРЅРёРј РѕР±С‰РёРј РѕР±СЂР°Р·РѕРІР°РЅРёРµРј)</p>
 	<?}?>
 	<?if($arResult["PROPERTIES"]["VOLUME"]["VALUE"]<256){?>
-		<p style="font-size:20px;text-align:center;">Удостоверение РУДН о повышении квалификации</p>
+		<p style="font-size:20px;text-align:center;">РЈРґРѕСЃС‚РѕРІРµСЂРµРЅРёРµ Р РЈР”Рќ Рѕ РїРѕРІС‹С€РµРЅРёРё РєРІР°Р»РёС„РёРєР°С†РёРё</p>
 	<?}?>
 <?}?>
 
@@ -206,18 +206,18 @@ $VOL = '( <b>'. $VOLUME.'</b>' . $VOL;
 
 
 
-<div class="text_in_line_wrapper"><div class="text_in_line_content">РЕЖИМ ОБУЧЕНИЯ</div></div>
+<div class="text_in_line_wrapper"><div class="text_in_line_content">Р Р•Р–РРњ РћР‘РЈР§Р•РќРРЇ</div></div>
 <?if (!empty($arResult["DISPLAY_PROPERTIES"]["FORM"]["~VALUE"]["TEXT"])){?>
 	<p class="text_courses"><?=$arResult["DISPLAY_PROPERTIES"]["FORM"]["~VALUE"]["TEXT"]?></p>
 <?}else{?>
 	<p class="text_courses">
-		Слушатели могут выбрать удобный для себя график обучения:  
+		РЎР»СѓС€Р°С‚РµР»Рё РјРѕРіСѓС‚ РІС‹Р±СЂР°С‚СЊ СѓРґРѕР±РЅС‹Р№ РґР»СЏ СЃРµР±СЏ РіСЂР°С„РёРє РѕР±СѓС‡РµРЅРёСЏ:В  
 		<br />
-		 - вечерняя группа  
+		 - РІРµС‡РµСЂРЅСЏСЏ РіСЂСѓРїРїР°В  
 		<br />
-		 - группа выходного дня 
+		 - РіСЂСѓРїРїР° РІС‹С…РѕРґРЅРѕРіРѕ РґРЅСЏ 
 		<br />
-		 - интенсив
+		 - РёРЅС‚РµРЅСЃРёРІ
 	</p>
 <?}?>
 
@@ -225,12 +225,12 @@ $VOL = '( <b>'. $VOLUME.'</b>' . $VOL;
 
 
 <?if (!empty($arResult["DISPLAY_PROPERTIES"]["PROGRAMM"]["~VALUE"]["TEXT"])):?>
-			<div class="text_in_line_wrapper"><div class="text_in_line_content">ПРОГРАММА ОБУЧЕНИЯ</div></div>
+			<div class="text_in_line_wrapper"><div class="text_in_line_content">РџР РћР“Р РђРњРњРђ РћР‘РЈР§Р•РќРРЇ</div></div>
 			<p class="text_courses"><?=$arResult["DISPLAY_PROPERTIES"]["PROGRAMM"]["~VALUE"]["TEXT"]?></p>
 <?endif?>
 
 <div align="right">
-	<p style="margin-top:10px; margin-left:-20px;float:left;width:100%;"><a href="/onlinerequest/" data-reveal-id="subscribetop_reveal" id="subscribetop" style="width:150px;">ОСТАВИТЬ ЗАЯВКУ</a></p>
+	<p style="margin-top:10px; margin-left:-20px;float:left;width:100%;"><a href="/onlinerequest/" data-reveal-id="subscribetop_reveal" id="subscribetop" style="width:150px;">РћРЎРўРђР’РРўР¬ Р—РђРЇР’РљРЈ</a></p>
 </div>
 
 
@@ -242,7 +242,7 @@ if(!empty($relevance[0])){?>
 	margin-bottom: 25px;
 	margin-left: -5px;
 	margin-right: 0px;">
-	<div class="LRelevance_Bot">Вам также будут интересны:</div>
+	<div class="LRelevance_Bot">Р’Р°Рј С‚Р°РєР¶Рµ Р±СѓРґСѓС‚ РёРЅС‚РµСЂРµСЃРЅС‹:</div>
 	<?foreach($relevance as $item){
 		$buff = CIBlockElement::GetList(Array(),Array('ID'=>$item,'IBLOCK_ID'=>4),false,false,Array('DETAIL_PAGE_URL','NAME'));
 		while($ob=$buff->getNext()){?>
@@ -255,7 +255,7 @@ if(!empty($relevance[0])){?>
 
 <?if (!empty($arResult["PROPERTIES"]["TEACHERS"]["VALUE"])):?>
 			<br/>
-			<div class="text_in_line_wrapper"><div class="text_in_line_content">ПРЕПОДАВАТЕЛИ</div></div>
+			<div class="text_in_line_wrapper"><div class="text_in_line_content">РџР Р•РџРћР”РђР’РђРўР•Р›Р</div></div>
                         <?$j=0;?>
 			<?foreach($arResult["PROPERTIES"]["TEACHERS"]["VALUE"] as $arPrep):?>
 						<br/>

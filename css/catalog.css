@@ -1,0 +1,274 @@
+.catalog-section-left{
+	width:30%;
+	float:left;
+	padding-top: 35px;
+}
+
+.catalog-section-right{
+	width:70%;
+	float:left;
+	padding-top: 27px;
+}
+
+.catalog-element-left{
+	width:30%;
+	float:left;
+	padding-top: 35px;
+}
+
+.catalog-element-right{
+	width:70%;
+	float:left;
+	padding-top: 35px;
+}
+
+.course {
+	width:100%;
+	max-width: 600px;
+	margin-bottom:5%;
+}
+
+.course .name {
+    font-size: 20px;
+    display: block;
+    padding: 10px 0% 10px 0%;
+    margin: 0% 0% 10px 0%;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    border-bottom: solid 1px black;
+}
+
+
+
+.preview_picture {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.preview_text {
+	text-align:justify;
+}
+
+.preview_picture img{
+	width:100%;
+}
+
+.new {
+	
+}
+
+.hitword {
+	background: none repeat scroll 0% 0% #21A46E;
+	text-align: center;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: bold;
+	box-shadow: 3px 2px 6px #000;
+	display: inline;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.properties {
+	margin-top: 10px;
+    width: 50%;
+    letter-spacing: 0px;
+}
+
+.properties .right-part {
+	display: inline-block;
+}
+
+.properties .right-part2 {
+    display: block;
+    margin-left: 50%;
+    padding-left: 0.4em;
+}
+
+.properties .code{
+	display: inline-block;
+    width: 50%;
+    text-align: right;
+	font-weight: bold;
+}
+
+
+.ruble { height: 12px; }
+ 
+.price .value {
+	font-weight: bold;
+    color: rgb(175, 22, 35);
+    font-size: 17px;
+    display: inline;
+}
+
+.duration .value {	
+	font-weight: bold;
+	color: rgb(35, 47, 210);
+	font-size: 18px;
+	display: inline;
+}
+
+.duration .mnth {
+	display: inline;
+}
+
+.discount-value	{
+	margin: 0px;
+	padding: 1px;
+	padding-left: 5px;
+	background: rgb(33, 164, 110);
+	color: rgb(255, 255, 255);
+	font-weight: normal;
+	box-shadow: 1px 1px 2px #000000;
+	//text-shadow: 0px 0px 1px black;
+}
+
+#wrapper .course a:hover.button {
+	background-color: rgba(12, 9, 33, 0.46);
+}
+#wrapper .course a.button {
+    background-color: rgb(0, 0, 0);
+    border-radius: 0px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 115px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    display: block;
+    float: right;
+    position: relative;
+    margin: -24px 0% 0% 0%;
+}
+
+
+#tree {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0px 7% 0px 0px;
+    list-style-type: none;
+	padding: 0px;
+}
+#tree li{
+	margin: 8px 0px 8px 0px;
+    font-size: 12px;
+}
+
+#tree .sub_tree  {
+padding: 5% 1% 5% 10%;
+    background-color: rgba(0, 0, 0, 0.81);
+    margin-top: 0px;
+    margin: 1% 0% 0% 7%;
+    list-style-type: disc;
+    display: none;
+}
+
+#tree .active .sub_tree  {
+	display:block;
+}
+
+#tree li.current .section-name {
+	
+}
+
+#tree li.current .section-name a {
+	color: white;
+    padding-right: 10%;
+    padding-left: 5%;
+    position: relative;
+    left: -5%;
+    background-color: rgba(0, 0, 0, 0.81);
+}
+
+#tree .sub_tree li {
+    float: none;
+    color: white;
+    padding: 10px 15px 15px 0px;
+	margin: 0px 0px 0px 0px;
+    text-align: left;
+	position:relative;
+	font-size: 10px;
+}
+
+#tree .sub_tree li a {
+    color: white;
+    position: relative;
+}
+
+#tree .sub_tree a:hover {
+    text-decoration:none;
+}
+
+#tree .sub_tree a:hover:before{
+    width: 100%;
+    margin-left: -50%;
+}
+
+#tree .sub_tree a:before{
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    width: 0;
+    height: 1px;
+    margin-left: 0;
+    background-color: #ffffff;
+    content: "";
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+}
+
+
+.program_description .title {
+	font-size: 30px;
+    border-bottom: solid 1px black;
+    padding-bottom: 5px;
+}
+
+.program_description .section .title {
+	border-bottom: solid 2px rgb(0, 0, 0);
+    margin: 40px 0px 20px 0px;
+    text-transform: uppercase;
+	font-size: 16px;
+}
+
+.teacher {
+    width: 100%;
+    margin: 3% 0px 5% 0px;
+    clear: both;
+    min-height: 150px;
+	display: table;
+	max-width:600px;
+}
+
+.teacher .photo {
+    width: 130px;
+    height: 130px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 50%;
+	float:left;
+	display: table-cell;
+    vertical-align: middle
+}
+
+.teacher .description{
+    padding: 0px 0px 5% 5%;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.teacher .description .name {
+	text-transform: uppercase;
+	margin: 0px 0px 10px 0px;
+	display:block;
+}

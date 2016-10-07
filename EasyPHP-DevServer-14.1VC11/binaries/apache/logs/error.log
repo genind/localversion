@@ -1450,3 +1450,65 @@ eds-httpd.exe: Syntax error on line 62 of C:/Program Files (x86)/EasyPHP-DevServ
 [Sat Sep 24 19:18:18.533398 2016] [mpm_winnt:notice] [pid 7960:tid 396] AH00418: Parent: Created child process 7088
 [Sat Sep 24 19:18:19.460485 2016] [mpm_winnt:notice] [pid 7088:tid 400] AH00354: Child: Starting 64 worker threads.
 [Sat Sep 24 19:18:20.462769 2016] [mpm_winnt:notice] [pid 4216:tid 404] AH00364: Child: All worker threads have exited.
+[Sat Sep 24 19:44:14.661924 2016] [core:warn] [pid 10576:tid 564] AH00098: pid file C:/localversion/EasyPHP-DevServer-14.1VC11/binaries/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Sep 24 19:44:14.689942 2016] [mpm_winnt:notice] [pid 10576:tid 564] AH00455: Apache/2.4.7 (Win32) PHP/5.5.8 configured -- resuming normal operations
+[Sat Sep 24 19:44:14.689942 2016] [mpm_winnt:notice] [pid 10576:tid 564] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Sat Sep 24 19:44:14.689942 2016] [core:notice] [pid 10576:tid 564] AH00094: Command line: 'C:\\LOCALV~1\\EASYPH~1.1VC\\binaries\\apache\\bin\\eds-httpd.exe -d C:/localversion/EasyPHP-DevServer-14.1VC11/binaries/apache'
+[Sat Sep 24 19:44:14.695410 2016] [mpm_winnt:notice] [pid 10576:tid 564] AH00418: Parent: Created child process 7468
+[Sat Sep 24 19:44:15.261149 2016] [mpm_winnt:notice] [pid 7468:tid 616] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 24 21:47:55.061949 2016] [mpm_winnt:notice] [pid 10576:tid 564] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 24 21:47:57.093288 2016] [mpm_winnt:notice] [pid 7468:tid 616] AH00364: Child: All worker threads have exited.
+[Sat Sep 24 21:47:57.124527 2016] [mpm_winnt:notice] [pid 10576:tid 564] AH00430: Parent: Child process 7468 exited successfully.
+[Tue Sep 27 16:21:47.188337 2016] [mpm_winnt:notice] [pid 13288:tid 620] AH00455: Apache/2.4.7 (Win32) PHP/5.5.8 configured -- resuming normal operations
+[Tue Sep 27 16:21:47.204848 2016] [mpm_winnt:notice] [pid 13288:tid 620] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Tue Sep 27 16:21:47.204848 2016] [core:notice] [pid 13288:tid 620] AH00094: Command line: 'C:\\LOCALV~1\\EASYPH~1.1VC\\binaries\\apache\\bin\\eds-httpd.exe -d C:/localversion/EasyPHP-DevServer-14.1VC11/binaries/apache'
+[Tue Sep 27 16:21:47.210853 2016] [mpm_winnt:notice] [pid 13288:tid 620] AH00418: Parent: Created child process 10184
+[Tue Sep 27 16:21:48.085928 2016] [mpm_winnt:notice] [pid 10184:tid 4] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 27 17:42:39.823484 2016] [mpm_winnt:notice] [pid 13288:tid 620] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 27 17:42:41.854814 2016] [mpm_winnt:notice] [pid 10184:tid 4] AH00364: Child: All worker threads have exited.
+[Tue Sep 27 17:42:42.057947 2016] [mpm_winnt:notice] [pid 13288:tid 620] AH00430: Parent: Child process 10184 exited successfully.
+[Thu Sep 29 11:57:46.898134 2016] [mpm_winnt:notice] [pid 11000:tid 188] AH00455: Apache/2.4.7 (Win32) PHP/5.5.8 configured -- resuming normal operations
+[Thu Sep 29 11:57:46.912148 2016] [mpm_winnt:notice] [pid 11000:tid 188] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Sep 29 11:57:46.912148 2016] [core:notice] [pid 11000:tid 188] AH00094: Command line: 'C:\\LOCALV~1\\EASYPH~1.1VC\\binaries\\apache\\bin\\eds-httpd.exe -d C:/localversion/EasyPHP-DevServer-14.1VC11/binaries/apache'
+[Thu Sep 29 11:57:46.926154 2016] [mpm_winnt:notice] [pid 11000:tid 188] AH00418: Parent: Created child process 4904
+[Thu Sep 29 11:57:48.761379 2016] [mpm_winnt:notice] [pid 4904:tid 536] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 04 13:12:56.565723 2016] [core:warn] [pid 5616:tid 572] AH00098: pid file C:/localversion/EasyPHP-DevServer-14.1VC11/binaries/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Oct 04 13:12:57.550152 2016] [mpm_winnt:notice] [pid 5616:tid 572] AH00455: Apache/2.4.7 (Win32) PHP/5.5.8 configured -- resuming normal operations
+[Tue Oct 04 13:12:57.550152 2016] [mpm_winnt:notice] [pid 5616:tid 572] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Tue Oct 04 13:12:57.550152 2016] [core:notice] [pid 5616:tid 572] AH00094: Command line: 'C:\\LOCALV~1\\EASYPH~1.1VC\\binaries\\apache\\bin\\eds-httpd.exe -d C:/localversion/EasyPHP-DevServer-14.1VC11/binaries/apache'
+[Tue Oct 04 13:12:57.550152 2016] [mpm_winnt:notice] [pid 5616:tid 572] AH00418: Parent: Created child process 5176
+[Tue Oct 04 13:12:58.315816 2016] [mpm_winnt:notice] [pid 5176:tid 648] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 04 18:08:07.731198 2016] [:error] [pid 5176:tid 1044] [client 127.0.0.1:57140] PHP Parse error:  syntax error, unexpected '<' in C:\\localversion\\bitrix\\templates\\main\\components\\bitrix\\catalog\\catalog-learning\\bitrix\\catalog.section\\.default\\template.php on line 217, referer: http://127.0.0.1/learning/manager/?bitrix_include_areas=Y&clear_cache=Y
+[Wed Oct 05 13:45:37.563450 2016] [core:warn] [pid 1200:tid 544] AH00098: pid file C:/localversion/EasyPHP-DevServer-14.1VC11/binaries/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Oct 05 13:45:38.704141 2016] [mpm_winnt:notice] [pid 1200:tid 544] AH00455: Apache/2.4.7 (Win32) PHP/5.5.8 configured -- resuming normal operations
+[Wed Oct 05 13:45:38.704141 2016] [mpm_winnt:notice] [pid 1200:tid 544] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Wed Oct 05 13:45:38.704141 2016] [core:notice] [pid 1200:tid 544] AH00094: Command line: 'C:\\LOCALV~1\\EASYPH~1.1VC\\binaries\\apache\\bin\\eds-httpd.exe -d C:/localversion/EasyPHP-DevServer-14.1VC11/binaries/apache'
+[Wed Oct 05 13:45:38.704141 2016] [mpm_winnt:notice] [pid 1200:tid 544] AH00418: Parent: Created child process 4068
+[Wed Oct 05 13:45:39.516677 2016] [mpm_winnt:notice] [pid 4068:tid 512] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 05 16:36:17.944419 2016] [:error] [pid 4068:tid 1080] [client 127.0.0.1:59541] PHP Parse error:  syntax error, unexpected 'case' (T_CASE) in C:\\localversion\\bitrix\\templates\\main\\components\\bitrix\\catalog\\catalog-learning\\bitrix\\catalog.section\\.default\\template.php on line 46, referer: http://127.0.0.1/learning/manager/?bitrix_include_areas=Y
+[Wed Oct 05 16:37:52.196103 2016] [:error] [pid 4068:tid 1080] [client 127.0.0.1:59580] PHP Parse error:  syntax error, unexpected 'case' (T_CASE) in C:\\localversion\\bitrix\\templates\\main\\components\\bitrix\\catalog\\catalog-learning\\bitrix\\catalog.section\\.default\\template.php on line 46, referer: http://127.0.0.1/learning/manager/?bitrix_include_areas=Y&clear_cache=Y
+[Wed Oct 05 16:43:53.980983 2016] [:error] [pid 4068:tid 1076] [client 127.0.0.1:59598] PHP Parse error:  syntax error, unexpected '\t\t\t\t\t\t\t', expecting case (T_CASE) or default (T_DEFAULT) or '}' in C:\\localversion\\bitrix\\templates\\main\\components\\bitrix\\catalog\\catalog-learning\\bitrix\\catalog.section\\.default\\template.php on line 42, referer: http://127.0.0.1/learning/manager/?bitrix_include_areas=Y&clear_cache=Y
+[Wed Oct 05 16:45:06.775394 2016] [:error] [pid 4068:tid 1076] [client 127.0.0.1:59620] PHP Parse error:  syntax error, unexpected '\t\t\t\t\t\t\t', expecting case (T_CASE) or default (T_DEFAULT) or '}' in C:\\localversion\\bitrix\\templates\\main\\components\\bitrix\\catalog\\catalog-learning\\bitrix\\catalog.section\\.default\\template.php on line 42, referer: http://127.0.0.1/learning/manager/?bitrix_include_areas=Y&clear_cache=Y
+[Wed Oct 05 16:46:00.612544 2016] [:error] [pid 4068:tid 1084] [client 127.0.0.1:59638] PHP Parse error:  syntax error, unexpected '\t\t\t\t\t\t\t', expecting case (T_CASE) or default (T_DEFAULT) or '}' in C:\\localversion\\bitrix\\templates\\main\\components\\bitrix\\catalog\\catalog-learning\\bitrix\\catalog.section\\.default\\template.php on line 42, referer: http://127.0.0.1/learning/manager/?bitrix_include_areas=Y&clear_cache=Y
+[Wed Oct 05 16:46:32.606033 2016] [:error] [pid 4068:tid 1068] [client 127.0.0.1:59652] PHP Parse error:  syntax error, unexpected '\t\t\t\t\t\t\t', expecting case (T_CASE) or default (T_DEFAULT) or '}' in C:\\localversion\\bitrix\\templates\\main\\components\\bitrix\\catalog\\catalog-learning\\bitrix\\catalog.section\\.default\\template.php on line 42, referer: http://127.0.0.1/learning/manager/?bitrix_include_areas=Y&clear_cache=Y
+[Wed Oct 05 16:47:26.148480 2016] [:error] [pid 4068:tid 1084] [client 127.0.0.1:59670] PHP Parse error:  syntax error, unexpected '\t\t\t\t\t\t', expecting case (T_CASE) or default (T_DEFAULT) or '}' in C:\\localversion\\bitrix\\templates\\main\\components\\bitrix\\catalog\\catalog-learning\\bitrix\\catalog.section\\.default\\template.php on line 42, referer: http://127.0.0.1/learning/manager/?bitrix_include_areas=Y&clear_cache=Y
+[Wed Oct 05 16:49:42.520596 2016] [:error] [pid 4068:tid 1068] [client 127.0.0.1:59698] PHP Parse error:  syntax error, unexpected '?>', expecting ':' or '{' in C:\\localversion\\bitrix\\templates\\main\\components\\bitrix\\catalog\\catalog-learning\\bitrix\\catalog.section\\.default\\template.php on line 41, referer: http://127.0.0.1/learning/manager/?bitrix_include_areas=Y&clear_cache=Y
+[Thu Oct 06 09:37:43.067723 2016] [core:warn] [pid 8268:tid 620] AH00098: pid file C:/localversion/EasyPHP-DevServer-14.1VC11/binaries/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Oct 06 09:37:44.067746 2016] [mpm_winnt:notice] [pid 8268:tid 620] AH00455: Apache/2.4.7 (Win32) PHP/5.5.8 configured -- resuming normal operations
+[Thu Oct 06 09:37:44.067746 2016] [mpm_winnt:notice] [pid 8268:tid 620] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Oct 06 09:37:44.067746 2016] [core:notice] [pid 8268:tid 620] AH00094: Command line: 'C:\\LOCALV~1\\EASYPH~1.1VC\\binaries\\apache\\bin\\eds-httpd.exe -d C:/localversion/EasyPHP-DevServer-14.1VC11/binaries/apache'
+[Thu Oct 06 09:37:44.067746 2016] [mpm_winnt:notice] [pid 8268:tid 620] AH00418: Parent: Created child process 4636
+[Thu Oct 06 09:37:44.770909 2016] [mpm_winnt:notice] [pid 4636:tid 552] AH00354: Child: Starting 64 worker threads.
+[Thu Oct 06 12:36:40.900467 2016] [:error] [pid 4636:tid 1064] [client 127.0.0.1:62370] PHP Fatal error:  Class 'CIBlock' not found in C:\\localversion\\bitrix\\components\\custom\\curses.left.menu\\.parameters.php on line 5, referer: http://127.0.0.1/learning/manager/?bitrix_include_areas=Y&clear_cache=Y
+[Thu Oct 06 18:22:14.098116 2016] [:error] [pid 4636:tid 1072] [client 127.0.0.1:49428] PHP Fatal error:  Call to undefined function peint_r() in C:\\localversion\\bitrix\\templates\\main\\components\\bitrix\\catalog\\catalog-learning\\element.php on line 4, referer: http://127.0.0.1/learning/manager/upravlenie-personalom/?bitrix_include_areas=Y&clear_cache=Y
+[Thu Oct 06 19:59:30.909539 2016] [:error] [pid 4636:tid 1080] [client 127.0.0.1:50349] PHP Parse error:  syntax error, unexpected ')' in C:\\localversion\\bitrix\\components\\custom\\curses.left.menu\\component.php on line 27, referer: http://127.0.0.1/learning/manager/kadrovoe-deloproizvodstvo-v-sovremennoy-organizatsii/?bitrix_include_areas=Y&clear_cache=Y
+[Thu Oct 06 19:59:56.735624 2016] [:error] [pid 4636:tid 1076] [client 127.0.0.1:50370] PHP Parse error:  syntax error, unexpected ')' in C:\\localversion\\bitrix\\components\\custom\\curses.left.menu\\component.php on line 27, referer: http://127.0.0.1/learning/manager/kadrovoe-deloproizvodstvo-v-sovremennoy-organizatsii/?bitrix_include_areas=Y&clear_cache=Y
+[Thu Oct 06 20:00:09.701479 2016] [:error] [pid 4636:tid 1080] [client 127.0.0.1:50384] PHP Parse error:  syntax error, unexpected ')' in C:\\localversion\\bitrix\\components\\custom\\curses.left.menu\\component.php on line 27, referer: http://127.0.0.1/learning/manager/kadrovoe-deloproizvodstvo-v-sovremennoy-organizatsii/?bitrix_include_areas=Y&clear_cache=Y
+[Fri Oct 07 17:25:48.732391 2016] [mpm_winnt:notice] [pid 8268:tid 620] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 07 17:25:50.735599 2016] [mpm_winnt:notice] [pid 4636:tid 552] AH00364: Child: All worker threads have exited.
+[Fri Oct 07 17:25:51.001004 2016] [mpm_winnt:notice] [pid 8268:tid 620] AH00430: Parent: Child process 4636 exited successfully.
+[Fri Oct 07 17:29:17.156106 2016] [mpm_winnt:notice] [pid 4852:tid 556] AH00455: Apache/2.4.7 (Win32) PHP/5.5.8 configured -- resuming normal operations
+[Fri Oct 07 17:29:17.156106 2016] [mpm_winnt:notice] [pid 4852:tid 556] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Fri Oct 07 17:29:17.156106 2016] [core:notice] [pid 4852:tid 556] AH00094: Command line: 'C:\\LOCALV~1\\EASYPH~1.1VC\\binaries\\apache\\bin\\eds-httpd.exe -d C:/localversion/EasyPHP-DevServer-14.1VC11/binaries/apache'
+[Fri Oct 07 17:29:17.171728 2016] [mpm_winnt:notice] [pid 4852:tid 556] AH00418: Parent: Created child process 3304
+[Fri Oct 07 17:29:17.812386 2016] [mpm_winnt:notice] [pid 3304:tid 580] AH00354: Child: Starting 64 worker threads.

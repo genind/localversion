@@ -3,8 +3,16 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.ph
 $APPLICATION->SetTitle("");
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 ?>
+
+<? 
+	$APPLICATION->IncludeComponent(	"bitrix:breadcrumb","",
+								Array( "START_FROM" => "0", "PATH" => "", "SITE_ID" => "s1" ));
+?>
+
+
+
 <?
-	$APPLICATION->IncludeComponent("bitrix:catalog", "learning", array(
+$APPLICATION->IncludeComponent("bitrix:catalog", "catalog-learning", array(
 	"IBLOCK_TYPE" => "content",
 	"IBLOCK_ID" => "4",
 	"BASKET_URL" => "/personal/basket.php",
@@ -42,12 +50,17 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 	"SECTION_COUNT_ELEMENTS" => "Y",
 	"SECTION_TOP_DEPTH" => "2",
 	"PAGE_ELEMENT_COUNT" => "25",
-	"LINE_ELEMENT_COUNT" => "1",
+	"LINE_ELEMENT_COUNT" => "2",
 	"ELEMENT_SORT_FIELD" => "sort",
 	"ELEMENT_SORT_ORDER" => "asc",
 	"LIST_PROPERTY_CODE" => array(
-		0 => "",
-		1 => "",
+		0 => "START_DATE",
+		1 => "HITWORD",
+		2 => "NEW",
+		3 => "DURATION",
+		4 => "DISCOUNTS",
+		5 => "PRICE_STR",
+		6 => "",
 	),
 	"INCLUDE_SUBSECTIONS" => "N",
 	"LIST_META_KEYWORDS" => "-",

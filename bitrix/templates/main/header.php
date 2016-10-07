@@ -16,6 +16,7 @@
 <link rel="stylesheet" href="/css/carousel.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="/css/main_black_white.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="/css/accordion.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/css/catalog.css" type="text/css" media="screen" />
 
 <script type="text/javascript" src="/js/cufon.js"></script>
 <script type="text/javascript" src="/js/font.js"></script>
@@ -211,7 +212,7 @@ var yaParams = {ipadress: "<?echo $_SERVER['REMOTE_ADDR'];?>"};
   
     <div id="menu">
 		<ul>
-			<li style="list-style-type:none"><a href="/about/">ОБ ИНСТИТУТЕ</a>
+			<li class="first"><a href="/about/">ОБ ИНСТИТУТЕ</a>
 				<ul>
 					<li><a href="/about/">ИСТОРИЯ ИНСТИТУТА</a></li>
 					<li><a href="/about/administration/">АДМИНИСТРАЦИЯ</a></li>
@@ -219,28 +220,42 @@ var yaParams = {ipadress: "<?echo $_SERVER['REMOTE_ADDR'];?>"};
 				</ul>
 			</li>
 			
-			<li><a href="/learning/">НАПРАВЛЕНИЯ ОБУЧЕНИЯ</a>
+			<li><a href="/learning/">ПРОФЕССИОНАЛЬНАЯ ПЕРЕПОДГОТОВКА</a>
 				<ul>
 					<li><a href="/learning/manager/">Менеджемент</a></li>
 					<li><a href="/learning/design/">Дизайн</a></li>
 					<li><a href="/learning/special/">Для работников сферы образования</a></li>
 					<li><a href="/learning/bukhgalterskiy-uchet-i-nalogooblozhenie/">Финансы и бухгалтерский учет</a></li>
 					<li><a href="/learning/languages/">Иностранные языки</a></li>
-					<li><a href="http://127.0.0.1/learning/pr/">PR и реклама</a></li>
-					<li><a href="http://127.0.0.1/learning/turizm/">Туризм</a></li>
-					<li><a href="http://127.0.0.1/learning/yurisprudentsiya/">Юриспруденция</a></li>
-					<li><a href="http://127.0.0.1/learning/psihology/">Психология</a></li>
-					<li><a href="http://127.0.0.1/learning/gosudarstvennoe-i-munitsipalnoe-upravlenie/">
+					<li><a href="/learning/pr/">PR и реклама</a></li>
+					<li><a href="/learning/turizm/">Туризм</a></li>
+					<li><a href="/learning/yurisprudentsiya/">Юриспруденция</a></li>
+					<li><a href="/learning/psihology/">Психология</a></li>
+					<li><a href="/learning/gosudarstvennoe-i-munitsipalnoe-upravlenie/">
 															Государственное и муниципальное управление</a></li>
 				</ul>
 			</li>
 			
-			<li><a href="/short/">КРАТКОСРОЧНЫЕ КУРСЫ</a></li>
+			<li><a href="/short/">ПОВЫШЕНИЕ КВАЛИФИКАЦИИ</a>
+				<ul>
+					<li><a href="/short/manager/">Менеджемент</a></li>
+					<li><a href="/short/design/">Дизайн</a></li>
+					<li><a href="/short/special/">Для работников сферы образования</a></li>
+					<li><a href="/short/bukhgalterskiy-uchet-i-nalogooblozhenie/">Финансы и бухгалтерский учет</a></li>
+					<li><a href="/short/languages/">Иностранные языки</a></li>
+					<li><a href="/short/pr/">PR и реклама</a></li>
+					<li><a href="/short/turizm/">Туризм</a></li>
+					<li><a href="/short/yurisprudentsiya/">Юриспруденция</a></li>
+					<li><a href="/short/psihology/">Психология</a></li>
+					<li><a href="/short/gosudarstvennoe-i-munitsipalnoe-upravlenie/">
+															Государственное и муниципальное управление</a></li>
+				</ul>
+			</li>
 			<li><a href="/actions/master-class/">МАСТЕР-КЛАССЫ</a></li>
 			
 			<li><a href="/entrance/">ДОКУМЕНТЫ</a>
 				<ul>
-					<li><a href="/learning/">ДОГОВОР</a></li>
+					<li><a href="/entrance/">ДОГОВОР</a></li>
 					<li><a href="/entrance/help/">ОБРАЗЦЫ</a></li>
 					<li><a href="/entrance/reviews/">ОТЗЫВЫ</a></li>
 					<li><a href="/entrance/documents/">НОРМАТИВНЫЕ ДОКУМЕНТЫ</a></li>
