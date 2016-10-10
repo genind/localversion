@@ -1,4 +1,4 @@
-#wrapper{
+.wrapper{
     max-width: 1200px;
     font-family: serif;
     color: black;
@@ -8,12 +8,12 @@
     word-spacing: 2px;
 }
 
-#wrapper a {
+.wrapper a {
 	color:black;
 	text-decoration:none;
-	cursor:poiner;
+	cursor:pointer;
 }
-#wrapper a:hover {
+.wrapper a:hover {
 	text-decoration:underline;
 }
 
@@ -126,7 +126,7 @@
     transition-duration: .2s;
 }
 
-#menu a:hover:before {
+#menu ul li.a:hover:before {
 	width: 100%;
 	margin-left: -50%;
 }
@@ -137,7 +137,7 @@
 	display:none;
 	width: 180px;
 	padding: 15px 20px;
-	background-color: rgba(0, 0, 0, 0.81);
+	background-color: #00091d;
 	font-size: 9px;
 	margin-top:10px;
 }
@@ -160,6 +160,14 @@
 
 #menu ul ul:hover {
 	display:block;
+}
+#menu ul ul li {
+	cursor:pointer;
+}
+	
+#menu ul ul li:hover > a:before {
+	width: 100%;
+	margin-left: -50%;
 }
 
 #menu ul li:hover > ul {
@@ -218,15 +226,16 @@ ul.map-level-1 a, ul.map-level-2 a, ul.map-level-3 a {
 /* ##################################################### */
 /* CONENT */
 .block {
-	margin-bottom:20px;
-	border-top: 1px solid black;
+    margin-bottom: 1%;
+    padding-top: 4%;
+    border-top: 1px solid #00091d;
 }
 
 .block-title {
 	font-size:20px;
 	text-align:left;
-	margin-top:15px;
 	margin-bottom:10px;
+	letter-spacing: 4px;
 }
 
 .info {
@@ -267,7 +276,7 @@ ul.map-level-1 a, ul.map-level-2 a, ul.map-level-3 a {
 
 .left_partners_gallery,
 .left_arr_carousel_gallery {
-    background-color: rgba(0, 0, 0, 0.81);
+    background-color: #00091d;
 	z-index: 2;
     width: 24px;
     height: 100%;
@@ -282,7 +291,7 @@ ul.map-level-1 a, ul.map-level-2 a, ul.map-level-3 a {
 
 .right_partners_gallery,
 .right_arr_carousel_gallery {
-	background-color: rgba(0, 0, 0, 0.81);
+	background-color: #00091d;
 	z-index: 2;
     width: 24px;
     height: 100%;

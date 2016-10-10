@@ -29,15 +29,15 @@
 }
 
 .course .name {
-    font-size: 20px;
-    display: block;
-    padding: 10px 0% 10px 0%;
-    margin: 0% 0% 10px 0%;
-    text-align: left;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    position: relative;
-    border-bottom: solid 1px black;
+	font-size: 20px;
+	display: block;
+	padding: 10px 0% 10px 0%;
+	margin: 0% 0% 10px 0%;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	position: relative;
+	border-bottom: solid 1px black;
 }
 
 
@@ -73,8 +73,8 @@
 
 .properties {
 	margin-top: 10px;
-    width: 50%;
-    letter-spacing: 0px;
+	width: 50%;
+	letter-spacing: 0px;
 }
 
 .properties .right-part {
@@ -82,15 +82,15 @@
 }
 
 .properties .right-part2 {
-    display: block;
-    margin-left: 50%;
-    padding-left: 0.4em;
+	display: block;
+	margin-left: 50%;
+	padding-left: 0.4em;
 }
 
 .properties .code{
 	display: inline-block;
-    width: 50%;
-    text-align: right;
+	width: 50%;
+	text-align: right;
 	font-weight: bold;
 }
 
@@ -99,9 +99,9 @@
  
 .price .value {
 	font-weight: bold;
-    color: rgb(175, 22, 35);
-    font-size: 17px;
-    display: inline;
+	color: rgb(175, 22, 35);
+	font-size: 17px;
+	display: inline;
 }
 
 .duration .value {	
@@ -126,49 +126,56 @@
 	//text-shadow: 0px 0px 1px black;
 }
 
-#wrapper .course a:hover.button {
+.course a:hover.button {
 	background-color: rgba(12, 9, 33, 0.46);
 }
-#wrapper .course a.button {
-    background-color: rgb(0, 0, 0);
-    border-radius: 0px;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    width: 115px;
-    height: 24px;
-    font-size: 14px;
-    line-height: 24px;
-    font-family: sans-serif;
-    text-transform: uppercase;
-    cursor: pointer;
-    border: none;
-    display: block;
-    float: right;
-    position: relative;
-    margin: -24px 0% 0% 0%;
+.course a.button {
+	background-color: rgb(0, 0, 0);
+	border-radius: 0px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	width: 115px;
+	height: 24px;
+	font-size: 14px;
+	line-height: 24px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	cursor: pointer;
+	border: none;
+	display: block;
+	float: right;
+	position: relative;
+	margin: -24px 0% 0% 0%;
 }
 
 
+
+/*################################################*/
+/*################################################*/
+/*################### LEFT MENU ##################*/
+/*################################################*/
+/*################################################*/
+
 #tree {
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin: 0px 7% 0px 0px;
-    list-style-type: none;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin: 0px 7% 0px 0px;
+	list-style-type: none;
 	padding: 0px;
 }
 #tree li{
 	margin: 8px 0px 8px 0px;
-    font-size: 12px;
+	font-size: 12px;
 }
 
 #tree .sub_tree  {
 padding: 5% 1% 5% 10%;
-    background-color: rgba(0, 0, 0, 0.81);
-    margin-top: 0px;
-    margin: 1% 0% 0% 7%;
-    list-style-type: disc;
-    display: none;
+	background-color: #00091d;
+	margin-top: 0px;
+	margin: 1% 0% 0% 7%;
+	list-style-type: disc;
+	display: none;
 }
 
 #tree .active .sub_tree  {
@@ -181,90 +188,95 @@ padding: 5% 1% 5% 10%;
 
 #tree li.current .section-name a {
 	color: white;
-    padding-right: 10%;
-    padding-left: 5%;
-    position: relative;
-    left: -5%;
-    background-color: rgba(0, 0, 0, 0.81);
+	padding-right: 10%;
+	padding-left: 5%;
+	position: relative;
+	left: -5%;
+	background-color: #00091d;
 }
 
 #tree .sub_tree li {
-    float: none;
-    color: white;
-    padding: 10px 15px 15px 0px;
+	float: none;
+	color: white;
+	padding: 10px 15px 15px 0px;
 	margin: 0px 0px 0px 0px;
-    text-align: left;
+	text-align: left;
 	position:relative;
 	font-size: 10px;
 }
 
 #tree .sub_tree li a {
-    color: white;
-    position: relative;
+	color: white;
+	position: relative;
 }
 
 #tree .sub_tree a:hover {
-    text-decoration:none;
+	text-decoration:none;
 }
 
 #tree .sub_tree a:hover:before{
-    width: 100%;
-    margin-left: -50%;
+	width: 100%;
+	margin-left: -50%;
 }
 
 #tree .sub_tree a:before{
-    position: absolute;
-    bottom: -2px;
-    left: 50%;
-    width: 0;
-    height: 1px;
-    margin-left: 0;
-    background-color: #ffffff;
-    content: "";
-    -webkit-transition-duration: .2s;
-    transition-duration: .2s;
+	position: absolute;
+	bottom: -2px;
+	left: 50%;
+	width: 0;
+	height: 1px;
+	margin-left: 0;
+	background-color: #ffffff;
+	content: "";
+	-webkit-transition-duration: .2s;
+	transition-duration: .2s;
 }
 
+/*################################################*/
+/*################################################*/
+/*################### ELEMENT ####################*/
+/*################################################*/
+/*################################################*/
 
 .program_description .title {
 	font-size: 30px;
-    border-bottom: solid 1px black;
-    padding-bottom: 5px;
+	border-bottom: solid 1px black;
+	padding-bottom: 5px;
 }
 
 .program_description .section .title {
 	border-bottom: solid 2px rgb(0, 0, 0);
-    margin: 40px 0px 20px 0px;
-    text-transform: uppercase;
+	margin: 40px 0px 20px 0px;
+	text-transform: uppercase;
 	font-size: 16px;
 }
 
 .teacher {
-    width: 100%;
-    margin: 3% 0px 5% 0px;
-    clear: both;
-    min-height: 150px;
+	width: 100%;
+	margin: 3% 0px 5% 0px;
+	clear: both;
+	min-height: 150px;
 	display: table;
 	max-width:600px;
 }
 
 .teacher .photo {
-    width: 130px;
-    height: 130px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    border-radius: 50%;
+	width: 130px;
+	height: 130px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	border-radius: 50%;
 	float:left;
 	display: table-cell;
-    vertical-align: middle
+	vertical-align: middle
 }
 
 .teacher .description{
-    padding: 0px 0px 5% 5%;
-    display: table-cell;
-    vertical-align: middle;
-    width: 100%;
+	padding: 0px 0px 5% 5%;
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
 }
 
 .teacher .description .name {
@@ -272,3 +284,111 @@ padding: 5% 1% 5% 10%;
 	margin: 0px 0px 10px 0px;
 	display:block;
 }
+
+
+/*################################################*/
+/*################################################*/
+/*############## catalog-sections-list ###########*/
+/*################################################*/
+/*################################################*/
+div.catalog-sections-list-top {
+	margin: 5% 5% 5% 5%;
+}
+
+div.catalog-sections-list-top div.title {
+	margin: 0px 0px 10px 0px;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+div.catalog-sections-list-top div.description{
+	margin: 0px 0px 0px 0px;
+	max-width: 800px;
+}
+
+div.catalog-sections-list-bottom {
+	border-top: solid 1px #00091d;
+} 
+
+
+.sections-table {
+	display: table;
+	vertical-align: top;
+	width: 90%;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin: 5% 5% 5% 5%;
+	border-spacing: 20px;
+}
+
+.sections-table .row {
+	display: table-row;
+}
+
+.sections-table .cell {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 33%;
+	background-color: #00091d;
+	height: 50px;
+}
+
+.sections-table .section {
+	padding: 10%;
+	background-color: #00091d;
+	position:relative;
+	cursor:pointer;
+}
+
+.sections-table .section a{
+	color:white;
+	font-size: 12px;
+}
+
+.sections-table .sub_tree  {
+	padding: 5% 5% 5% 10%;
+	background-color: #2b4377;
+	margin: 5% -7% 0% 7%;
+	list-style-type: none;
+	z-index: 5;
+	position: absolute;
+	/*display: none;*/
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.8s, visibility 0s linear 0.8s;
+}
+
+
+.sections-table  .section:hover > .sub_tree {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+	transition-delay: 0s;
+}
+
+.sections-table .sub_tree:before{
+	position: absolute;
+	display: block;
+	top: -10px;
+	left: 0px;
+	width: 100%;
+	height: 10px;
+	content: "";
+}
+
+.sections-table .sub_tree li {
+	float: none;
+	color: white;
+	padding: 10px 15px 15px 0px;
+	margin: 0px 0px 0px 0px;
+	text-align: left;
+	position:relative;
+}
+
+.sections-table .sub_tree li a{
+	color: white;
+	position: relative;
+	font-size: 11px;
+}
+

@@ -215,27 +215,68 @@ $APPLICATION->SetTitle("Институт повышения квалификации и переподготовки кадров 
 </div> <!-- block -->
 
 <div class="block">
+	<div class="dyrections">
+		<div class="row">
+		<div class="cell">
+			<div class="title">Профессиональная переподготовка</div>
+			<div class="description">Вид дополнительного профессионального образования, который позволяет в кратчайшие сроки освоить новую профессию. По завершению обучения выдается Диплом РУДН о профессиональной переподготовке с присвоением квалификации. Диплом о профессиональной переподготовке удостоверяет право на ведение новой профессиональной деятельности</div>
+		</div>
+		<div class="cell">		
+			<div class="title">Повышение квалификации</div>
+			<div class="description">Вид дополнительного профессионального образования, который позволяет повысить уровень Вашей квалификации: теоретических знаний, практических навыков и умений. По завершению обучения выдается Удостоверение РУДН о повышении квалификации в определенной профессиональной сфере деятельности.</div>
+		</div>
+		<div class="cell">				
+			<div class="title">Тренинги</div>
+			<div class="description">Вид дополнительного образования, направленный на развитие профессиональных и личностных навыков и умений. Проводится в активной и сложной форме в короткие сроки. По окончанию обучения выдается Удостоверение РУДН о повышении квалификации или Сертификат ИППК РУДН о прохождении тренинговой программы. </div>
+		</div>
+		</div>
+	</div>
+</div>
+
+<div class="block">
 	<div class="block-title">УЧЕБА В ИНСТИТУТЕ  - ЭТО:</div>
-	<table style="font-style: oblique; margin-top: 30px; margin-bottom: 30px;">
-		<tbody>
-			<tr>
-				<td style="text-align: center; font-style: normal; font-size: 17px; font-family: sans-serif;">
-					<div style="">Учебный раздаточный материал изучаемого курса</div>
-				</td>
-				<td style="text-align: center; font-style: normal; font-size: 17px; font-family: sans-serif;">
-					<div style="">Доступ ко всем видео-урокам</div>
-				</td>
-				<td style="text-align: center; font-style: normal; font-size: 17px; font-family: sans-serif;">
-					<div style="">Бесплатная консультация с одним из преподавателей Института</div>
-				</td>
-			</tr>
-			<tr style="text-align: center;   word-spacing: 4px; line-height: 25px;">
-				<td style="padding: 10px 30px 10px 35px;">Весь учебный раздаточный материал Вам предоставляется от Института и уже входит в стоимость обучения</td>
-				<td style="padding: 10px 10px 0px 0px;">В подарок от нашего Института Вы получаете доступ ко всем видео-урокам наших специалистов самых различных направлений</td>
-				<td style="padding: 10px 60px 0px 0px;">Независимо от выбора направления обучения, Вам предоставляется возможность получить консультацию с одним из преподавателей Института следующих направлений: HR, PR, Финансы</td>
-			</tr>
-		</tbody>
-	</table>
+		<div class="advantages">
+			<div class="row1">
+				<div  class="cell">
+					<div style="background-image:url(/images/advantages/image1.png);"></div>
+				</div>
+				<div  class="cell">
+					<div style="background-image:url(/images/advantages/image2.jpeg);"></div>
+				</div>
+				<div  class="cell">
+					<div style="background-image:url(/images/advantages/image3.jpeg);"></div>
+				</div>
+				<div  class="cell">
+					<div style="background-image:url(/images/advantages/image4.png);"></div>
+				</div>
+				<div  class="cell">
+					<div style="background-image:url(/images/advantages/image5.jpeg);"></div>
+				</div>
+				<div  class="cell">
+					<div style="background-image:url(/images/advantages/image6.jpeg);"></div>
+				</div>
+			</div>
+			<div class="row2">
+				<div  class="cell">
+					<div>Лицензия на ведение образовательной деятельности №</div>
+				</div>
+				<div  class="cell">
+					<div>Разработка программ под заказ для корпоративных клиентов</div>
+				</div>
+				<div  class="cell">
+					<div>Дистанционная форма обучения по программам переподготовки</div>
+				</div>
+				<div  class="cell">
+					<div>Перезачет  часов по программе на Диплом Переводчика</div>
+				</div>
+				<div  class="cell">
+					<div>Раздаточный учебный материал по каждой из программ</div>
+				</div>
+				<div  class="cell">
+					<div>Более 15 направлений  и 150 программ обучения</div>
+				</div>
+			</div>
+		</div>
 </div>
 
 

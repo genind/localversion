@@ -61,16 +61,16 @@ $arUrlRewrite = array(
 		"PATH"	=>	"/programms/index.php",
 	),
 	array(
-		"CONDITION"	=>	"#^/learning/#",
-		"RULE"	=>	"",
-		"ID"	=>	"bitrix:catalog",
-		"PATH"	=>	"/learning/index.php",
-	),
-	array(
 		"CONDITION"	=>	"#^/training/#",
 		"RULE"	=>	"",
 		"ID"	=>	"bitrix:news",
 		"PATH"	=>	"/actions/training/index.php",
+	),
+	array(
+		"CONDITION"	=>	"#^/learning/#",
+		"RULE"	=>	"",
+		"ID"	=>	"bitrix:catalog",
+		"PATH"	=>	"/learning/index.php",
 	),
 	array(
 		"CONDITION"	=>	"#^/short/#",

@@ -1,7 +1,7 @@
 <?
 if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001475845651';
-$dateexpire = '001475849251';
+$datecreate = '001476102644';
+$dateexpire = '001476106244';
 $ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:2:{s:2:"s1";a:3:{i:0;a:2:{s:6:"LD_LID";s:2:"s1";s:9:"LD_DOMAIN";s:15:"www.ippkrudn.ru";}i:1;a:2:{s:6:"LD_LID";s:2:"s1";s:9:"LD_DOMAIN";s:12:"ipk.radia.ru";}i:2;a:2:{s:6:"LD_LID";s:2:"s1";s:9:"LD_DOMAIN";s:11:"ippkrudn.ru";}}s:2:"s2";a:3:{i:0;a:2:{s:6:"LD_LID";s:2:"s2";s:9:"LD_DOMAIN";s:15:"www.ippkrudn.ru";}i:1;a:2:{s:6:"LD_LID";s:2:"s2";s:9:"LD_DOMAIN";s:12:"ipk.radia.ru";}i:2;a:2:{s:6:"LD_LID";s:2:"s2";s:9:"LD_DOMAIN";s:11:"ippkrudn.ru";}}}}';
 return true;
 ?>

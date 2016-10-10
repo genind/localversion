@@ -1197,3 +1197,179 @@
 2016-10-07 17:29:17 3004 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
 2016-10-07 17:29:17 3004 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
 2016-10-07 17:29:17 3004 [Note] Server socket created on IP: '127.0.0.1'.
+2016-10-10 10:55:22 2664 [Note] Plugin 'FEDERATED' is disabled.
+2016-10-10 10:55:22 2664 [Note] InnoDB: The InnoDB memory heap is disabled
+2016-10-10 10:55:22 2664 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2016-10-10 10:55:22 2664 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-10-10 10:55:22 2664 [Note] InnoDB: Not using CPU crc32 instructions
+2016-10-10 10:55:22 2664 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2016-10-10 10:55:22 2664 [Note] InnoDB: Completed initialization of buffer pool
+2016-10-10 10:55:22 2664 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-10-10 10:55:23 2664 [Note] InnoDB: The log sequence numbers 1626720 and 1626720 in ibdata files do not match the log sequence number 1626730 in the ib_logfiles!
+2016-10-10 10:55:23 2664 [Note] InnoDB: Database was not shutdown normally!
+2016-10-10 10:55:23 2664 [Note] InnoDB: Starting crash recovery.
+2016-10-10 10:55:23 2664 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2016-10-10 10:55:23 2664 [Note] InnoDB: Restoring possible half-written data pages 
+2016-10-10 10:55:23 2664 [Note] InnoDB: from the doublewrite buffer...
+2016-10-10 10:55:23 2664 [Note] InnoDB: 128 rollback segment(s) are active.
+2016-10-10 10:55:23 2664 [Note] InnoDB: Waiting for purge to start
+2016-10-10 10:55:23 2664 [Note] InnoDB: 5.6.15 started; log sequence number 1626730
+C:\LOCALV~1\LOCALV~1\EASYPH~1.1VC\binaries\mysql\bin\eds-mysqld.exe: File '.\mysql-bin.000057' not found (Errcode: 22 - Invalid argument)
+2016-10-10 10:55:23 2664 [ERROR] Failed to open log (file '.\mysql-bin.000057', errno 22)
+2016-10-10 10:55:23 2664 [ERROR] Could not open log file
+2016-10-10 10:55:23 2664 [ERROR] Can't init tc log
+2016-10-10 10:55:23 2664 [ERROR] Aborting
+
+2016-10-10 10:55:23 2664 [Note] Binlog end
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'partition'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'INNODB_METRICS'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'INNODB_CMP'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'INNODB_LOCKS'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'INNODB_TRX'
+2016-10-10 10:55:23 2664 [Note] Shutting down plugin 'InnoDB'
+2016-10-10 10:55:23 2664 [Note] InnoDB: FTS optimize thread exiting.
+2016-10-10 10:55:23 2664 [Note] InnoDB: Starting shutdown...
+2016-10-10 10:55:24 2664 [Note] InnoDB: Shutdown completed; log sequence number 1626740
+2016-10-10 10:55:24 2664 [Note] Shutting down plugin 'BLACKHOLE'
+2016-10-10 10:55:24 2664 [Note] Shutting down plugin 'ARCHIVE'
+2016-10-10 10:55:24 2664 [Note] Shutting down plugin 'MRG_MYISAM'
+2016-10-10 10:55:24 2664 [Note] Shutting down plugin 'MyISAM'
+2016-10-10 10:55:24 2664 [Note] Shutting down plugin 'MEMORY'
+2016-10-10 10:55:24 2664 [Note] Shutting down plugin 'CSV'
+2016-10-10 10:55:24 2664 [Note] Shutting down plugin 'sha256_password'
+2016-10-10 10:55:24 2664 [Note] Shutting down plugin 'mysql_old_password'
+2016-10-10 10:55:24 2664 [Note] Shutting down plugin 'mysql_native_password'
+2016-10-10 10:55:24 2664 [Note] Shutting down plugin 'binlog'
+2016-10-10 10:55:24 2664 [Note] C:\LOCALV~1\LOCALV~1\EASYPH~1.1VC\binaries\mysql\bin\eds-mysqld.exe: Shutdown complete
+
+2016-10-10 10:58:29 7316 [Note] Plugin 'FEDERATED' is disabled.
+2016-10-10 10:58:29 7316 [Note] InnoDB: The InnoDB memory heap is disabled
+2016-10-10 10:58:29 7316 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2016-10-10 10:58:29 7316 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-10-10 10:58:29 7316 [Note] InnoDB: Not using CPU crc32 instructions
+2016-10-10 10:58:29 7316 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2016-10-10 10:58:29 7316 [Note] InnoDB: Completed initialization of buffer pool
+2016-10-10 10:58:29 7316 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-10-10 10:58:29 7316 [Note] InnoDB: 128 rollback segment(s) are active.
+2016-10-10 10:58:29 7316 [Note] InnoDB: Waiting for purge to start
+2016-10-10 10:58:30 7316 [Note] InnoDB: 5.6.15 started; log sequence number 1626740
+C:\LOCALV~1\LOCALV~1\EASYPH~1.1VC\binaries\mysql\bin\eds-mysqld.exe: File '' not found (Errcode: 22 - Invalid argument)
+2016-10-10 10:58:30 7316 [ERROR] Failed to open log (file '', errno 22)
+2016-10-10 10:58:30 7316 [ERROR] Could not open log file
+2016-10-10 10:58:30 7316 [ERROR] Can't init tc log
+2016-10-10 10:58:30 7316 [ERROR] Aborting
+
+2016-10-10 10:58:30 7316 [Note] Binlog end
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'partition'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'INNODB_METRICS'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'INNODB_CMP'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'INNODB_LOCKS'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'INNODB_TRX'
+2016-10-10 10:58:30 7316 [Note] Shutting down plugin 'InnoDB'
+2016-10-10 10:58:30 7316 [Note] InnoDB: FTS optimize thread exiting.
+2016-10-10 10:58:30 7316 [Note] InnoDB: Starting shutdown...
+2016-10-10 10:58:31 7316 [Note] InnoDB: Shutdown completed; log sequence number 1626750
+2016-10-10 10:58:31 7316 [Note] Shutting down plugin 'BLACKHOLE'
+2016-10-10 10:58:31 7316 [Note] Shutting down plugin 'ARCHIVE'
+2016-10-10 10:58:31 7316 [Note] Shutting down plugin 'MRG_MYISAM'
+2016-10-10 10:58:31 7316 [Note] Shutting down plugin 'MyISAM'
+2016-10-10 10:58:31 7316 [Note] Shutting down plugin 'MEMORY'
+2016-10-10 10:58:31 7316 [Note] Shutting down plugin 'CSV'
+2016-10-10 10:58:31 7316 [Note] Shutting down plugin 'sha256_password'
+2016-10-10 10:58:31 7316 [Note] Shutting down plugin 'mysql_old_password'
+2016-10-10 10:58:31 7316 [Note] Shutting down plugin 'mysql_native_password'
+2016-10-10 10:58:31 7316 [Note] Shutting down plugin 'binlog'
+2016-10-10 10:58:31 7316 [Note] C:\LOCALV~1\LOCALV~1\EASYPH~1.1VC\binaries\mysql\bin\eds-mysqld.exe: Shutdown complete
+
+2016-10-10 11:00:09 6476 [Note] Plugin 'FEDERATED' is disabled.
+2016-10-10 11:00:09 6476 [Note] InnoDB: The InnoDB memory heap is disabled
+2016-10-10 11:00:09 6476 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2016-10-10 11:00:09 6476 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-10-10 11:00:09 6476 [Note] InnoDB: Not using CPU crc32 instructions
+2016-10-10 11:00:09 6476 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2016-10-10 11:00:09 6476 [Note] InnoDB: Completed initialization of buffer pool
+2016-10-10 11:00:09 6476 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-10-10 11:00:09 6476 [Note] InnoDB: 128 rollback segment(s) are active.
+2016-10-10 11:00:09 6476 [Note] InnoDB: Waiting for purge to start
+2016-10-10 11:00:09 6476 [Note] InnoDB: 5.6.15 started; log sequence number 1626750
+2016-10-10 11:00:09 6476 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2016-10-10 11:00:09 6476 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2016-10-10 11:00:09 6476 [Note] Server socket created on IP: '127.0.0.1'.
+2016-10-10 11:00:39 7708 [Note] Plugin 'FEDERATED' is disabled.
+2016-10-10 11:00:39 7708 [Note] InnoDB: The InnoDB memory heap is disabled
+2016-10-10 11:00:39 7708 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2016-10-10 11:00:39 7708 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-10-10 11:00:39 7708 [Note] InnoDB: Not using CPU crc32 instructions
+2016-10-10 11:00:39 7708 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2016-10-10 11:00:39 7708 [Note] InnoDB: Completed initialization of buffer pool
+2016-10-10 11:00:39 7708 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-10-10 11:00:39 7708 [Note] InnoDB: 128 rollback segment(s) are active.
+2016-10-10 11:00:40 7708 [Note] InnoDB: Waiting for purge to start
+2016-10-10 11:00:40 7708 [Note] InnoDB: 5.6.15 started; log sequence number 1626760
+2016-10-10 11:00:40 7708 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2016-10-10 11:00:40 7708 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2016-10-10 11:00:40 7708 [Note] Server socket created on IP: '127.0.0.1'.
+2016-10-10 11:01:45 7048 [Note] Plugin 'FEDERATED' is disabled.
+2016-10-10 11:01:45 7048 [Note] InnoDB: The InnoDB memory heap is disabled
+2016-10-10 11:01:45 7048 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2016-10-10 11:01:45 7048 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-10-10 11:01:45 7048 [Note] InnoDB: Not using CPU crc32 instructions
+2016-10-10 11:01:45 7048 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2016-10-10 11:01:45 7048 [Note] InnoDB: Completed initialization of buffer pool
+2016-10-10 11:01:45 7048 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-10-10 11:01:45 7048 [Note] InnoDB: 128 rollback segment(s) are active.
+2016-10-10 11:01:46 7048 [Note] InnoDB: Waiting for purge to start
+2016-10-10 11:01:46 7048 [Note] InnoDB: 5.6.15 started; log sequence number 1626770
+2016-10-10 11:01:46 7048 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2016-10-10 11:01:46 7048 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2016-10-10 11:01:46 7048 [Note] Server socket created on IP: '127.0.0.1'.
