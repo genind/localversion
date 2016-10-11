@@ -1,7 +1,7 @@
 <?
 if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001476199370';
-$dateexpire = '001476458570';
+$datecreate = '001476199811';
+$dateexpire = '001476459011';
 $ser_content = 'a:2:{s:7:"CONTENT";s:558886:"<div class="catalog-section">
 
 			<div class="teacher">

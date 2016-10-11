@@ -20,6 +20,27 @@ $aMenuLinks = Array(
 		Array(), 
 		Array(), 
 		"" 
+	),
+	Array(
+		"Нормативные документы", 
+		"/about/documents/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Образцы заполнения", 
+		"/about/help/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Договор", 
+		"/about/contract/", 
+		Array(), 
+		Array(), 
+		"" 
 	)
 );
 ?>

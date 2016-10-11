@@ -1,7 +1,7 @@
 <?
 if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001476112490';
-$dateexpire = '001476116090';
+$datecreate = '001476203196';
+$dateexpire = '001476206796';
 $ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:3:{i:1237;a:13:{s:2:"ID";s:4:"1237";s:11:"TIMESTAMP_X";s:19:"17.06.2016 17:09:25";s:9:"MODULE_ID";s:6:"iblock";s:6:"HEIGHT";s:1:"0";s:5:"WIDTH";s:1:"0";s:9:"FILE_SIZE";s:6:"325774";s:12:"CONTENT_TYPE";s:15:"application/pdf";s:6:"SUBDIR";s:10:"iblock/3d1";s:9:"FILE_NAME";s:31:"dogovor_obuchenie_phis_lits.pdf";s:13:"ORIGINAL_NAME";s:31:"dogovor_obuchenie_phis_lits.pdf";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:4:"~src";b:0;}i:1238;a:13:{s:2:"ID";s:4:"1238";s:11:"TIMESTAMP_X";s:19:"17.06.2016 18:01:32";s:9:"MODULE_ID";s:6:"iblock";s:6:"HEIGHT";s:1:"0";s:5:"WIDTH";s:1:"0";s:9:"FILE_SIZE";s:5:"71680";s:12:"CONTENT_TYPE";s:18:"application/msword";s:6:"SUBDIR";s:10:"iblock/457";s:9:"FILE_NAME";s:54:"dogovor_obuchenie_jur_lits_s_ukasaniem_slushatelia.doc";s:13:"ORIGINAL_NAME";s:54:"dogovor_obuchenie_jur_lits_s_ukasaniem_slushatelia.doc";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:4:"~src";b:0;}i:1239;a:13:{s:2:"ID";s:4:"1239";s:11:"TIMESTAMP_X";s:19:"17.06.2016 18:02:20";s:9:"MODULE_ID";s:6:"iblock";s:6:"HEIGHT";s:1:"0";s:5:"WIDTH";s:1:"0";s:9:"FILE_SIZE";s:5:"37623";s:12:"CONTENT_TYPE";s:71:"application/vnd.openxmlformats-officedocument.wordprocessingml.document";s:6:"SUBDIR";s:10:"iblock/a00";s:9:"FILE_NAME";s:56:"dogovor_obuchenie_jur_lits_bes_ukasania_slushatelia.docx";s:13:"ORIGINAL_NAME";s:56:"dogovor_obuchenie_jur_lits_bes_ukasania_slushatelia.docx";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:4:"~src";b:0;}}}';
 return true;
 ?>
