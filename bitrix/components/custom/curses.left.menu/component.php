@@ -20,20 +20,23 @@ if(CModule::IncludeModule("iblock"))
 				$Curses[$ar_section['ID']] = $ar_section; 
 			}
 			
-			if ($arParams["DISPLAY_ELEMENTS"]=="Y"){
-				while($ar_element = $rs_elements -> GetNext()) {
-					$SecList = CIBlockElement::GetElementGroups($ar_element["ID"],false,array('ID'));
-					while($SID = $SecList-> GetNext()){
-						$ar_element["URL"] = $arParams["FOLDER"] . $Curses[$SID['ID']]["CODE"] . "/" . $ar_element["CODE"] . "/";
-						$Curses[$SID['ID']]['ITEMS'][]=$ar_element;
-					}
+			
+			while($ar_element = $rs_elements -> GetNext()) {
+				$SecList = CIBlockElement::GetElementGroups($ar_element["ID"],false,array('ID'));
+				while($SID = $SecList-> GetNext()){
+					$ar_element["URL"] = $arParams["FOLDER"] . $Curses[$SID['ID']]["CODE"] . "/" . $ar_element["CODE"] . "/";
+					$Curses[$SID['ID']]['ITEMS'][]=$ar_element;
+				}
+			}
+						
+			$arResult = Array();
+			foreach($Curses as $Sec){
+				if(!empty($Sec["ITEMS"])){
+					$arResult[$Sec["ID"]] = $Sec;
+					if ($arParams["DISPLAY_ELEMENTS"]=="N"){ unset($arResult[$Sec["ID"]]["ITEMS"]); }
 				}
 			}
 			
-			$arResult = Array();
-			foreach($Curses as $Sec) {
-				$arResult[] = $Sec;
-			}
 			$this->IncludeComponentTemplate();
 		}
 	}

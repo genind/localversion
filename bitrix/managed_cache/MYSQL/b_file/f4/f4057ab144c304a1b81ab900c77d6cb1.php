@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001476184630';
+$dateexpire = '001476188230';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:3:{i:987;a:13:{s:2:"ID";s:3:"987";s:11:"TIMESTAMP_X";s:19:"14.04.2014 13:06:53";s:9:"MODULE_ID";s:6:"iblock";s:6:"HEIGHT";s:4:"4280";s:5:"WIDTH";s:4:"3146";s:9:"FILE_SIZE";s:7:"7128137";s:12:"CONTENT_TYPE";s:10:"image/jpeg";s:6:"SUBDIR";s:10:"iblock/af3";s:9:"FILE_NAME";s:14:"untitled_1.jpg";s:13:"ORIGINAL_NAME";s:14:"Untitled-1.jpg";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:4:"~src";b:0;}i:988;a:13:{s:2:"ID";s:3:"988";s:11:"TIMESTAMP_X";s:19:"14.04.2014 13:14:18";s:9:"MODULE_ID";s:6:"iblock";s:6:"HEIGHT";s:1:"0";s:5:"WIDTH";s:1:"0";s:9:"FILE_SIZE";s:5:"13563";s:12:"CONTENT_TYPE";s:65:"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";s:6:"SUBDIR";s:10:"iblock/b8a";s:9:"FILE_NAME";s:63:"informatsionno_kommunikatsionnye-tekhnologii-v-obrazovanii.xlsx";s:13:"ORIGINAL_NAME";s:60:"Информационно-коммуникационные технологии в образовании.xlsx";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:4:"~src";b:0;}i:989;a:13:{s:2:"ID";s:3:"989";s:11:"TIMESTAMP_X";s:19:"14.04.2014 18:35:19";s:9:"MODULE_ID";s:6:"iblock";s:6:"HEIGHT";s:4:"4280";s:5:"WIDTH";s:4:"3146";s:9:"FILE_SIZE";s:7:"7128137";s:12:"CONTENT_TYPE";s:10:"image/jpeg";s:6:"SUBDIR";s:10:"iblock/f39";s:9:"FILE_NAME";s:14:"untitled_1.jpg";s:13:"ORIGINAL_NAME";s:14:"Untitled-1.jpg";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:4:"~src";b:0;}}}';
+return true;
+?>

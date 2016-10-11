@@ -1,30 +1,18 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("tags", "преподаватели, квалифицированные, учителя, специалисты, опытные, профессионалы, образование");
-$APPLICATION->SetPageProperty("keywords", "преподаватели, квалифицированные, учителя, специалисты, опытные, профессионалы, образование");
-$APPLICATION->SetPageProperty("description", "преподаватели института повышения квалификации и переподготовки ведущие занятия");
 $APPLICATION->SetTitle("Преподаватели");
-$APPLICATION->SetPageProperty("title", "Преподаватели");
 ?>
 
-
-        	
 <?
-$APPLICATION->IncludeComponent("bitrix:news", "teachers", array(
+$APPLICATION->IncludeComponent("bitrix:catalog", "teachers", array(
 	"IBLOCK_TYPE" => "content",
 	"IBLOCK_ID" => "2",
-	"NEWS_COUNT" => "50",
-	"USE_SEARCH" => "N",
-	"USE_RSS" => "N",
-	"USE_RATING" => "N",
-	"USE_CATEGORIES" => "N",
-	"USE_REVIEW" => "N",
-	"USE_FILTER" => "N",
-	"SORT_BY1" => "NAME",
-	"SORT_ORDER1" => "ASC",
-	"SORT_BY2" => "SORT",
-	"SORT_ORDER2" => "ASC",
-	"CHECK_DATES" => "Y",
+	"BASKET_URL" => "",
+	"ACTION_VARIABLE" => "action",
+	"PRODUCT_ID_VARIABLE" => "id",
+	"SECTION_ID_VARIABLE" => "",
+	"PRODUCT_QUANTITY_VARIABLE" => "quantity",
+	"PRODUCT_PROPS_VARIABLE" => "prop",
 	"SEF_MODE" => "Y",
 	"SEF_FOLDER" => "/about/teachers/",
 	"AJAX_MODE" => "N",
@@ -35,64 +23,72 @@ $APPLICATION->IncludeComponent("bitrix:news", "teachers", array(
 	"CACHE_TIME" => "259200",
 	"CACHE_FILTER" => "N",
 	"CACHE_GROUPS" => "Y",
-	"SET_TITLE" => "N",
+	"SET_TITLE" => "Y",
 	"SET_STATUS_404" => "Y",
-	"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
-	"ADD_SECTIONS_CHAIN" => "Y",
-	"USE_PERMISSIONS" => "N",
-	"PREVIEW_TRUNCATE_LEN" => "",
-	"LIST_ACTIVE_DATE_FORMAT" => "j F Y",
-	"LIST_FIELD_CODE" => array(
-		0 => "PREVIEW_TEXT",
-		1 => "DETAIL_PICTURE",
-		2 => "",
+	"USE_ELEMENT_COUNTER" => "Y",
+	"USE_FILTER" => "N",
+	"USE_REVIEW" => "N",
+	"USE_COMPARE" => "N",
+	"PRICE_CODE" => array(
 	),
+	"USE_PRICE_COUNT" => "Y",
+	"SHOW_PRICE_COUNT" => "1",
+	"PRICE_VAT_INCLUDE" => "Y",
+	"PRICE_VAT_SHOW_VALUE" => "N",
+	"PRODUCT_PROPERTIES" => array(
+	),
+	"USE_PRODUCT_QUANTITY" => "N",
+	"SHOW_TOP_ELEMENTS" => "N",
+	"SECTION_COUNT_ELEMENTS" => "Y",
+	"SECTION_TOP_DEPTH" => "2",
+	"PAGE_ELEMENT_COUNT" => "25",
+	"LINE_ELEMENT_COUNT" => "2",
+	"ELEMENT_SORT_FIELD" => "sort",
+	"ELEMENT_SORT_ORDER" => "asc",
 	"LIST_PROPERTY_CODE" => array(
 		0 => "COURSES",
-		1 => "",
+		1 => "learning",
+		2 => "",
 	),
-	"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-	"DISPLAY_NAME" => "N",
-	"META_KEYWORDS" => "-",
-	"META_DESCRIPTION" => "-",
-	"BROWSER_TITLE" => "-",
-	"DETAIL_ACTIVE_DATE_FORMAT" => "j F Y",
-	"DETAIL_FIELD_CODE" => array(
-		0 => "NAME",
-		1 => "DETAIL_TEXT",
-		2 => "DETAIL_PICTURE",
-		3 => "",
-	),
+	"INCLUDE_SUBSECTIONS" => "N",
+	"LIST_META_KEYWORDS" => "-",
+	"LIST_META_DESCRIPTION" => "-",
+	"LIST_BROWSER_TITLE" => "NAME",
 	"DETAIL_PROPERTY_CODE" => array(
-		0 => "COURSES",
+		0 => "",
 		1 => "",
 	),
-	"DETAIL_DISPLAY_TOP_PAGER" => "N",
-	"DETAIL_DISPLAY_BOTTOM_PAGER" => "N",
-	"DETAIL_PAGER_TITLE" => "Страница",
-	"DETAIL_PAGER_TEMPLATE" => "",
-	"DETAIL_PAGER_SHOW_ALL" => "N",
+	"DETAIL_META_KEYWORDS" => "-",
+	"DETAIL_META_DESCRIPTION" => "-",
+	"DETAIL_BROWSER_TITLE" => "NAME",
+	"LINK_IBLOCK_TYPE" => "content",
+	"LINK_IBLOCK_ID" => "4",
+	"LINK_PROPERTY_SID" => "",
+	"LINK_ELEMENTS_URL" => "link.php",
+	"USE_STORE" => "N",
 	"DISPLAY_TOP_PAGER" => "N",
 	"DISPLAY_BOTTOM_PAGER" => "Y",
-	"PAGER_TITLE" => "Преподаватели",
+	"PAGER_TITLE" => "Профессиональная переподготовка",
 	"PAGER_SHOW_ALWAYS" => "N",
 	"PAGER_TEMPLATE" => "pagenav",
 	"PAGER_DESC_NUMBERING" => "N",
 	"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
 	"PAGER_SHOW_ALL" => "N",
-	"DISPLAY_DATE" => "Y",
-	"DISPLAY_PICTURE" => "N",
-	"DISPLAY_PREVIEW_TEXT" => "N",
-	"USE_SHARE" => "N",
 	"AJAX_OPTION_ADDITIONAL" => "",
 	"SEF_URL_TEMPLATES" => array(
-		"news" => "",
+		"sections" => "",
 		"section" => "",
-		"detail" => "#ELEMENT_ID#/",
+		"element" => "#ELEMENT_ID#/",
+		"compare" => "compare.php?action=#ACTION_CODE#",
+	),
+	"VARIABLE_ALIASES" => array(
+		"compare" => array(
+			"ACTION_CODE" => "action",
+		),
 	)
 	),
 	false
-);?>	
-
+);
+?>	
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

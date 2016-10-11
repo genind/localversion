@@ -1,0 +1,100 @@
+div.about-left {
+	width:25%;
+	float:left;
+}
+
+div.about-right {
+    width: 71%;
+    float: left;
+    padding: 0px 1% 0px 3%;
+}
+
+ul.left-menu
+{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0px 7% 0px 0px;
+    list-style-type: none;
+    padding: 0px;
+}
+
+ul.left-menu li
+{
+    margin: 8px 0px 8px 0px;
+    font-size: 12px;
+}
+
+
+ul.left-menu li a
+{
+	text-decoration:none;
+}
+
+ul.left-menu li a:visited
+{
+
+}
+
+ul.left-menu li a:hover
+{
+
+}
+
+
+ul.left-menu li a.selected:link, 
+ul.left-menu li a.selected:visited, 
+ul.left-menu li a.selected:active, 
+ul.left-menu li a.selected:hover
+{
+	color:white;
+	background-color:#00091d;
+}
+
+.about-right {
+	text-align:justify;
+}
+
+.about-right div.title{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.about-right div.subtitle{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.about-right div.why {
+	text-align: center;
+    font-size: 22px;
+    font-style: italic;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    border-bottom: 3px solid #cbccce;
+}
+
+.about-right div.qwe	{
+	font-size:18px;
+	font-style:italic;
+	margin-top:25px;
+}
+
+.about-right div.asd	{
+	margin-bottom:10px;
+}
+
+.about-right div.asd ul	{
+	margin-top:10px;
+}
+
+.about-right div.asd ul li	{
+	line-height: 25px;
+	font-size: 14px;
+}
+
+		

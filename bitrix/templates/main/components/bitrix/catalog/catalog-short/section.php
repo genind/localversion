@@ -39,16 +39,16 @@
 <?endif?>
 <div class="catalog-section-left">
 <? 
-	$APPLICATION->IncludeComponent	(	"custom:curses.left.menu", ".default",
-										array(
-												"IBLOCK_ID" => "4",
-												"DISPLAY_ELEMENTS" =>"N",
-												"FOLDER" => $arResult["FOLDER"],
-												"SECTION_CODE" => $arResult["VARIABLES"]["SECTION_CODE"],
-												"ELEMENT_CODE" => $arResult["VARIABLES"]["ELEMENT_CODE"],
-											),
-										false
-									);
+	$APPLICATION->IncludeComponent("custom:curses.left.menu", ".default", array(
+	"IBLOCK_ID" => "25",
+	"DISPLAY_ELEMENTS" => "N",
+	"ELEMENT_CODE" => $arResult["VARIABLES"]["ELEMENT_CODE"],
+	"SECTION_CODE" => $arResult["VARIABLES"]["SECTION_CODE"],
+	"URL_TEMPLATE" => "",
+	"FOLDER" => $arResult["FOLDER"]
+	),
+	false
+);
 ?>
 </div>
 <div class="catalog-section-right">

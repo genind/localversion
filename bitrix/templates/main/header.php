@@ -18,6 +18,7 @@
 <link rel="stylesheet" href="/css/accordion.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="/css/catalog.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="/css/main.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/css/about.css" type="text/css" media="screen" />
 
 <script type="text/javascript" src="/js/cufon.js"></script>
 <script type="text/javascript" src="/js/font.js"></script>

@@ -1,12 +1,6 @@
 <?
 $arUrlRewrite = array(
 	array(
-		"CONDITION"	=>	"#^/actions/master-class/#",
-		"RULE"	=>	"BCODE=activity",
-		"ID"	=>	"",
-		"PATH"	=>	"/actions/index.php",
-	),
-	array(
 		"CONDITION"	=>	"#^/about/administration/#",
 		"RULE"	=>	"ELEMENT_ID=$1",
 		"ID"	=>	"",
@@ -17,6 +11,12 @@ $arUrlRewrite = array(
 		"RULE"	=>	"BCODE=photos&id=$1",
 		"ID"	=>	"",
 		"PATH"	=>	"/actions/photogallery.php",
+	),
+	array(
+		"CONDITION"	=>	"#^/actions/master-class/#",
+		"RULE"	=>	"BCODE=activity",
+		"ID"	=>	"",
+		"PATH"	=>	"/actions/index.php",
 	),
 	array(
 		"CONDITION"	=>	"#^/actions/(.+?)/(.+?)/#",
@@ -39,7 +39,7 @@ $arUrlRewrite = array(
 	array(
 		"CONDITION"	=>	"#^/about/teachers/#",
 		"RULE"	=>	"",
-		"ID"	=>	"bitrix:news",
+		"ID"	=>	"bitrix:catalog",
 		"PATH"	=>	"/about/teachers/index.php",
 	),
 	array(
@@ -61,16 +61,16 @@ $arUrlRewrite = array(
 		"PATH"	=>	"/programms/index.php",
 	),
 	array(
-		"CONDITION"	=>	"#^/training/#",
-		"RULE"	=>	"",
-		"ID"	=>	"bitrix:news",
-		"PATH"	=>	"/actions/training/index.php",
-	),
-	array(
 		"CONDITION"	=>	"#^/learning/#",
 		"RULE"	=>	"",
 		"ID"	=>	"bitrix:catalog",
 		"PATH"	=>	"/learning/index.php",
+	),
+	array(
+		"CONDITION"	=>	"#^/training/#",
+		"RULE"	=>	"",
+		"ID"	=>	"bitrix:news",
+		"PATH"	=>	"/actions/training/index.php",
 	),
 	array(
 		"CONDITION"	=>	"#^/short/#",
