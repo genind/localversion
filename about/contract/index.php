@@ -2,18 +2,6 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Порядок заключения договора на обучение");
 ?> 
-<style>
- ul {
-		margin-left:25px;
-		margin-top:10px;
-		list-style-type:disc;
-	}
- ul li {
-		 color: black;
-		 padding-left:5px;
-		list-style-type:disc;
-		}
- </style>
  
 <p><b><text style="font-size: 22px; color: rgb(191, 43, 43);">1. </text> Поступающий на обучение представляет следующие документы:</b></p>
  

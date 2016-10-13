@@ -1,1 +1,0 @@
-<?$arTemplate = array("NAME"=>"Шаблон для преподавателей по разделам", "DESCRIPTION"=>"");?>

@@ -1,8 +1,8 @@
 <?
 if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001476203647';
-$dateexpire = '001512203647';
-$ser_content = 'a:2:{s:7:"CONTENT";s:38058:"		<div class="news-content" id="bx_1914200112_1848" style="margin-bottom:10px; width:650px; clear:both;">
+$datecreate = '001476229089';
+$dateexpire = '001512229089';
+$ser_content = 'a:2:{s:7:"CONTENT";s:38651:"		<div class="news-content" id="bx_1914200112_1848" style="margin-bottom:10px; width:650px; clear:both;">
 
 					<div class="news-date">Протухина Галина, Москва</div>
 		

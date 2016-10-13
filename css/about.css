@@ -1,57 +1,15 @@
-div.about-left {
-	width:25%;
-	float:left;
-}
 
-div.about-right {
-    width: 71%;
+.about-left {
+    width: 25%;
     float: left;
-    padding: 0px 1% 0px 3%;
 }
 
-ul.left-menu
-{
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin: 0px 7% 0px 0px;
-    list-style-type: none;
-    padding: 0px;
-}
-
-ul.left-menu li
-{
-    margin: 8px 0px 8px 0px;
-    font-size: 12px;
-}
-
-
-ul.left-menu li a
-{
-	text-decoration:none;
-}
-
-ul.left-menu li a:visited
-{
-
-}
-
-ul.left-menu li a:hover
-{
-
-}
-
-
-ul.left-menu li a.selected:link, 
-ul.left-menu li a.selected:visited, 
-ul.left-menu li a.selected:active, 
-ul.left-menu li a.selected:hover
-{
-	color:white;
-	background-color:#00091d;
-}
 
 .about-right {
-	text-align:justify;
+	text-align: justify;
+    width: 70%;
+    margin: 0px 0% 0px 5%;
+    float: right;
 }
 
 .about-right div.title{
@@ -97,4 +55,16 @@ ul.left-menu li a.selected:hover
 	font-size: 14px;
 }
 
-		
+.about-right div.italic-text {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.about-right .video1,
+.about-right .video2{
+	width: 49%;
+    height: 220px;
+}		

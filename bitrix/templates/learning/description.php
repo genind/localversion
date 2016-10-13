@@ -1,1 +1,0 @@
-<?$arTemplate = array("NAME"=>"Направления обучения", "DESCRIPTION"=>"");?>

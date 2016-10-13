@@ -12,19 +12,13 @@ foreach($arResult["arMap"] as $index => $arItem)
 }
 
 $allNum = count($arRootNode);
-$colNum = 6;//ceil($allNum / $arParams["COL_NUM"]);
+$colNum = 6;
 
 ?>
-<style>
-	ul.map-level-0 li {
-		list-style:none;
-		}
-</style>
 <table class="map-columns">
 <tr>
 	<td>
 		<ul class="map-level-0">
-
 		<?
 		$previousLevel = -1;
 		$counter = 0;
@@ -42,7 +36,10 @@ $colNum = 6;//ceil($allNum / $arParams["COL_NUM"]);
 					$counter = 0;
 					$column++;
 			?>
-				</ul></td><td><ul class="map-level-0">
+		</ul>
+	</td>
+	<td>
+		<ul class="map-level-0">
 			<?endif?>
 
 			<?if (array_key_exists($index+1, $arResult["arMap"]) && $arItem["LEVEL"] < $arResult["arMap"][$index+1]["LEVEL"]):?>
@@ -62,7 +59,6 @@ $colNum = 6;//ceil($allNum / $arParams["COL_NUM"]);
 				//if($arItem["LEVEL"] == 0)
 					$counter++;
 			?>
-<?//var_dump($arItem);?>
 		<?endforeach?>
 
 		<?if ($previousLevel > 1)://close last item tags?>
@@ -73,3 +69,5 @@ $colNum = 6;//ceil($allNum / $arParams["COL_NUM"]);
 	</td>
 </tr>
 </table>
+
+

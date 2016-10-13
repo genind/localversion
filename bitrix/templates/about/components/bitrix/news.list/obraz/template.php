@@ -12,3 +12,7 @@ $descr = $arItem["NAME"];?>
 <?endif;?>
 <?//var_dump($arItem);?>
 <?endforeach;?>	
+
+<pre>
+<?print_r($arResult)?>
+</pre>

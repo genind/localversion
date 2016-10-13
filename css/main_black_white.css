@@ -95,7 +95,7 @@
 }
 
 #menu li {
-    list-style-type: disc;
+    list-style-type: none;
     position: relative;
     float: left;
     margin-left: 20px;
@@ -126,7 +126,7 @@
     transition-duration: .2s;
 }
 
-#menu ul li.a:hover:before {
+#menu ul li a:hover:before {
 	width: 100%;
 	margin-left: -50%;
 }
@@ -134,12 +134,30 @@
 #menu ul ul{
 	z-index: 999;
 	position: absolute;
-	display:none;
 	width: 180px;
 	padding: 15px 20px;
 	background-color: #00091d;
 	font-size: 9px;
 	margin-top:10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s, visibility 0s linear 1s;
+}
+
+#menu ul li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0s;
+}
+
+#menu ul ul:before{
+	position: absolute;
+	display: block;
+	top: -12px;
+    left: 0px;
+	width: 100%;
+	height: 12px;
+	content: "";
 }
 
 #menu ul ul li {
@@ -170,18 +188,14 @@
 	margin-left: -50%;
 }
 
-#menu ul li:hover > ul {
-	display: block;
-}
 
-#menu ul ul:before{
-	position: absolute;
-	display: block;
-	top: -10px;
-    left: 0px;
-	width: 100%;
-	height: 10px;
-	content: "";
+#menu .pusher {
+    width: 6px;
+    height: 6px;
+    background-color: #00091d;
+    border-radius: 50%;
+    top: 0.3em;
+    position: relative;
 }
 
 #main-slider{
@@ -191,6 +205,91 @@
 #content{
 	
 }
+
+
+
+/*################################################*/
+/*################################################*/
+/*################### LEFT MENU ##################*/
+/*################################################*/
+/*################################################*/
+
+#tree {
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin: 0px 7% 0px 0px;
+	list-style-type: none;
+	padding: 0px;
+}
+#tree li{
+	margin: 8px 0px 8px 0px;
+	font-size: 12px;
+}
+
+#tree .sub_tree  {
+padding: 5% 1% 5% 10%;
+	background-color: #00091d;
+	margin-top: 0px;
+	margin: 1% 0% 0% 7%;
+	list-style-type: disc;
+	display: none;
+}
+
+#tree .active .sub_tree  {
+	display:block;
+}
+
+#tree li.current .section-name {
+	
+}
+
+#tree li.current .section-name a {
+	color: white;
+	padding-right: 10%;
+	padding-left: 5%;
+	position: relative;
+	left: -5%;
+	background-color: #00091d;
+}
+
+#tree .sub_tree li {
+	float: none;
+	color: white;
+	padding: 10px 15px 15px 0px;
+	margin: 0px 0px 0px 0px;
+	text-align: left;
+	position:relative;
+	font-size: 10px;
+}
+
+#tree .sub_tree li a {
+	color: white;
+	/*position: relative;*/
+}
+
+#tree .sub_tree a:hover {
+	text-decoration:none;
+}
+
+#tree .sub_tree a:hover:before{
+	width: 90%;
+	margin-left: -50%;
+}
+
+#tree .sub_tree a:before{
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	width: 0;
+	height: 1px;
+	margin-left: 0;
+	background-color: #ffffff;
+	content: "";
+	-webkit-transition-duration: .2s;
+	transition-duration: .2s;
+}
+
+
 
 /* ################################################# */
 /* FOOTER */
@@ -202,21 +301,38 @@
 	clear:both;
 }
 
+.map-columns {
+	float:left;
+}
+
+.map-columns td{
+	vertical-align: top;
+}
+
+ul.map-level-0 {
+	margin-top: 0px;
+}
+ul.map-level-0 li{
+	list-style:none;
+}
 ul.map-level-0 a {
 	font-weight: bold;
+	font-size: 0.8em;
 }
 
 ul.map-level-1 a, ul.map-level-2 a, ul.map-level-3 a {
 	font-weight: normal;
 }
 
-.map-columns td {
+.map-columns{
 	vertical-align: top;
+	list-style:none;
 }
 
 #bot_contacts{
 	float:right;
 	margin-right: 30px;
+	font-size: 0.8em;
 }
 
 #bot_map {
@@ -317,3 +433,82 @@ ul.map-level-1 a, ul.map-level-2 a, ul.map-level-3 a {
     position: relative;
     top: 50%;
 }
+
+
+/*######################################################*/
+/*######################################################*/
+/*################ TRAINING DIRECTORY ##################*/
+/*######################################################*/
+/*######################################################*/
+
+div.news-item {
+	margin: 0px 0px 5% 0px;
+}
+
+div.news-item .description {
+	padding: 0px 0px 0px 1%;
+}
+
+div.news-item div.news-title{
+    font-size: 1.2em;
+    margin: 0px 0px 10px 0px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #00091d;
+    padding: 0px 0px 3px 1%;
+}
+
+div.news-item div.news-title2{
+    font-size: 1.2em;
+	font-weight:bold;
+    margin: 0px 0px 10px 0px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #00091d;
+    padding: 0px 0px 3px 1%;
+}
+
+
+div.news-item div.name a{
+	
+}
+
+div.news-item div.preview-text {
+	margin: 0px 0px 0px 30px;
+	text-align: justify;
+    max-width: 700px;
+}
+
+div.news-item div.properties{
+	width:100%;
+	display:table;
+}
+
+
+div.properties .prop-right {
+	display: table-cell;
+	width:50%;
+}
+
+div.properties .prop-left {
+	display: table-cell;
+	width:50%;
+}
+
+div.news-item div.properties .prop_name{
+		font-weight:bold;
+}
+
+div.news-item .price .value,
+div.news-item .place .value,
+div.news-item .date .value,
+div.news-item .lector .value{
+	padding-left:3%;
+}
+
+div.news-item .lector a{
+	font-weight:bold;
+	color:#1b84a5;
+}
+
+
+
+	

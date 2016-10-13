@@ -26,13 +26,13 @@
 				</div>
 				
 				<div style="margin-top:10px">
-					Тел.: <div style="font-size:18px; display:inline;">+7 (499) 936-85-94</div>
+					Тел.: <div style="display:inline;">+7 (499) 936-85-94</div>
 					<br>
-					Факс: <div style="font-size:18px; display:inline;">+7 (495) 434-02-20</div>
+					Факс: <div style="display:inline;">+7 (495) 434-02-20</div>
 				</div>
 
 				<div style="margin-top:10px">
-					<a href="mailto:ippk_sales@pfur.ru" style="font-size:18px;">ippk_sales@pfur.ru</a>
+					<a href="mailto:ippk_sales@pfur.ru">ippk_sales@pfur.ru</a>
 				</div>
 				<div style="margin-top:10px">
 					<a href="http://vk.com/ippk_rudn"><img src="/images/icons/VK.png" alt="VK-icon"></a>

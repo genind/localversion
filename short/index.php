@@ -87,7 +87,7 @@ $APPLICATION->IncludeComponent("bitrix:catalog", "catalog-short", array(
 	"USE_STORE" => "N",
 	"DISPLAY_TOP_PAGER" => "N",
 	"DISPLAY_BOTTOM_PAGER" => "Y",
-	"PAGER_TITLE" => "Профессиональная переподготовка",
+	"PAGER_TITLE" => "Повышение квалификации",
 	"PAGER_SHOW_ALWAYS" => "N",
 	"PAGER_TEMPLATE" => "pagenav",
 	"PAGER_DESC_NUMBERING" => "N",

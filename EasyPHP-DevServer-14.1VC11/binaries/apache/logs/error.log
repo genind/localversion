@@ -1576,3 +1576,29 @@ eds-httpd.exe: Syntax error on line 62 of C:/Program Files (x86)/EasyPHP-DevServ
 [Tue Oct 11 17:38:09.768769 2016] [:error] [pid 7260:tid 896] [client 127.0.0.1:59673] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in C:\\localversion\\bitrix\\templates\\about\\components\\bitrix\\catalog\\teachers\\sections.php on line 65, referer: http://127.0.0.1/about/teachers/?bitrix_include_areas=Y&clear_cache=Y
 [Tue Oct 11 17:44:02.383557 2016] [:error] [pid 7260:tid 892] [client 127.0.0.1:59857] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in C:\\localversion\\bitrix\\templates\\about\\components\\bitrix\\catalog\\teachers\\bitrix\\catalog.section\\.default\\template.php on line 16, referer: http://127.0.0.1/about/teachers/?bitrix_include_areas=Y&clear_cache=Y
 libpng warning: Interlace handling should be turned on when using png_read_image
+[Wed Oct 12 02:26:09.646393 2016] [core:warn] [pid 4028:tid 528] AH00098: pid file C:/localversion/EasyPHP-DevServer-14.1VC11/binaries/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Oct 12 02:26:10.572420 2016] [mpm_winnt:notice] [pid 4028:tid 528] AH00455: Apache/2.4.7 (Win32) PHP/5.5.8 configured -- resuming normal operations
+[Wed Oct 12 02:26:10.572420 2016] [mpm_winnt:notice] [pid 4028:tid 528] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Wed Oct 12 02:26:10.572420 2016] [core:notice] [pid 4028:tid 528] AH00094: Command line: 'C:\\LOCALV~1\\EASYPH~1.1VC\\binaries\\apache\\bin\\eds-httpd.exe -d C:/localversion/EasyPHP-DevServer-14.1VC11/binaries/apache'
+[Wed Oct 12 02:26:10.572420 2016] [mpm_winnt:notice] [pid 4028:tid 528] AH00418: Parent: Created child process 9528
+[Wed Oct 12 02:26:11.286890 2016] [mpm_winnt:notice] [pid 9528:tid 576] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 12 02:29:40.409443 2016] [mpm_winnt:notice] [pid 4028:tid 528] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 12 02:29:42.431509 2016] [mpm_winnt:notice] [pid 9528:tid 576] AH00364: Child: All worker threads have exited.
+[Wed Oct 12 02:29:42.509616 2016] [mpm_winnt:notice] [pid 4028:tid 528] AH00430: Parent: Child process 9528 exited successfully.
+[Wed Oct 12 02:29:47.236838 2016] [mpm_winnt:notice] [pid 824:tid 564] AH00455: Apache/2.4.7 (Win32) PHP/5.5.8 configured -- resuming normal operations
+[Wed Oct 12 02:29:47.236838 2016] [mpm_winnt:notice] [pid 824:tid 564] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Wed Oct 12 02:29:47.236838 2016] [core:notice] [pid 824:tid 564] AH00094: Command line: 'C:\\LOCALV~1\\EASYPH~1.1VC\\binaries\\apache\\bin\\eds-httpd.exe -d C:/localversion/EasyPHP-DevServer-14.1VC11/binaries/apache'
+[Wed Oct 12 02:29:47.236838 2016] [mpm_winnt:notice] [pid 824:tid 564] AH00418: Parent: Created child process 8288
+[Wed Oct 12 02:29:47.839321 2016] [mpm_winnt:notice] [pid 8288:tid 640] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 12 13:18:22.288570 2016] [:error] [pid 8288:tid 1080] [client 127.0.0.1:53157] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING), expecting ',' or ';' in C:\\localversion\\bitrix\\components\\bitrix\\menu\\component.php on line 443, referer: http://127.0.0.1/about/help/
+[Wed Oct 12 20:21:04.556316 2016] [:error] [pid 8288:tid 1052] [client 127.0.0.1:58250] PHP Parse error:  syntax error, unexpected '<' in C:\\localversion\\training\\index.php on line 12, referer: http://127.0.0.1/training/?clear_cache=Y
+[Wed Oct 12 23:33:25.646665 2016] [mpm_winnt:notice] [pid 824:tid 564] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 12 23:33:27.678041 2016] [mpm_winnt:notice] [pid 8288:tid 640] AH00364: Child: All worker threads have exited.
+[Wed Oct 12 23:33:27.928032 2016] [mpm_winnt:notice] [pid 824:tid 564] AH00430: Parent: Child process 8288 exited successfully.
+[Thu Oct 13 12:24:51.247671 2016] [mpm_winnt:notice] [pid 8404:tid 596] AH00455: Apache/2.4.7 (Win32) PHP/5.5.8 configured -- resuming normal operations
+[Thu Oct 13 12:24:51.263286 2016] [mpm_winnt:notice] [pid 8404:tid 596] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Oct 13 12:24:51.263286 2016] [core:notice] [pid 8404:tid 596] AH00094: Command line: 'C:\\LOCALV~1\\EASYPH~1.1VC\\binaries\\apache\\bin\\eds-httpd.exe -d C:/localversion/EasyPHP-DevServer-14.1VC11/binaries/apache'
+[Thu Oct 13 12:24:51.278911 2016] [mpm_winnt:notice] [pid 8404:tid 596] AH00418: Parent: Created child process 7260
+[Thu Oct 13 12:24:51.966231 2016] [mpm_winnt:notice] [pid 7260:tid 624] AH00354: Child: Starting 64 worker threads.
+[Thu Oct 13 13:57:33.010157 2016] [:error] [pid 7260:tid 1088] [client 127.0.0.1:62877] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in C:\\localversion\\bitrix\\templates\\.default\\components\\bitrix\\news\\training-news\\bitrix\\news.detail\\.default\\template.php on line 15, referer: http://127.0.0.1/training/organizatsionnyy-kouching-instrument-povysheniya-effektivnosti-kompanii/?clear_cache=Y
+[Thu Oct 13 13:58:49.178609 2016] [:error] [pid 7260:tid 1076] [client 127.0.0.1:62910] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in C:\\localversion\\bitrix\\templates\\.default\\components\\bitrix\\news\\training-news\\bitrix\\news.detail\\.default\\template.php on line 15, referer: http://127.0.0.1/training/organizatsionnyy-kouching-instrument-povysheniya-effektivnosti-kompanii/?clear_cache=Y

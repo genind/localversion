@@ -4,12 +4,12 @@ $APPLICATION->SetTitle("Нормативные документы");
 ?>
 
 
-<?$APPLICATION->IncludeComponent("bitrix:news.list", "template1", Array(
+<?$APPLICATION->IncludeComponent("bitrix:news.list", "about_general", Array(
 	"IBLOCK_TYPE" => "content",	// Тип информационного блока (используется только для проверки)
 	"IBLOCK_ID" => "6",	// Код информационного блока
 	"NEWS_COUNT" => "25",	// Количество новостей на странице
-	"SORT_BY1" => "ACTIVE_FROM",	// Поле для первой сортировки новостей
-	"SORT_ORDER1" => "DESC",	// Направление для первой сортировки новостей
+	"SORT_BY1" => "SORT",	// Поле для первой сортировки новостей
+	"SORT_ORDER1" => "ASC",	// Направление для первой сортировки новостей
 	"SORT_BY2" => "SORT",	// Поле для второй сортировки новостей
 	"SORT_ORDER2" => "ASC",	// Направление для второй сортировки новостей
 	"FILTER_NAME" => "",	// Фильтр
@@ -50,6 +50,10 @@ $APPLICATION->SetTitle("Нормативные документы");
 	"PAGER_DESC_NUMBERING" => "N",	// Использовать обратную навигацию
 	"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",	// Время кеширования страниц для обратной навигации
 	"PAGER_SHOW_ALL" => "Y",	// Показывать ссылку "Все"
+	"DISPLAY_DATE" => "Y",	// Выводить дату элемента
+	"DISPLAY_NAME" => "Y",	// Выводить название элемента
+	"DISPLAY_PICTURE" => "Y",	// Выводить изображение для анонса
+	"DISPLAY_PREVIEW_TEXT" => "Y",	// Выводить текст анонса
 	"AJAX_OPTION_ADDITIONAL" => "",	// Дополнительный идентификатор
 	),
 	false

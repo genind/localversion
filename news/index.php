@@ -5,7 +5,7 @@ $APPLICATION->SetTitle("Новости");
 
 
 <?
-$APPLICATION->IncludeComponent("bitrix:news", "news", array(
+$APPLICATION->IncludeComponent("bitrix:news", "web20", array(
 	"IBLOCK_TYPE" => "content",
 	"IBLOCK_ID" => "1",
 	"NEWS_COUNT" => "7",

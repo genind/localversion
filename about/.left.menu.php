@@ -1,46 +1,40 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"Администрация", 
-		"/about/administration/", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
-		"Преподаватели", 
-		"/about/teachers/", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
-		"Отзывы", 
-		"/about/reviews/", 
+		"История института", 
+		SITE_DIR."about/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Нормативные документы", 
-		"/about/documents/", 
+		SITE_DIR."about/documents/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Образцы заполнения", 
-		"/about/help/", 
+		"Преподаватели", 
+		SITE_DIR."about/teachers/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Договор", 
-		"/about/contract/", 
+		"Отзывы", 
+		SITE_DIR."about/reviews/", 
 		Array(), 
 		Array(), 
 		"" 
-	)
+	),
+	Array(
+		"Компании-партнеры", 
+		SITE_DIR."about/partners/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+
 );
 ?>

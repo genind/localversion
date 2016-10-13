@@ -1,1 +1,0 @@
-<?$arTemplate = array("NAME"=>"Шаблон для раздела Поступление", "DESCRIPTION"=>"");?>

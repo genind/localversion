@@ -201,11 +201,11 @@ $APPLICATION->SetTitle("»нститут повышени€ квалификации и переподготовки кадров 
 		<div class="block-title">ѕќѕ”Ћя–Ќџ≈  ”–—џ</div>
 		<div class="pop-curses">
 			<ul>
-				<li><a href="">Ѕухгалтерский учЄт и налогообложение</a></li>
-				<li><a href="">”правление персоналом</a></li>
-				<li><a href="">ёрисконсульт</a></li>
-				<li><a href="">ѕереводчик в сфере профессиональной коммуникации</a></li>
-				<li><a href="">Ўкола копирайтинга</a></li>
+				<li><a href="/learning/bukhgalterskiy-uchet-i-nalogooblozhenie/bukhuchet/">Ѕухгалтерский учЄт и налогообложение</a></li>
+				<li><a href="/learning/manager/upravlenie-personalom/">”правление персоналом</a></li>
+				<li><a href="/learning/yurisprudentsiya/yuriskonsult/">ёрисконсульт</a></li>
+				<li><a href="/learning/languages/perevodchik-v-sfere-professionalnoy-kommunikatsii/">ѕереводчик в сфере профессиональной коммуникации</a></li>
+				<li><a href="/learning/pr/shkola-kopiraytinga/">Ўкола копирайтинга</a></li>
 			</ul>
 			<a href="/learning/management/" class="allcurses"></a>
 		</div> <!-- pop-curses -->						

@@ -1,27 +1,27 @@
 #event-calendar-main table {
-    width: 250px;
-    line-height: 26px;
-    font-size: 12px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    color: gray;
+	width: 250px;
+	line-height: 26px;
+	font-size: 12px;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	color: gray;
 	margin-left:10%
 }
 #event-calendar-main thead {
 	line-height: 17px;
-    font-size: 17px;
-    font-family: serif;
-    color: black;
+	font-size: 17px;
+	font-family: serif;
+	color: black;
 	font-weight:normal;
 }
 
 #event-calendar-main thead tr:first-child {
-	text-transform: uppercase;
+text-transform: uppercase;
 }
-	
+
 #event-calendar-main thead tr:nth-child(1) td:nth-child(2) {
-  margin-top:-2px; padding-bottom:5px;
+ margin-top:-2px; padding-bottom:5px;
 }
 
 #event-calendar-main .calendar-name-day-wrap	{
@@ -30,59 +30,60 @@
 
 #event-calendar-main tbody td.nextM,
 #event-calendar-main tbody td.prevM {
-	color: rgba(255, 255, 255, 0);
-	line-height:0px;
+color: rgba(255, 255, 255, 0);
+line-height:0px;
 }
 
 #event-calendar-main tbody td.curM {
-    background: rgba(0, 0, 0, 0.81);
+	background: rgba(0, 0, 0, 0.81);
 }
 
 #event-calendar-main tbody td{
-    position: relative;
+	position: relative;
 }
 
 #event-calendar-main td a {
-    display: block;
-	color:white;
+	display: block;
+color:white;
 }
 
 #event-calendar-main tbody td:nth-child(n+6),
 #event-calendar-main .holiday {
-  /*color: rgb(181, 136, 112);*/
+ /*color: rgb(181, 136, 112);*/
 }
 
 #event-calendar-main tbody td:nth-child(n+6).nextM,
 #event-calendar-main tbody td:nth-child(n+6).prevM {
- /* color: rgb(181, 136, 112);*/
+/* color: rgb(181, 136, 112);*/
 }
 
 #event-calendar-main tbody td.today {
-    background: #eeeeee;
-    color: black;
+	background: #eeeeee;
+	color: black;
 }
 
 
 
 #event-calendar-main .arrLeft,
 #event-calendar-main .arrRight {
-	cursor:pointer;
-	font-size: 25px;
-    position: relative;
-    top: -0.1em;
+cursor:pointer;
+font-size: 25px;
+	position: relative;
+	top: -0.1em;
+	top: -0.1em;
 }
 
 #event-calendar-main .event {
-    color: black;
-	cursor:pointer;
+	color: black;
+cursor:pointer;
 }
 
 #event-calendar-main .event-box {
-	color: white;
-	text-align: justify;
+color: white;
+text-align: justify;
 }
 
 #event-calendar-main .name {
-	font-weight:bold;
-	padding-bottom: 3px;
+font-weight:bold;
+padding-bottom: 3px;
 }

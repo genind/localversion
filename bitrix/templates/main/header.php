@@ -172,10 +172,10 @@ var yaParams = {ipadress: "<?echo $_SERVER['REMOTE_ADDR'];?>"};
 		</div>
 		
 		<div id="top_contacts"> 	 
-				<div style="font-size:20px;">ЗАПИСЬ НА КУРСЫ</div>	
-				<div style="font-size:17px;">+7 (499) 936 85 94</div>
-				<div style="font-size:15px;">
-					<a href="mailto:ippk_sales@pfur.ru" style="font-size: 13px;"> ippk_sales@pfur.ru </a>
+				<div>ЗАПИСЬ НА КУРСЫ</div>	
+				<div>+7 (499) 936 85 94</div>
+				<div>
+					<a href="mailto:ippk_sales@pfur.ru"> ippk_sales@pfur.ru </a>
 				</div>
 				<div>
 					<a href="/onlinerequest/" onclick="yaCounter38926455.reachGoal('zayavka'); return true;" data-reveal-id="subscribetop_reveal" onclick="yaCounter38926455.reachGoal('zayavka');" id="subscribetop" style="margin-top: -20px;">ЗАЯВКА НА ОБУЧЕНИЕ</a>
@@ -217,12 +217,14 @@ var yaParams = {ipadress: "<?echo $_SERVER['REMOTE_ADDR'];?>"};
 			<li class="first"><a href="/about/">ОБ ИНСТИТУТЕ</a>
 				<ul>
 					<li><a href="/about/">ИСТОРИЯ ИНСТИТУТА</a></li>
-					<li><a href="/about/administration/">АДМИНИСТРАЦИЯ</a></li>
-					<li><a href="/about/teachers/">ПРЕПОДАВАТЕЛИ</a></li>
+					<li><a href="/about/documents/">Нормативные документы</a></li>
+					<li><a href="/about/teachers">Преподаватели</a></li>
+					<li><a href="/about/reviews/">Отзывы</a></li>
+					<li><a href="/about/partners/">Компании-партнеры</a></li>
 				</ul>
 			</li>
-			
-			<li><a href="/learning/">ПРОФЕССИОНАЛЬНАЯ ПЕРЕПОДГОТОВКА</a>
+			<li><div class="pusher"></div></li>
+			<li><a href="/learning/">ПРОФЕССИОНАЛЬНАЯ<br>ПЕРЕПОДГОТОВКА</a>
 				<ul>
 					<li><a href="/learning/manager/">Менеджемент</a></li>
 					<li><a href="/learning/design/">Дизайн</a></li>
@@ -237,8 +239,8 @@ var yaParams = {ipadress: "<?echo $_SERVER['REMOTE_ADDR'];?>"};
 															Государственное и муниципальное управление</a></li>
 				</ul>
 			</li>
-			
-			<li><a href="/short/">ПОВЫШЕНИЕ КВАЛИФИКАЦИИ</a>
+			<li><div class="pusher"></div></li>
+			<li><a href="/short/">ПОВЫШЕНИЕ<br>КВАЛИФИКАЦИИ</a>
 				<ul>
 					<li><a href="/short/manager/">Менеджемент</a></li>
 					<li><a href="/short/design/">Дизайн</a></li>
@@ -253,20 +255,9 @@ var yaParams = {ipadress: "<?echo $_SERVER['REMOTE_ADDR'];?>"};
 															Государственное и муниципальное управление</a></li>
 				</ul>
 			</li>
-			<li><a href="/actions/master-class/">МАСТЕР-КЛАССЫ</a></li>
-			
-			<li><a href="/entrance/">ДОКУМЕНТЫ</a>
-				<ul>
-					<li><a href="/entrance/">ДОГОВОР</a></li>
-					<li><a href="/entrance/help/">ОБРАЗЦЫ</a></li>
-					<li><a href="/entrance/reviews/">ОТЗЫВЫ</a></li>
-					<li><a href="/entrance/documents/">НОРМАТИВНЫЕ ДОКУМЕНТЫ</a></li>
-					<li><a href="/entrance/practice/">ПРАКТИКА</a></li>
-					<li><a href="/entrance/partners/">КОМПАНИИ ПАРТНЁРЫ</a></li>
-				</ul>
-			</li>
-			
-			<li><a href="/articles/">СТАТЬИ</a></li>
+			<li><div class="pusher"></div></li>
+			<li><a href="/actions/training/">МАСТЕР-КЛАССЫ</a></li>
+			<li><div class="pusher"></div></li>
 			<li><a href="/contacts/">КОНТАКТЫ</a></li>
 		</ul>
     </div> <!-- menu -->

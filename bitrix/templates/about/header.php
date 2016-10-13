@@ -172,10 +172,10 @@ var yaParams = {ipadress: "<?echo $_SERVER['REMOTE_ADDR'];?>"};
 		</div>
 		
 		<div id="top_contacts"> 	 
-				<div style="font-size:20px;">ЗАПИСЬ НА КУРСЫ</div>	
-				<div style="font-size:17px;">+7 (499) 936 85 94</div>
-				<div style="font-size:15px;">
-					<a href="mailto:ippk_sales@pfur.ru" style="font-size: 13px;"> ippk_sales@pfur.ru </a>
+				<div>ЗАПИСЬ НА КУРСЫ</div>	
+				<div>+7 (499) 936 85 94</div>
+				<div>
+					<a href="mailto:ippk_sales@pfur.ru"> ippk_sales@pfur.ru </a>
 				</div>
 				<div>
 					<a href="/onlinerequest/" onclick="yaCounter38926455.reachGoal('zayavka'); return true;" data-reveal-id="subscribetop_reveal" onclick="yaCounter38926455.reachGoal('zayavka');" id="subscribetop" style="margin-top: -20px;">ЗАЯВКА НА ОБУЧЕНИЕ</a>
@@ -212,17 +212,19 @@ var yaParams = {ipadress: "<?echo $_SERVER['REMOTE_ADDR'];?>"};
 
     </div> <!-- header-->
   
-    <div id="menu">
+   <div id="menu">
 		<ul>
 			<li class="first"><a href="/about/">ОБ ИНСТИТУТЕ</a>
 				<ul>
 					<li><a href="/about/">ИСТОРИЯ ИНСТИТУТА</a></li>
-					<li><a href="/about/administration/">АДМИНИСТРАЦИЯ</a></li>
-					<li><a href="/about/teachers/">ПРЕПОДАВАТЕЛИ</a></li>
+					<li><a href="/about/documents/">Нормативные документы</a></li>
+					<li><a href="/about/teachers">Преподаватели</a></li>
+					<li><a href="/about/reviews/">Отзывы</a></li>
+					<li><a href="/about/partners/">Компании-партнеры</a></li>
 				</ul>
 			</li>
-			
-			<li><a href="/learning/">ПРОФЕССИОНАЛЬНАЯ ПЕРЕПОДГОТОВКА</a>
+			<li><div class="pusher"></div></li>
+			<li><a href="/learning/">ПРОФЕССИОНАЛЬНАЯ<br>ПЕРЕПОДГОТОВКА</a>
 				<ul>
 					<li><a href="/learning/manager/">Менеджемент</a></li>
 					<li><a href="/learning/design/">Дизайн</a></li>
@@ -237,8 +239,8 @@ var yaParams = {ipadress: "<?echo $_SERVER['REMOTE_ADDR'];?>"};
 															Государственное и муниципальное управление</a></li>
 				</ul>
 			</li>
-			
-			<li><a href="/short/">ПОВЫШЕНИЕ КВАЛИФИКАЦИИ</a>
+			<li><div class="pusher"></div></li>
+			<li><a href="/short/">ПОВЫШЕНИЕ<br>КВАЛИФИКАЦИИ</a>
 				<ul>
 					<li><a href="/short/manager/">Менеджемент</a></li>
 					<li><a href="/short/design/">Дизайн</a></li>
@@ -253,41 +255,47 @@ var yaParams = {ipadress: "<?echo $_SERVER['REMOTE_ADDR'];?>"};
 															Государственное и муниципальное управление</a></li>
 				</ul>
 			</li>
-			<li><a href="/actions/master-class/">МАСТЕР-КЛАССЫ</a></li>
-			
-			<li><a href="/entrance/">ДОКУМЕНТЫ</a>
-				<ul>
-					<li><a href="/entrance/">ДОГОВОР</a></li>
-					<li><a href="/entrance/help/">ОБРАЗЦЫ</a></li>
-					<li><a href="/entrance/reviews/">ОТЗЫВЫ</a></li>
-					<li><a href="/entrance/documents/">НОРМАТИВНЫЕ ДОКУМЕНТЫ</a></li>
-					<li><a href="/entrance/practice/">ПРАКТИКА</a></li>
-					<li><a href="/entrance/partners/">КОМПАНИИ ПАРТНЁРЫ</a></li>
-				</ul>
-			</li>
-			
-			<li><a href="/articles/">СТАТЬИ</a></li>
+			<li><div class="pusher"></div></li>
+			<li><a href="/training/">МАСТЕР-КЛАССЫ</a></li>
+			<li><div class="pusher"></div></li>
 			<li><a href="/contacts/">КОНТАКТЫ</a></li>
 		</ul>
     </div> <!-- menu -->
    	
     <div id="content">
-    <div class="about-left">
-		<?$APPLICATION->IncludeComponent("bitrix:menu", "about_menu", Array(
-	"ROOT_MENU_TYPE" => "left",	// Тип меню для первого уровня
-	"MENU_CACHE_TYPE" => "N",	// Тип кеширования
-	"MENU_CACHE_TIME" => "3600000",	// Время кеширования (сек.)
-	"MENU_CACHE_USE_GROUPS" => "Y",	// Учитывать права доступа
-	"MENU_CACHE_GET_VARS" => "",	// Значимые переменные запроса
-	"MAX_LEVEL" => "1",	// Уровень вложенности меню
-	"CHILD_MENU_TYPE" => "left",	// Тип меню для остальных уровней
-	"USE_EXT" => "N",	// Подключать файлы с именами вида .тип_меню.menu_ext.php
-	"DELAY" => "N",	// Откладывать выполнение шаблона меню
-	"ALLOW_MULTI_SELECT" => "N",	// Разрешить несколько активных пунктов одновременно
-	),
-	false
-);
-		?>
-	</div>
-	<div class="about-right">
-		
+		<div class="about-left">
+			<ul id="tree">
+				<li>
+					<div class="section-name" ><a href="/about/">История института</a></div>
+				</li>
+				<li>
+					<div class="section-name" ><a href="/about/documents/">Нормативные документы</a></div>
+					<ul class="sub_tree">
+						<li><a href="/about/documents/person/">Документы для физических лиц</a></li>
+						<li><a href="/about/documents/company/">Документы для юридических лиц</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="section-name" ><a href="/about/teachers">Преподаватели</a></div>
+				</li>
+				<li>
+					<div class="section-name" ><a href="/about/partners/">Компании-партнеры</a></div>
+				</li>
+				<li>
+					<div class="section-name" ><a href="/about/reviews/">Отзывы</a></div>
+				</li>
+			</ul>
+			
+		<script>
+			var tree = document.getElementById("tree");
+			for( i=0 ; i<tree.children.length ; i++){
+				var link = tree.children[i].children[0].children[0];
+				var link_addr = link.href;
+				//if(link_addres)
+				tree.children[i].className = tree.children[i].className + ' current active'; 	
+			}
+			tree.style.width="300px";
+		</script>
+		</div>
+		<div class="about-right">
+			

@@ -1,1 +1,0 @@
-<?$arTemplate = array("NAME"=>"Шаблон для страниц с одной колонкой", "DESCRIPTION"=>"");?>

@@ -501,3 +501,41 @@
 10/10 11:01:45 EasyPHP Apache CreateProcess "C:\LOCALV~2\EASYPH~1.1VC\binaries\apache\bin\eds-httpd.exe"
 10/10 11:01:45 EasyPHP CreateProcess "C:\LOCALV~2\EASYPH~1.1VC\binaries\mysql\bin\eds-mysqld.exe --defaults-file="C:\LOCALV~2\EASYPH~1.1VC\binaries\mysql\my.ini" --language=english"
 10/10 11:01:50 EasyPHP EasyPHP Check version
+12/10 02:26:06 EasyPHP EasyPHP Servers starting
+12/10 02:26:09 EasyPHP Apache CreateProcess "C:\LOCALV~1\EASYPH~1.1VC\binaries\apache\bin\eds-httpd.exe"
+12/10 02:26:09 EasyPHP CreateProcess "C:\LOCALV~1\EASYPH~1.1VC\binaries\mysql\bin\eds-mysqld.exe --defaults-file="C:\LOCALV~1\EASYPH~1.1VC\binaries\mysql\my.ini" --language=english"
+12/10 02:26:14 EasyPHP EasyPHP Check version
+12/10 02:26:15 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 1772) error 5
+12/10 02:26:15 EasyPHP MySql   Unexpected end of MySql !
+12/10 02:27:13 EasyPHP CreateProcess "C:\LOCALV~1\EASYPH~1.1VC\binaries\mysql\bin\eds-mysqld.exe --defaults-file="C:\LOCALV~1\EASYPH~1.1VC\binaries\mysql\my.ini" --language=english"
+12/10 02:27:15 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 4952) error 5
+12/10 02:27:15 EasyPHP MySql   Unexpected end of MySql !
+12/10 02:27:38 EasyPHP CreateProcess "C:\LOCALV~1\EASYPH~1.1VC\binaries\mysql\bin\eds-mysqld.exe --defaults-file="C:\LOCALV~1\EASYPH~1.1VC\binaries\mysql\my.ini" --language=english"
+12/10 02:27:41 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 4132) error 5
+12/10 02:27:41 EasyPHP MySql   Unexpected end of MySql !
+12/10 02:28:14 EasyPHP CreateProcess "C:\LOCALV~1\EASYPH~1.1VC\binaries\mysql\bin\eds-mysqld.exe --defaults-file="C:\LOCALV~1\EASYPH~1.1VC\binaries\mysql\my.ini" --language=english"
+12/10 02:28:16 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 4396) error 5
+12/10 02:28:16 EasyPHP MySql   Unexpected end of MySql !
+12/10 02:29:40 EasyPHP EasyPHP Stop the servers
+12/10 02:29:40 EasyPHP Apache stop event: ap4028_shutdown
+12/10 02:29:41 EasyPHP End EasyPHP...
+12/10 02:29:46 EasyPHP EasyPHP Servers starting
+12/10 02:29:46 EasyPHP Apache CreateProcess "C:\LOCALV~1\EASYPH~1.1VC\binaries\apache\bin\eds-httpd.exe"
+12/10 02:29:46 EasyPHP CreateProcess "C:\LOCALV~1\EASYPH~1.1VC\binaries\mysql\bin\eds-mysqld.exe --defaults-file="C:\LOCALV~1\EASYPH~1.1VC\binaries\mysql\my.ini" --language=english"
+12/10 02:29:49 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 9636) error 5
+12/10 02:29:49 EasyPHP MySql   Unexpected end of MySql !
+12/10 02:29:51 EasyPHP EasyPHP Check version
+12/10 02:31:22 EasyPHP CreateProcess "C:\LOCALV~1\EASYPH~1.1VC\binaries\mysql\bin\eds-mysqld.exe --defaults-file="C:\LOCALV~1\EASYPH~1.1VC\binaries\mysql\my.ini" --language=english"
+12/10 02:34:30 EasyPHP MySqlSutdown event = MySQLShutdown4588
+12/10 02:34:31 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 4588) error 5
+12/10 02:34:31 EasyPHP CreateProcess "C:\LOCALV~1\EASYPH~1.1VC\binaries\mysql\bin\eds-mysqld.exe --defaults-file="C:\LOCALV~1\EASYPH~1.1VC\binaries\mysql\my.ini" --language=english"
+12/10 23:33:25 EasyPHP EasyPHP Stop the servers
+12/10 23:33:25 EasyPHP Apache stop event: ap824_shutdown
+12/10 23:33:26 EasyPHP MySqlSutdown event = MySQLShutdown8104
+12/10 23:33:26 EasyPHP End EasyPHP...
+13/10 12:22:56 EasyPHP EasyPHP Servers starting
+13/10 12:22:58 EasyPHP Apache  Apache port (80) is already used by another application ! Close this application and try to run again the server. To close this application : open <easyphp folder>/binaries/tools/cports/cports.exe, find the line with the port already used in the column "Local Port", right click and choose "Kill Processes Of Selected Ports".
+13/10 12:23:02 EasyPHP CreateProcess "C:\LOCALV~1\EASYPH~1.1VC\binaries\mysql\bin\eds-mysqld.exe --defaults-file="C:\LOCALV~1\EASYPH~1.1VC\binaries\mysql\my.ini" --language=english"
+13/10 12:23:07 EasyPHP EasyPHP Check version
+13/10 12:24:30 EasyPHP Apache  Apache port (80) is already used by another application ! Close this application and try to run again the server. To close this application : open <easyphp folder>/binaries/tools/cports/cports.exe, find the line with the port already used in the column "Local Port", right click and choose "Kill Processes Of Selected Ports".
+13/10 12:24:49 EasyPHP Apache CreateProcess "C:\LOCALV~1\EASYPH~1.1VC\binaries\apache\bin\eds-httpd.exe"

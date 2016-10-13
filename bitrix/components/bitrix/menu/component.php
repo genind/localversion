@@ -140,6 +140,9 @@ else
 			$arResult["initMenuDir"] = $menu->MenuDir;
 			$arResult["initMenuType"] = $menu->type;
 		}
+echo('<pre>');
+print_r($arResult);
+echo('</pre>');
 	}
 	else
 	{
@@ -173,6 +176,7 @@ else
 			$CACHE_MANAGER->EndTagCache();
 	}
 }
+
 
 $menuDir = $arResult["menuDir"];
 unset($arResult["menuDir"]);

@@ -48,7 +48,7 @@ if (!function_exists('GetTreeRecursive'))
 				$menu_file_ext = ".".trim($mmenu).".menu_ext.php";				
 				
 				$aMenuLinks = array();
-				
+
 				if(file_exists($PARENT_PATH.$menu_file))
 				{
 					include($PARENT_PATH.$menu_file);
@@ -60,7 +60,6 @@ if (!function_exists('GetTreeRecursive'))
 					include($PARENT_PATH.$menu_file_ext);
 					$bExists = true;
 				}					
-				
 				if ($bExists && is_array($aMenuLinks))
 				{
 					foreach ($aMenuLinks as $aMenu)
@@ -72,7 +71,6 @@ if (!function_exists('GetTreeRecursive'))
 							if(strlen($CONDITION)>0 && (!eval("return ".$CONDITION.";")))
 								continue;
 						}
-						
 						$search_child = false;
 						$search_path = '';
 						if (strlen($aMenu[1])>0)
@@ -103,7 +101,6 @@ if (!function_exists('GetTreeRecursive'))
 						{
 							$full_path = $PARENT_PATH;
 						}
-						
 						if (strlen($full_path)>0)
 						{
 							$FILE_ACCESS = (preg_match("'^(([A-Za-z]+://)|mailto:|javascript:)'i", $full_path)) ? "R" : $APPLICATION->GetFileAccessPermission($full_path);
@@ -120,7 +117,7 @@ if (!function_exists('GetTreeRecursive'))
 								{
 									$search_child = false;
 								}
-								
+
 								$ar = array();
 								$ar["LEVEL"] = $level;
 								if(isset($aMenu[3]["DEPTH_LEVEL"]) && $aMenu[3]["DEPTH_LEVEL"] > 1)
