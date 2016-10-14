@@ -256,7 +256,7 @@ var yaParams = {ipadress: "<?echo $_SERVER['REMOTE_ADDR'];?>"};
 				</ul>
 			</li>
 			<li><div class="pusher"></div></li>
-			<li><a href="/actions/training/">Ã¿—“≈–- À¿——€</a></li>
+			<li><a href="/training/">Ã¿—“≈–- À¿——€</a></li>
 			<li><div class="pusher"></div></li>
 			<li><a href="/contacts/"> ŒÕ“¿ “€</a></li>
 		</ul>

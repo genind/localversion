@@ -1602,3 +1602,19 @@ libpng warning: Interlace handling should be turned on when using png_read_image
 [Thu Oct 13 12:24:51.966231 2016] [mpm_winnt:notice] [pid 7260:tid 624] AH00354: Child: Starting 64 worker threads.
 [Thu Oct 13 13:57:33.010157 2016] [:error] [pid 7260:tid 1088] [client 127.0.0.1:62877] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in C:\\localversion\\bitrix\\templates\\.default\\components\\bitrix\\news\\training-news\\bitrix\\news.detail\\.default\\template.php on line 15, referer: http://127.0.0.1/training/organizatsionnyy-kouching-instrument-povysheniya-effektivnosti-kompanii/?clear_cache=Y
 [Thu Oct 13 13:58:49.178609 2016] [:error] [pid 7260:tid 1076] [client 127.0.0.1:62910] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in C:\\localversion\\bitrix\\templates\\.default\\components\\bitrix\\news\\training-news\\bitrix\\news.detail\\.default\\template.php on line 15, referer: http://127.0.0.1/training/organizatsionnyy-kouching-instrument-povysheniya-effektivnosti-kompanii/?clear_cache=Y
+[Thu Oct 13 23:50:04.989866 2016] [mpm_winnt:notice] [pid 8404:tid 596] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Oct 13 23:50:07.068072 2016] [mpm_winnt:notice] [pid 7260:tid 624] AH00364: Child: All worker threads have exited.
+[Thu Oct 13 23:50:07.411867 2016] [mpm_winnt:notice] [pid 8404:tid 596] AH00430: Parent: Child process 7260 exited successfully.
+[Fri Oct 14 11:03:38.602169 2016] [mpm_winnt:notice] [pid 856:tid 588] AH00455: Apache/2.4.7 (Win32) PHP/5.5.8 configured -- resuming normal operations
+[Fri Oct 14 11:03:38.612175 2016] [mpm_winnt:notice] [pid 856:tid 588] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Fri Oct 14 11:03:38.612175 2016] [core:notice] [pid 856:tid 588] AH00094: Command line: 'C:\\LOCALV~1\\EASYPH~1.1VC\\binaries\\apache\\bin\\eds-httpd.exe -d C:/localversion/EasyPHP-DevServer-14.1VC11/binaries/apache'
+[Fri Oct 14 11:03:38.619683 2016] [mpm_winnt:notice] [pid 856:tid 588] AH00418: Parent: Created child process 3700
+[Fri Oct 14 11:03:39.528882 2016] [mpm_winnt:notice] [pid 3700:tid 132] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 14 14:22:17.246995 2016] [mpm_winnt:notice] [pid 856:tid 588] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 14 14:22:19.265012 2016] [mpm_winnt:notice] [pid 3700:tid 132] AH00364: Child: All worker threads have exited.
+[Fri Oct 14 14:22:19.318025 2016] [mpm_winnt:notice] [pid 856:tid 588] AH00430: Parent: Child process 3700 exited successfully.
+[Fri Oct 14 14:23:12.769834 2016] [mpm_winnt:notice] [pid 6304:tid 512] AH00455: Apache/2.4.7 (Win32) PHP/5.5.8 configured -- resuming normal operations
+[Fri Oct 14 14:23:12.769834 2016] [mpm_winnt:notice] [pid 6304:tid 512] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Fri Oct 14 14:23:12.769834 2016] [core:notice] [pid 6304:tid 512] AH00094: Command line: 'C:\\LOCALV~1\\EASYPH~1.1VC\\binaries\\apache\\bin\\eds-httpd.exe -d C:/localversion/EasyPHP-DevServer-14.1VC11/binaries/apache'
+[Fri Oct 14 14:23:12.785463 2016] [mpm_winnt:notice] [pid 6304:tid 512] AH00418: Parent: Created child process 5540
+[Fri Oct 14 14:23:13.433833 2016] [mpm_winnt:notice] [pid 5540:tid 580] AH00354: Child: Starting 64 worker threads.

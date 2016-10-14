@@ -1,7 +1,7 @@
 <?
 if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001476350703';
-$dateexpire = '001476386703';
+$datecreate = '001476432247';
+$dateexpire = '001476468247';
 $ser_content = 'a:2:{s:7:"CONTENT";s:7180:"		<div class="accordion">
 			<div class="accordion-section">
 		<div class="accordion-section-title" href="#accordion-1">

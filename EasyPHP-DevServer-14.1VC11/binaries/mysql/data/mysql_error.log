@@ -1741,3 +1741,31 @@
 2016-10-13 12:23:07 8048 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
 2016-10-13 12:23:07 8048 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
 2016-10-13 12:23:07 8048 [Note] Server socket created on IP: '127.0.0.1'.
+2016-10-14 11:03:40 4736 [Note] Plugin 'FEDERATED' is disabled.
+2016-10-14 11:03:40 4736 [Note] InnoDB: The InnoDB memory heap is disabled
+2016-10-14 11:03:40 4736 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2016-10-14 11:03:40 4736 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-10-14 11:03:40 4736 [Note] InnoDB: Not using CPU crc32 instructions
+2016-10-14 11:03:40 4736 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2016-10-14 11:03:40 4736 [Note] InnoDB: Completed initialization of buffer pool
+2016-10-14 11:03:40 4736 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-10-14 11:03:41 4736 [Note] InnoDB: 128 rollback segment(s) are active.
+2016-10-14 11:03:41 4736 [Note] InnoDB: Waiting for purge to start
+2016-10-14 11:03:41 4736 [Note] InnoDB: 5.6.15 started; log sequence number 1626860
+2016-10-14 11:03:41 4736 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2016-10-14 11:03:41 4736 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2016-10-14 11:03:41 4736 [Note] Server socket created on IP: '127.0.0.1'.
+2016-10-14 14:23:12 6780 [Note] Plugin 'FEDERATED' is disabled.
+2016-10-14 14:23:12 6780 [Note] InnoDB: The InnoDB memory heap is disabled
+2016-10-14 14:23:12 6780 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2016-10-14 14:23:12 6780 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-10-14 14:23:12 6780 [Note] InnoDB: Not using CPU crc32 instructions
+2016-10-14 14:23:12 6780 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2016-10-14 14:23:12 6780 [Note] InnoDB: Completed initialization of buffer pool
+2016-10-14 14:23:12 6780 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-10-14 14:23:12 6780 [Note] InnoDB: 128 rollback segment(s) are active.
+2016-10-14 14:23:12 6780 [Note] InnoDB: Waiting for purge to start
+2016-10-14 14:23:13 6780 [Note] InnoDB: 5.6.15 started; log sequence number 1626870
+2016-10-14 14:23:13 6780 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2016-10-14 14:23:13 6780 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2016-10-14 14:23:13 6780 [Note] Server socket created on IP: '127.0.0.1'.

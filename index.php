@@ -328,7 +328,7 @@ $APPLICATION->SetTitle("Институт повышения квалификации и переподготовки кадров 
 	</div> <!--end photo-->  
 
 	
-	<div class="block-title">ПАРТНЕРЫ</div>
+				<div class="block-title"><a href="/about/partners/">ПАРТНЕРЫ</a></div>
 
 	<div class="partners">       
             <script type="text/javascript">

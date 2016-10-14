@@ -67,4 +67,27 @@
 .about-right .video2{
 	width: 49%;
     height: 220px;
-}		
+}
+
+
+.partners-list {
+	width:100%;
+}
+
+.partners-list ul {
+	width:100%;
+}
+
+.partners-list ul li {
+	list-style: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 10px 0px;
+}
+
+.partners-list ul li a {
+	display:block;
+	height:100px;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}	

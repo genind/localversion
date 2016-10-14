@@ -7,6 +7,12 @@ $arUrlRewrite = array(
 		"PATH"	=>	"/about/teachers/index.php",
 	),
 	array(
+		"CONDITION"	=>	"#^/training/#",
+		"RULE"	=>	"",
+		"ID"	=>	"",
+		"PATH"	=>	"/training/index.php",
+	),
+	array(
 		"CONDITION"	=>	"#^/learning/#",
 		"RULE"	=>	"",
 		"ID"	=>	"",
@@ -15,13 +21,13 @@ $arUrlRewrite = array(
 	array(
 		"CONDITION"	=>	"#^/short/#",
 		"RULE"	=>	"",
-		"ID"	=>	"bitrix:catalog",
+		"ID"	=>	"",
 		"PATH"	=>	"/short/index.php",
 	),
 	array(
 		"CONDITION"	=>	"#^/short/#",
 		"RULE"	=>	"",
-		"ID"	=>	"",
+		"ID"	=>	"bitrix:catalog",
 		"PATH"	=>	"/short/index.php",
 	),
 	array(
