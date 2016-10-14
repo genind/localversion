@@ -1618,3 +1618,9 @@ libpng warning: Interlace handling should be turned on when using png_read_image
 [Fri Oct 14 14:23:12.769834 2016] [core:notice] [pid 6304:tid 512] AH00094: Command line: 'C:\\LOCALV~1\\EASYPH~1.1VC\\binaries\\apache\\bin\\eds-httpd.exe -d C:/localversion/EasyPHP-DevServer-14.1VC11/binaries/apache'
 [Fri Oct 14 14:23:12.785463 2016] [mpm_winnt:notice] [pid 6304:tid 512] AH00418: Parent: Created child process 5540
 [Fri Oct 14 14:23:13.433833 2016] [mpm_winnt:notice] [pid 5540:tid 580] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 14 16:22:49.993276 2016] [core:warn] [pid 9156:tid 344] AH00098: pid file C:/localversion/EasyPHP-DevServer-14.1VC11/binaries/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 14 16:22:50.180794 2016] [mpm_winnt:notice] [pid 9156:tid 344] AH00455: Apache/2.4.7 (Win32) PHP/5.5.8 configured -- resuming normal operations
+[Fri Oct 14 16:22:50.180794 2016] [mpm_winnt:notice] [pid 9156:tid 344] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Fri Oct 14 16:22:50.180794 2016] [core:notice] [pid 9156:tid 344] AH00094: Command line: 'C:\\LOCALV~2\\EASYPH~1.1VC\\binaries\\apache\\bin\\eds-httpd.exe -d C:/localversion/EasyPHP-DevServer-14.1VC11/binaries/apache'
+[Fri Oct 14 16:22:50.180794 2016] [mpm_winnt:notice] [pid 9156:tid 344] AH00418: Parent: Created child process 9380
+[Fri Oct 14 16:22:50.477665 2016] [mpm_winnt:notice] [pid 9380:tid 400] AH00354: Child: Starting 64 worker threads.
